@@ -698,9 +698,10 @@ document.querySelectorAll('.screen').forEach((screen) => {
     time.textContent = fmt(v.currentTime) + ' / ' + fmt(v.duration);
   });
 
-  // toque na tela alterna a visibilidade dos controles (mobile); cliques nos controles/botao sao ignorados
+  // clicar na tela: pausa se estiver tocando; se pausado, alterna os controles
   screen.addEventListener('click', (e) => {
     if (ctrl.contains(e.target) || (big && big.contains(e.target))) return;
+    if (!v.paused) { v.pause(); return; }
     screen.classList.toggle('show-ctrl');
   });
 });
