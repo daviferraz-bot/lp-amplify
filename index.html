@@ -7,57 +7,55 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta property="og:title" content="20260128 Vitrine Creators | Manual">
 <meta property="og:type" content="website">
-<link rel="shortcut icon" href="_assets/images/2d0b56e7e51cf11036ad8734bdb67e2d.png">
-<!-- Fontes do original: Poppins (títulos/nomes), Inter (top creators), Playfair Display (Amplify) -->
+<!-- Tipografia da marca: Neue Kaine (local, títulos/nomes) + Plus Jakarta Sans (textos) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--u:calc(100vw/1366);--blue:#1e4dd1}
+/* Paleta Turbo Partners: Dark #0B0726 / Blue #1D1E6C / Blu #415FF2 / Green #37D3A4 / Ice #F7F9F9
+   Cinzas: Black #03020A / 800 #1C202B / 700 #3C4150 / 600 #6D727C / 500 #9398A1 */
+:root{--u:calc(100vw/1366);--blue:#415FF2;--dark:#0B0726;--navy:#1D1E6C;--green:#37D3A4;--ice:#F7F9F9;
+  --black:#03020A;--g800:#1C202B;--g500:#9398A1}
+@font-face{font-family:'Neue Kaine';src:url('fonts/NeueKaineVariable.ttf') format('truetype');
+  font-weight:300 800;font-display:swap}
 html,body{background:var(--blue)}
-body{font-family:'Poppins',sans-serif;color:#fff;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--ice);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 .slide{position:relative;width:100%;height:calc(var(--u)*768);overflow:hidden}
 .abs{position:absolute;top:calc(var(--u)*var(--t));left:calc(var(--u)*var(--l));width:calc(var(--u)*var(--w));height:calc(var(--u)*var(--h))}
 
-/* marca d'agua de fundo (imagem rotacionada 90deg, ~10% de opacidade, como no original) */
-.bg-mark{opacity:.1;pointer-events:none;transform:rotate(90deg)}
-.bg-mark img{width:100%;height:100%;object-fit:cover;display:block}
-
-/* seta grande em silhueta (SVG recolorido via mask, 13% de opacidade) */
-.big-arrow{background:#fff;opacity:.13;pointer-events:none;
-  -webkit-mask:url('_assets/media/ba73f41fb905150f194c9a6031eba7b8.svg') center/contain no-repeat;
-          mask:url('_assets/media/ba73f41fb905150f194c9a6031eba7b8.svg') center/contain no-repeat}
-
 /* ---------- hero ---------- */
-.hero-tag{font-size:calc(var(--u)*38.3843);line-height:1.08;text-align:center;z-index:2}
-.hero-tag b,.tag b{font-weight:700}
-.hero-title{font-family:'Inter',sans-serif;font-weight:700;font-size:calc(var(--u)*100);line-height:.9;
-  letter-spacing:calc(var(--u)*-6.3);text-align:center;z-index:1;display:flex;flex-direction:column;justify-content:center}
-.hero-amplify{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;font-size:calc(var(--u)*104);
-  line-height:.94;letter-spacing:calc(var(--u)*-6.3);text-align:center;z-index:3;display:flex;flex-direction:column;justify-content:center}
-.hero-amplify span{position:relative;z-index:0;display:block}
-.hero-amplify span::before{content:attr(data-text);position:absolute;inset:0;z-index:-1;color:var(--blue);
-  -webkit-text-stroke:calc(var(--u)*9) var(--blue)}
-.hero-icon img{position:relative;width:100%;height:100%;object-fit:contain;display:block;z-index:1}
+.hero-tag{font-size:calc(var(--u)*36);line-height:1.08;text-align:center;z-index:2}
+.hero-tag b,.tag b{font-weight:700;color:var(--green)}
+.hero-title{font-family:'Neue Kaine',sans-serif;font-weight:640;font-size:calc(var(--u)*100);line-height:.9;
+  letter-spacing:calc(var(--u)*-3);text-align:center;z-index:1;display:flex;flex-direction:column;justify-content:center}
+/* wordmark: "Turbo" em Neue Kaine + "partners" em Plus Jakarta Sans (como no logo) */
+.hero-brand{text-align:center;z-index:3;display:flex;flex-direction:column;justify-content:center}
+.hero-brand .turbo{position:relative;z-index:0;display:block;font-family:'Neue Kaine',sans-serif;font-weight:640;
+  font-size:calc(var(--u)*128);line-height:.92;letter-spacing:calc(var(--u)*-4)}
+.hero-brand .turbo::before{content:attr(data-text);position:absolute;inset:0;z-index:-1;color:var(--blue);
+  -webkit-text-stroke:calc(var(--u)*11) var(--blue)}
+.hero-brand .partners{display:block;font-family:'Plus Jakarta Sans',sans-serif;font-weight:400;
+  font-size:calc(var(--u)*44);line-height:1;letter-spacing:calc(var(--u)*1);
+  transform:translateX(calc(var(--u)*118));text-shadow:0 0 calc(var(--u)*14) var(--blue)}
 .hero-icon svg{position:absolute;inset:0;width:100%;height:100%}
 
 /* ---------- secoes de creators ---------- */
 .tag{font-size:calc(var(--u)*26.6667);line-height:1.08;z-index:2}
 .tag.right{text-align:right}
-.name{font-weight:700;font-size:calc(var(--u)*var(--fs,67.7277));line-height:.9;letter-spacing:-.063em;
-  display:flex;flex-direction:column;justify-content:center;z-index:2}
+.name{font-family:'Neue Kaine',sans-serif;font-weight:640;font-size:calc(var(--u)*var(--fs,67.7277));
+  line-height:.92;letter-spacing:calc(var(--u)*-2);display:flex;flex-direction:column;justify-content:center;z-index:2}
 .name.right{text-align:right}
 .phone{z-index:1}
 .phone .frame{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
 .screen{position:absolute;left:7.08%;top:3.01%;width:85.89%;height:94.06%;overflow:hidden;
-  border-radius:calc(var(--u)*24.5);background:#101418 center/cover no-repeat;z-index:1}
+  border-radius:calc(var(--u)*24.5);background:var(--dark) center/cover no-repeat;z-index:1}
 .screen video{width:100%;height:100%;object-fit:cover;display:block}
 
 /* ---------- rodape (equivalente ao rodape injetado pelo Canva) ---------- */
-footer{background:#0e1318;color:#c9d1d9;font-family:Arial,Helvetica,sans-serif;font-size:11px;
+footer{background:var(--black);color:var(--g500);font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:11px;
   display:flex;justify-content:space-between;align-items:center;padding:7px 14px;gap:12px}
-footer a{color:#c9d1d9;text-decoration:none}
+footer a{color:var(--g500);text-decoration:none}
 footer a:hover{text-decoration:underline}
 footer .links{display:flex;gap:18px}
 </style>
@@ -79,24 +77,19 @@ footer .links{display:flex;gap:18px}
   <main>
     <!-- hero -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-285.24;--l:268.57;--w:828.87;--h:1366">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" onerror="this.style.display='none'">
-      </div>
-      <div class="big-arrow abs" style="--t:-1.29;--l:780.78;--w:839.58;--h:842.53"></div>
-      <h1 class="hero-tag abs" style="--t:229.25;--l:433;--w:500;--h:45.61">Turbo Partners + <b>Manual</b></h1>
+      <h1 class="hero-tag abs" style="--t:222;--l:433;--w:500;--h:45.61">Turbo Partners + <b>Manual</b></h1>
       <p class="hero-title abs" style="--t:240.94;--l:336;--w:743.07;--h:168.34">top creators</p>
-      <p class="hero-amplify abs" style="--t:325.11;--l:133;--w:1100;--h:211.37"><span data-text="Turbo Partners">Turbo Partners</span></p>
+      <p class="hero-brand abs" style="--t:338;--l:333;--w:700;--h:211.37">
+        <span class="turbo" data-text="Turbo">Turbo</span>
+        <span class="partners">partners</span>
+      </p>
       <div class="hero-icon abs" style="--t:642.13;--l:658.47;--w:49.07;--h:49.07">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 6l6 6-6 6"/><path d="M12 6l6 6-6 6"/></svg>
-        <img src="_assets/media/319074163b366e7ff1d88db67978aba3.png" alt="" onerror="this.style.display='none'">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#37D3A4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 6l6 6-6 6"/><path d="M12 6l6 6-6 6"/></svg>
       </div>
     </section>
 
     <!-- Alan Melo -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/alan-melo-1.jpg')">
@@ -120,9 +113,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Luckyan Bessa -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/luckyan-bessa-1.jpg')">
@@ -146,9 +136,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Lucas Y Paz -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-y-paz-1.jpg')">
@@ -172,9 +159,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Diogo Brandão -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/diogo-brandao-1.jpg')">
@@ -198,9 +182,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Alexandre Soranz -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/alexandre-soranz-1.jpg')">
@@ -224,9 +205,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Gustavo Mazzei -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/gustavo-mazzei-1.jpg')">
@@ -250,9 +228,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Stephan Orlandi -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/stephan-orlandi-1.jpg')">
@@ -276,9 +251,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Lucas Santos -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-santos-1.jpg')">
@@ -302,9 +274,6 @@ footer .links{display:flex;gap:18px}
     </section>
     <!-- Matheus Pessona -->
     <section class="slide">
-      <div class="bg-mark abs" style="--t:-255.81;--l:246.63;--w:904.71;--h:1397.97">
-        <img src="_assets/media/30b9084cc6aa2e1aa94ed7fb04b39732.png" alt="" loading="lazy" onerror="this.style.display='none'">
-      </div>
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/matheus-pessona-1.jpg')">

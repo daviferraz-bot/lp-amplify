@@ -8,8 +8,12 @@ de iPhone em SVG.
 ## Estrutura
 
 - `index.html` — página completa, auto-contida (um único arquivo).
-- Fontes carregadas via Google Fonts: **Poppins** (nomes e labels), **Inter**
-  ("top creators") e **Playfair Display** itálico ("Turbo Partners").
+- Tipografia da marca: **Neue Kaine** (variável, local em `fonts/`) para
+  títulos e nomes dos creators, e **Plus Jakarta Sans** (Google Fonts) para
+  labels e textos — como no logo "Turbo partners".
+- Paleta da marca: Blu `#415FF2` (fundo), Ice `#F7F9F9` (texto),
+  Green `#37D3A4` (acentos), Dark `#0B0726` (telas dos celulares) e
+  Black `#03020A`/Gray 500 `#9398A1` (rodapé).
 - Layout em canvas de 1366×768 por seção, escalado proporcionalmente ao
   viewport via `--u: calc(100vw / 1366)` — mesmo comportamento do site do Canva.
 
