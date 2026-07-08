@@ -11,8 +11,9 @@ de iPhone em SVG.
 - Tipografia da marca: **Neue Kaine** (variável, local em `fonts/`) para
   títulos e nomes dos creators, e **Plus Jakarta Sans** (Google Fonts) para
   labels e textos — como no logo "Turbo partners".
-- Paleta da marca: Blu `#415FF2` (fundo), Ice `#F7F9F9` (texto),
-  Green `#37D3A4` (acentos), Dark `#0B0726` (telas dos celulares) e
+- Paleta da marca: Blue `#1D1E6C` (fundo da página), Ice `#F7F9F9` (texto),
+  Green `#37D3A4` (acentos), Blu `#415FF2` (acento de marca),
+  Dark `#0B0726` (telas dos celulares) e
   Black `#03020A`/Gray 500 `#9398A1` (rodapé).
 - Layout em canvas de 1366×768 por seção, escalado proporcionalmente ao
   viewport via `--u: calc(100vw / 1366)` — mesmo comportamento do site do Canva.
@@ -24,7 +25,7 @@ direto na tag `<video>` — nada de vídeo é versionado no repositório. Já t�
 vídeo: **Alan Melo**, **Luckyan Bessa**, **Diogo Brandão** e **Gustavo Mazzei**
 (3 vídeos cada, na ordem esquerda → centro → direita).
 
-Os demais creators (Lucas Y Paz, Alexandre Soranz, Stephan Orlandi, Lucas
+Os demais creators (Arthur Zon, Lucas Y Paz, Alexandre Soranz, Stephan Orlandi, Lucas
 Santos, Matheus Pessona) ficam com a tela no placeholder escuro até os vídeos
 serem enviados; nesse caso o padrão é `videos/<slug>-N.mp4`.
 
@@ -37,9 +38,12 @@ primeiro frame como poster. Todos tocam em autoplay/mudo/loop quando visíveis.
 ## Seções
 
 1. Hero — "top creators / Turbo Partners"
-2. Alan Melo · 3. Luckyan Bessa · 4. Lucas Y Paz · 5. Diogo Brandão ·
-6. Alexandre Soranz · 7. Gustavo Mazzei · 8. Stephan Orlandi ·
-9. Lucas Santos · 10. Matheus Pessona
+2. Alan Melo · 3. Luckyan Bessa · 4. Arthur Zon · 5. Lucas Y Paz ·
+6. Diogo Brandão · 7. Alexandre Soranz · 8. Gustavo Mazzei ·
+9. Stephan Orlandi · 10. Lucas Santos · 11. Matheus Pessona
+
+O lado (esquerda/direita) de cada nome é calculado por índice, alternando
+automaticamente — inserir/remover creators mantém o zigue-zague.
 
 Cada seção tem 3 mockups de iPhone e o nome do creator, alternando lado
 esquerdo/direito.

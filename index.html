@@ -16,10 +16,10 @@
 /* Paleta Turbo Partners: Dark #0B0726 / Blue #1D1E6C / Blu #415FF2 / Green #37D3A4 / Ice #F7F9F9
    Cinzas: Black #03020A / 800 #1C202B / 700 #3C4150 / 600 #6D727C / 500 #9398A1 */
 :root{--u:calc(100vw/1366);--blue:#415FF2;--dark:#0B0726;--navy:#1D1E6C;--green:#37D3A4;--ice:#F7F9F9;
-  --black:#03020A;--g800:#1C202B;--g500:#9398A1}
+  --black:#03020A;--g800:#1C202B;--g500:#9398A1;--bg:#1D1E6C}
 @font-face{font-family:'Neue Kaine';src:url('fonts/NeueKaineVariable.ttf') format('truetype');
   font-weight:300 800;font-display:swap}
-html,body{background:var(--blue)}
+html,body{background:var(--bg)}
 body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--ice);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 .slide{position:relative;width:100%;height:calc(var(--u)*768);overflow:hidden}
 .abs{position:absolute;top:calc(var(--u)*var(--t));left:calc(var(--u)*var(--l));width:calc(var(--u)*var(--w));height:calc(var(--u)*var(--h))}
@@ -33,11 +33,11 @@ body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--ice);overflow-x:hidd
 .hero-brand{text-align:center;z-index:3;display:flex;flex-direction:column;justify-content:center}
 .hero-brand .turbo{position:relative;z-index:0;display:block;font-family:'Neue Kaine',sans-serif;font-weight:640;
   font-size:calc(var(--u)*128);line-height:.92;letter-spacing:calc(var(--u)*-4)}
-.hero-brand .turbo::before{content:attr(data-text);position:absolute;inset:0;z-index:-1;color:var(--blue);
-  -webkit-text-stroke:calc(var(--u)*11) var(--blue)}
+.hero-brand .turbo::before{content:attr(data-text);position:absolute;inset:0;z-index:-1;color:var(--bg);
+  -webkit-text-stroke:calc(var(--u)*11) var(--bg)}
 .hero-brand .partners{display:block;font-family:'Plus Jakarta Sans',sans-serif;font-weight:400;
   font-size:calc(var(--u)*44);line-height:1;letter-spacing:calc(var(--u)*1);
-  transform:translateX(calc(var(--u)*118));text-shadow:0 0 calc(var(--u)*14) var(--blue)}
+  transform:translateX(calc(var(--u)*118));text-shadow:0 0 calc(var(--u)*14) var(--bg)}
 .hero-icon svg{position:absolute;inset:0;width:100%;height:100%}
 
 /* ---------- secoes de creators ---------- */
@@ -132,166 +132,189 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <h2 class="name abs" style="--t:342;--l:76.8;--w:300;--h:140.32">Luckyan<br>Bessa</h2>
     </section>
-    <!-- Lucas Y Paz -->
+    <!-- Arthur Zon -->
     <section class="slide">
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
+        <div class="screen" style="background-image:url('videos/arthur-zon-1.jpg')">
+          <video src="videos/arthur-zon-1.mp4" poster="videos/arthur-zon-1.jpg" muted loop playsinline preload="none"></video>
+        </div>
+        <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
+      </div>
+      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
+        <div class="screen" style="background-image:url('videos/arthur-zon-2.jpg')">
+          <video src="videos/arthur-zon-2.mp4" poster="videos/arthur-zon-2.jpg" muted loop playsinline preload="none"></video>
+        </div>
+        <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
+      </div>
+      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
+        <div class="screen" style="background-image:url('videos/arthur-zon-3.jpg')">
+          <video src="videos/arthur-zon-3.mp4" poster="videos/arthur-zon-3.jpg" muted loop playsinline preload="none"></video>
+        </div>
+        <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
+      </div>
+      <h2 class="name right abs" style="--t:366.6;--l:1084.2;--w:205;--h:140.32">Arthur<br>Zon</h2>
+    </section>
+    <!-- Lucas Y Paz -->
+    <section class="slide">
+      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-y-paz-1.jpg')">
           <video src="videos/lucas-y-paz-1.mp4" poster="videos/lucas-y-paz-1.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-y-paz-2.jpg')">
           <video src="videos/lucas-y-paz-2.mp4" poster="videos/lucas-y-paz-2.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-y-paz-3.jpg')">
           <video src="videos/lucas-y-paz-3.mp4" poster="videos/lucas-y-paz-3.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name right abs" style="--t:366.6;--l:1049.2;--w:240;--h:140.32">Lucas<br>Y Paz</h2>
+      <h2 class="name abs" style="--t:342;--l:76.8;--w:240;--h:140.32">Lucas<br>Y Paz</h2>
     </section>
     <!-- Diogo Brandão -->
     <section class="slide">
-      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
+      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/21e4d409f3184717a01139595fc4fcf2.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/14be81c4c44b40c1a4c62c88b81b23ba.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/a0dd3585aebb428d82a2bc0ecb1aa5e8.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name abs" style="--t:342;--l:76.8;--w:300;--h:140.32">Diogo<br>Brandão</h2>
+      <h2 class="name right abs" style="--t:366.6;--l:989.2;--w:300;--h:140.32">Diogo<br>Brandão</h2>
     </section>
     <!-- Alexandre Soranz -->
     <section class="slide">
-      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
+      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/alexandre-soranz-1.jpg')">
           <video src="videos/alexandre-soranz-1.mp4" poster="videos/alexandre-soranz-1.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/alexandre-soranz-2.jpg')">
           <video src="videos/alexandre-soranz-2.mp4" poster="videos/alexandre-soranz-2.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/alexandre-soranz-3.jpg')">
           <video src="videos/alexandre-soranz-3.mp4" poster="videos/alexandre-soranz-3.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name right abs" style="--t:366.6;--l:904.2;--w:385;--h:140.32;--fs:62.31">Alexandre<br>Soranz</h2>
+      <h2 class="name abs" style="--t:342;--l:76.8;--w:385;--h:140.32;--fs:62.31">Alexandre<br>Soranz</h2>
     </section>
     <!-- Gustavo Mazzei -->
     <section class="slide">
-      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
+      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/370cbc064a8f405195a74bd6bcbb551b.mov#t=0.1" muted loop playsinline preload="metadata"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov#t=0.1" muted loop playsinline preload="metadata"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/1b6ece1db7804ce59be3e54fdda4daa3.mov#t=0.1" muted loop playsinline preload="metadata"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name abs" style="--t:342;--l:76.8;--w:300;--h:140.32">Gustavo<br>Mazzei</h2>
+      <h2 class="name right abs" style="--t:366.6;--l:989.2;--w:300;--h:140.32">Gustavo<br>Mazzei</h2>
     </section>
     <!-- Stephan Orlandi -->
     <section class="slide">
-      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
+      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/stephan-orlandi-1.jpg')">
           <video src="videos/stephan-orlandi-1.mp4" poster="videos/stephan-orlandi-1.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/stephan-orlandi-2.jpg')">
           <video src="videos/stephan-orlandi-2.mp4" poster="videos/stephan-orlandi-2.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/stephan-orlandi-3.jpg')">
           <video src="videos/stephan-orlandi-3.mp4" poster="videos/stephan-orlandi-3.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name right abs" style="--t:366.6;--l:994.2;--w:295;--h:140.32">Stephan<br>Orlandi</h2>
+      <h2 class="name abs" style="--t:342;--l:76.8;--w:295;--h:140.32">Stephan<br>Orlandi</h2>
     </section>
     <!-- Lucas Santos -->
     <section class="slide">
-      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
+      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-santos-1.jpg')">
           <video src="videos/lucas-santos-1.mp4" poster="videos/lucas-santos-1.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-santos-2.jpg')">
           <video src="videos/lucas-santos-2.mp4" poster="videos/lucas-santos-2.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/lucas-santos-3.jpg')">
           <video src="videos/lucas-santos-3.mp4" poster="videos/lucas-santos-3.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name abs" style="--t:342;--l:76.8;--w:260;--h:140.32">Lucas<br>Santos</h2>
+      <h2 class="name right abs" style="--t:366.6;--l:1029.2;--w:260;--h:140.32">Lucas<br>Santos</h2>
     </section>
     <!-- Matheus Pessona -->
     <section class="slide">
-      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
+      <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
+      <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/matheus-pessona-1.jpg')">
           <video src="videos/matheus-pessona-1.mp4" poster="videos/matheus-pessona-1.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/matheus-pessona-2.jpg')">
           <video src="videos/matheus-pessona-2.mp4" poster="videos/matheus-pessona-2.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
+      <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen" style="background-image:url('videos/matheus-pessona-3.jpg')">
           <video src="videos/matheus-pessona-3.mp4" poster="videos/matheus-pessona-3.jpg" muted loop playsinline preload="none"></video>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
-      <h2 class="name right abs" style="--t:366.6;--l:969.2;--w:320;--h:140.32">Matheus<br>Pessona</h2>
+      <h2 class="name abs" style="--t:342;--l:76.8;--w:320;--h:140.32">Matheus<br>Pessona</h2>
     </section>
   </main>
 
