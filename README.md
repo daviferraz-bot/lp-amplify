@@ -18,7 +18,11 @@ de iPhone em SVG.
   Black `#03020A` (telas dos celulares) e
   Black `#03020A`/Gray 500 `#9398A1` (rodapé).
 - Layout em canvas de 1366×768 por seção, escalado proporcionalmente ao
-  viewport via `--u: calc(100vw / 1366)` — mesmo comportamento do site do Canva.
+  viewport via `--u: calc(100vw / 1366)`. **Abaixo de 820px** (mobile) cada
+  seção vira uma coluna empilhada: label → nome → 3 celulares um abaixo do
+  outro.
+- Performance: vídeos com `preload="none"` (sem autoplay), `content-visibility`
+  nas seções e `preconnect` ao CDN.
 
 ## Mídia (vídeos e posters)
 
@@ -31,8 +35,9 @@ vídeo (3 cada, na ordem esquerda → centro → direita): **Alan Melo**,
 
 Para adicionar/trocar vídeos, edite o dicionário `VIDEO_URLS` no gerador
 (scratchpad `gen.py`) ou diretamente os `src` das tags `<video>` no
-`index.html`. Vídeos remotos usam `#t=0.1` no `src` para o navegador exibir o
-primeiro frame como poster. Todos tocam em autoplay/mudo/loop quando visíveis.
+`index.html`. **Sem autoplay:** os vídeos usam `preload="none"`, então só
+baixam quando o usuário clica em play (carregamento rápido). Cada tela mostra
+um botão de play central enquanto está pausada.
 
 ### Mini-player em cada mockup
 
@@ -52,8 +57,7 @@ página (respeita a intenção do usuário).
 
 1. Hero — "top creators / Turbo Partners"
 2. Alan Melo · 3. Luckyan Bessa · 4. Arthur Zon · 5. Lucas Y Paz ·
-6. Diogo Brandão · 7. Alexandre Soranz · 8. Gustavo Mazzei ·
-9. Stephan Orlandi · 10. Lucas Santos
+6. Diogo Brandão · 7. Alexandre Soranz · 8. Gustavo Mazzei · 9. Stephan Orlandi
 
 O lado (esquerda/direita) de cada nome é calculado por índice, alternando
 automaticamente — inserir/remover creators mantém o zigue-zague.

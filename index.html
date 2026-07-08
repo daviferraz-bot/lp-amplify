@@ -7,6 +7,8 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta property="og:title" content="20260128 Vitrine Creators | Manual">
 <meta property="og:type" content="website">
+<!-- Preconnect ao CDN de vídeos/logo para acelerar o 1o byte quando o usuário der play -->
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 <!-- Tipografia da marca: Neue Kaine (local, títulos/nomes) + Plus Jakarta Sans (textos) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +23,8 @@
   font-weight:300 800;font-display:swap}
 html,body{background:var(--bg)}
 body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--ice);overflow-x:hidden;-webkit-font-smoothing:antialiased}
-.slide{position:relative;width:100%;height:calc(var(--u)*768);overflow:hidden}
+.slide{position:relative;width:100%;height:calc(var(--u)*768);overflow:hidden;
+  content-visibility:auto;contain-intrinsic-size:auto calc(var(--u)*768)}
 .abs{position:absolute;top:calc(var(--u)*var(--t));left:calc(var(--u)*var(--l));width:calc(var(--u)*var(--w));height:calc(var(--u)*var(--h))}
 
 /* ---------- hero ---------- */
@@ -55,6 +58,14 @@ body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--ice);overflow-x:hidd
 .screen video{width:100%;height:100%;object-fit:cover;display:block}
 
 /* ---------- mini-player ---------- */
+/* botao de play central (afordancia sem autoplay) */
+.vbig{position:absolute;inset:0;margin:auto;z-index:4;
+  width:calc(var(--u)*72);height:calc(var(--u)*72);border-radius:50%;border:none;cursor:pointer;
+  background:rgba(3,2,10,.5);color:var(--ice);display:flex;align-items:center;justify-content:center;
+  -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);transition:transform .15s,background .15s}
+.vbig:hover{background:rgba(3,2,10,.68);transform:scale(1.06)}
+.vbig svg{width:44%;height:44%;transform:translateX(6%)}
+video.playing~.vbig{display:none}
 .vctrl{position:absolute;left:0;right:0;bottom:0;z-index:3;
   padding:calc(var(--u)*12) calc(var(--u)*11) calc(var(--u)*10);
   display:flex;flex-direction:column;gap:calc(var(--u)*7);
@@ -84,6 +95,47 @@ video.son~.vctrl .i-son{display:block}
 footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',Arial,sans-serif;
   font-size:calc(var(--u)*15);display:flex;justify-content:center;align-items:center;
   padding:calc(var(--u)*20) 14px;text-align:center}
+
+/* ============ MOBILE: empilhado (label -> nome -> celulares um abaixo do outro) ============ */
+@media (max-width:820px){
+  /* tira o canvas fixo: cada secao vira uma coluna em fluxo normal */
+  .slide{height:auto;min-height:0;overflow:visible;display:flex;flex-direction:column;align-items:center;
+    padding:44px 20px 10px;contain-intrinsic-size:auto 900px}
+  .abs{position:static;top:auto;left:auto;width:auto;height:auto}
+
+  /* HERO */
+  .hero-logo{margin-bottom:26px}
+  .hero-logo img{height:44px}
+  .hero-tag{font-size:20px;text-align:center;margin-bottom:6px}
+  .hero-title{font-size:clamp(38px,12vw,72px);display:block;letter-spacing:-.02em;margin-bottom:2px}
+  .hero-brand{display:block}
+  .hero-brand .turbo{font-size:clamp(60px,19vw,120px);letter-spacing:-.02em}
+  .hero-brand .turbo::before{display:none}
+  .hero-brand .partners{font-size:clamp(26px,8vw,46px);transform:none;text-shadow:none;margin-top:-4px}
+  .hero-icon{position:static;margin-top:26px;width:34px;height:34px}
+  .hero-icon svg{position:static}
+
+  /* SECOES DE CREATORS: ordem tag -> nome -> celulares */
+  .tag{order:0;font-size:16px;text-align:center;margin-bottom:8px}
+  .name{order:1;font-size:clamp(40px,12vw,64px)!important;line-height:.96;text-align:center;
+    align-items:center;margin-bottom:6px}
+  .phone{order:2;position:relative;width:min(82vw,340px);height:auto;aspect-ratio:306.91/607.27;
+    margin:14px auto 0}
+
+  /* controles em tamanho fixo (nao encolhem com o canvas) */
+  .vbig{width:66px;height:66px}
+  .vctrl{padding:14px 12px 12px;gap:9px}
+  .vrow{gap:10px}
+  .vbtn svg{width:22px;height:22px}
+  .vplay svg{width:26px;height:26px}
+  .vmute{margin-left:6px}
+  .vtime{font-size:13px}
+  .vseek{height:5px}
+  .vseek::-webkit-slider-thumb{width:15px;height:15px}
+  .vseek::-moz-range-thumb{width:15px;height:15px}
+
+  footer{font-size:13px;padding:22px 14px}
+}
 </style>
 </head>
 <body>
@@ -104,7 +156,7 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
     <!-- hero -->
     <section class="slide">
       <div class="hero-logo abs" style="--t:110;--l:0;--w:1366;--h:96">
-        <img src="https://cdn.shopify.com/s/files/1/0851/8408/6323/files/Logo-Turbo-branca_7.png?v=1783548875" alt="Turbo Partners" onerror="this.style.display='none'">
+        <img src="https://cdn.shopify.com/s/files/1/0851/8408/6323/files/Logo-Turbo-branca_7.png?v=1783548875" alt="Turbo Partners" decoding="async" fetchpriority="high" onerror="this.style.display='none'">
       </div>
       <h1 class="hero-tag abs" style="--t:222;--l:433;--w:500;--h:45.61">Turbo Partners + <b>Manual</b></h1>
       <p class="hero-title abs" style="--t:240.94;--l:336;--w:743.07;--h:168.34">top creators</p>
@@ -122,7 +174,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/36dbcf2eabc041df99f060e10c43e6c5.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/36dbcf2eabc041df99f060e10c43e6c5.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -138,7 +191,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -154,7 +208,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/1523e3d549124e189d58abd711190f6a.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/1523e3d549124e189d58abd711190f6a.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -175,7 +230,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/9ed1c63996404ca2a099b058ffe4eb17.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/9ed1c63996404ca2a099b058ffe4eb17.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -191,7 +247,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/a0271d8e51074870837316e92e25327d.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/a0271d8e51074870837316e92e25327d.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -207,7 +264,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/df71b99816fb45faa89255286844fe8c.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/df71b99816fb45faa89255286844fe8c.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -228,7 +286,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/cf3caeca85814849af63dcfce1525166.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/cf3caeca85814849af63dcfce1525166.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -244,7 +303,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/e65745d759264a24ae233708a1e5875b.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/e65745d759264a24ae233708a1e5875b.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -260,7 +320,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/27ce2a5bfcf047aca9df41c0f283a536.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/27ce2a5bfcf047aca9df41c0f283a536.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -281,7 +342,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/4be4beb9223141e7af216bcd6bc3e46d.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/4be4beb9223141e7af216bcd6bc3e46d.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -297,7 +359,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/61d70fbc090d4557a5fc7fe87f3d65f3.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/61d70fbc090d4557a5fc7fe87f3d65f3.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -313,7 +376,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/0e062a9b7e384635afa298ace75c8760.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/0e062a9b7e384635afa298ace75c8760.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -334,7 +398,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/21e4d409f3184717a01139595fc4fcf2.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/21e4d409f3184717a01139595fc4fcf2.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -350,7 +415,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/14be81c4c44b40c1a4c62c88b81b23ba.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/14be81c4c44b40c1a4c62c88b81b23ba.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -366,7 +432,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/a0dd3585aebb428d82a2bc0ecb1aa5e8.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/a0dd3585aebb428d82a2bc0ecb1aa5e8.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -387,7 +454,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/74a2be2c96fb42eaab118c03cfd03f39.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/74a2be2c96fb42eaab118c03cfd03f39.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -403,7 +471,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/610be6cb658c45e9afbeb08a4c75fa34.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/610be6cb658c45e9afbeb08a4c75fa34.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -419,7 +488,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/8fe6a72d47fb41e7897dbc18796305b5.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/8fe6a72d47fb41e7897dbc18796305b5.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -440,7 +510,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/370cbc064a8f405195a74bd6bcbb551b.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/370cbc064a8f405195a74bd6bcbb551b.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -456,7 +527,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -472,7 +544,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/1b6ece1db7804ce59be3e54fdda4daa3.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/1b6ece1db7804ce59be3e54fdda4daa3.mov" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -493,7 +566,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <p class="tag abs" style="--t:61.2;--l:76.8;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/1d392d0a00d245988787aa6a48098693.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/1d392d0a00d245988787aa6a48098693.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -509,7 +583,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/524299b770f541f8964158bd143d9983.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/524299b770f541f8964158bd143d9983.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -525,7 +600,8 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/8d9097f769b946a68d7ee6e0e7e8f8a2.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <video src="https://cdn.shopify.com/videos/c/o/v/8d9097f769b946a68d7ee6e0e7e8f8a2.mp4" muted loop playsinline preload="none"></video>
+          <button class="vbig" type="button" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
           <div class="vctrl">
             <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
             <div class="vrow">
@@ -540,59 +616,6 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <h2 class="name abs" style="--t:342;--l:76.8;--w:295;--h:140.32">Stephan<br>Orlandi</h2>
-    </section>
-    <!-- Lucas Santos -->
-    <section class="slide">
-      <p class="tag right abs" style="--t:61.2;--l:944.2;--w:345;--h:31.2">Turbo Partners + <b>Manual</b></p>
-      <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
-        <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/d84695a4402440899ccd9459727fad81.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
-          <div class="vctrl">
-            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
-            <div class="vrow">
-              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
-              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
-              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
-              <span class="vtime">0:00 / 0:00</span>
-              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
-            </div>
-          </div>
-        </div>
-        <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
-      </div>
-      <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
-        <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/df5159a635c7427bbe6941e8ee138cb8.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
-          <div class="vctrl">
-            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
-            <div class="vrow">
-              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
-              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
-              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
-              <span class="vtime">0:00 / 0:00</span>
-              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
-            </div>
-          </div>
-        </div>
-        <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
-      </div>
-      <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
-        <div class="screen">
-          <video src="https://cdn.shopify.com/videos/c/o/v/b3b18dbaad33482ca400f637762e8862.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
-          <div class="vctrl">
-            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
-            <div class="vrow">
-              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
-              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
-              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
-              <span class="vtime">0:00 / 0:00</span>
-              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
-            </div>
-          </div>
-        </div>
-        <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
-      </div>
-      <h2 class="name right abs" style="--t:366.6;--l:1029.2;--w:260;--h:140.32">Lucas<br>Santos</h2>
     </section>
   </main>
 
@@ -637,11 +660,13 @@ document.querySelectorAll('.screen').forEach((screen) => {
   v.addEventListener('loadedmetadata', sync);
   v.addEventListener('timeupdate', sync);
 
-  ctrl.querySelector('.vplay').addEventListener('click', (e) => {
-    e.stopPropagation();
-    if (v.paused) { delete v.dataset.userPaused; v.play().catch(() => {}); }
-    else { v.dataset.userPaused = '1'; v.pause(); }
-  });
+  const toggle = (e) => {
+    if (e) e.stopPropagation();
+    if (v.paused) v.play().catch(() => {}); else v.pause();
+  };
+  const big = screen.querySelector('.vbig');
+  if (big) big.addEventListener('click', toggle);
+  ctrl.querySelector('.vplay').addEventListener('click', toggle);
   ctrl.querySelector('.vback').addEventListener('click', (e) => {
     e.stopPropagation(); v.currentTime = Math.max(0, v.currentTime - 10); sync();
   });
@@ -668,21 +693,13 @@ document.querySelectorAll('.screen').forEach((screen) => {
     time.textContent = fmt(v.currentTime) + ' / ' + fmt(v.duration);
   });
 
-  // toque na tela alterna a visibilidade dos controles (mobile); cliques nos controles sao ignorados
+  // toque na tela alterna a visibilidade dos controles (mobile); cliques nos controles/botao sao ignorados
   screen.addEventListener('click', (e) => {
-    if (ctrl.contains(e.target)) return;
+    if (ctrl.contains(e.target) || (big && big.contains(e.target))) return;
     screen.classList.toggle('show-ctrl');
   });
 });
-
-// toca os videos apenas quando visiveis; respeita a pausa manual do usuario
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(({ isIntersecting, target }) => {
-    if (isIntersecting) { if (!target.dataset.userPaused) target.play().catch(() => {}); }
-    else target.pause();
-  });
-}, { threshold: .25 });
-allVideos.forEach((v) => io.observe(v));
+// sem autoplay: os videos so tocam quando o usuario clica em play.
 </script>
 </body>
 </html>
