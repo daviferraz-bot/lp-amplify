@@ -34,6 +34,19 @@ Para adicionar/trocar vídeos, edite o dicionário `VIDEO_URLS` no gerador
 `index.html`. Vídeos remotos usam `#t=0.1` no `src` para o navegador exibir o
 primeiro frame como poster. Todos tocam em autoplay/mudo/loop quando visíveis.
 
+### Mini-player em cada mockup
+
+Cada iPhone tem controles próprios, que aparecem ao passar o mouse (desktop)
+ou tocar na tela (mobile):
+
+- **Play/pause** e barra de progresso arrastável (seek) com tempo em `mm:ss`.
+- **Voltar 10s** e **avançar 10s**.
+- **Som on/off** — ativar o som de um vídeo silencia automaticamente os demais
+  (áudio exclusivo).
+
+Pausar manualmente um vídeo impede que ele volte a tocar sozinho ao rolar a
+página (respeita a intenção do usuário).
+
 
 ## Seções
 

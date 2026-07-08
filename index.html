@@ -54,6 +54,32 @@ body{font-family:'Plus Jakarta Sans',sans-serif;color:var(--ice);overflow-x:hidd
   border-radius:calc(var(--u)*24.5);background:var(--black) center/cover no-repeat;z-index:1}
 .screen video{width:100%;height:100%;object-fit:cover;display:block}
 
+/* ---------- mini-player ---------- */
+.vctrl{position:absolute;left:0;right:0;bottom:0;z-index:3;
+  padding:calc(var(--u)*12) calc(var(--u)*11) calc(var(--u)*10);
+  display:flex;flex-direction:column;gap:calc(var(--u)*7);
+  background:linear-gradient(transparent,rgba(3,2,10,.9));
+  opacity:0;transition:opacity .2s;pointer-events:none}
+.screen:hover .vctrl,.screen.show-ctrl .vctrl{opacity:1;pointer-events:auto}
+.vrow{display:flex;align-items:center;gap:calc(var(--u)*7)}
+.vbtn{background:none;border:none;padding:0;margin:0;color:var(--ice);cursor:pointer;
+  display:flex;align-items:center;line-height:0}
+.vbtn svg{width:calc(var(--u)*16);height:calc(var(--u)*16);display:block}
+.vplay svg{width:calc(var(--u)*19);height:calc(var(--u)*19)}
+.vmute{margin-left:calc(var(--u)*4)}
+.vtime{margin-left:auto;font-family:'Plus Jakarta Sans',sans-serif;font-weight:500;
+  font-size:calc(var(--u)*11);color:var(--ice);white-space:nowrap;font-variant-numeric:tabular-nums}
+.vctrl .i-pause,.vctrl .i-son{display:none}
+video.playing~.vctrl .i-play{display:none}
+video.playing~.vctrl .i-pause{display:block}
+video.son~.vctrl .i-smute{display:none}
+video.son~.vctrl .i-son{display:block}
+.vseek{-webkit-appearance:none;appearance:none;width:100%;height:calc(var(--u)*4);margin:0;
+  border-radius:99px;background:rgba(247,249,249,.28);cursor:pointer;outline:none}
+.vseek::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;
+  width:calc(var(--u)*12);height:calc(var(--u)*12);border-radius:50%;background:var(--green);border:none}
+.vseek::-moz-range-thumb{width:calc(var(--u)*12);height:calc(var(--u)*12);border-radius:50%;background:var(--green);border:none}
+
 /* ---------- rodape ---------- */
 footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',Arial,sans-serif;
   font-size:calc(var(--u)*15);display:flex;justify-content:center;align-items:center;
@@ -97,18 +123,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/36dbcf2eabc041df99f060e10c43e6c5.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/1523e3d549124e189d58abd711190f6a.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -120,18 +176,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/9ed1c63996404ca2a099b058ffe4eb17.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/a0271d8e51074870837316e92e25327d.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/df71b99816fb45faa89255286844fe8c.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -143,18 +229,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/cf3caeca85814849af63dcfce1525166.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/e65745d759264a24ae233708a1e5875b.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/27ce2a5bfcf047aca9df41c0f283a536.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -166,18 +282,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/4be4beb9223141e7af216bcd6bc3e46d.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/61d70fbc090d4557a5fc7fe87f3d65f3.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/0e062a9b7e384635afa298ace75c8760.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -189,18 +335,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/21e4d409f3184717a01139595fc4fcf2.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/14be81c4c44b40c1a4c62c88b81b23ba.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/a0dd3585aebb428d82a2bc0ecb1aa5e8.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -212,18 +388,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/74a2be2c96fb42eaab118c03cfd03f39.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/610be6cb658c45e9afbeb08a4c75fa34.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/8fe6a72d47fb41e7897dbc18796305b5.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -235,18 +441,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/370cbc064a8f405195a74bd6bcbb551b.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/2e81fb5fc00e4153b0d50d55696b1eb0.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/1b6ece1db7804ce59be3e54fdda4daa3.mov#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -258,18 +494,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:108.53;--l:418;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/1d392d0a00d245988787aa6a48098693.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:52.2;--l:729.89;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/524299b770f541f8964158bd143d9983.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:108.53;--l:1041.78;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/8d9097f769b946a68d7ee6e0e7e8f8a2.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -281,18 +547,48 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
       <div class="phone abs" style="--t:133.13;--l:11.04;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/d84695a4402440899ccd9459727fad81.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:76.8;--l:322.93;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/df5159a635c7427bbe6941e8ee138cb8.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
       <div class="phone abs" style="--t:133.13;--l:634.83;--w:306.91;--h:607.27">
         <div class="screen">
           <video src="https://cdn.shopify.com/videos/c/o/v/b3b18dbaad33482ca400f637762e8862.mp4#t=0.1" muted loop playsinline preload="metadata"></video>
+          <div class="vctrl">
+            <input class="vseek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Linha do tempo do vídeo">
+            <div class="vrow">
+              <button class="vbtn vback" type="button" aria-label="Voltar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11 6L5 12l6 6zM18 6l-6 6 6 6z"/></svg></button>
+              <button class="vbtn vplay" type="button" aria-label="Reproduzir ou pausar"><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></button>
+              <button class="vbtn vfwd" type="button" aria-label="Avançar 10 segundos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 6l6 6-6 6zM6 6l6 6-6 6z"/></svg></button>
+              <span class="vtime">0:00 / 0:00</span>
+              <button class="vbtn vmute" type="button" aria-label="Ativar ou desativar o som"><svg class="i-smute" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 9l5 6M21 9l-5 6"/></svg><svg class="i-son" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path fill="none" stroke="currentColor" stroke-width="2" d="M16 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></button>
+            </div>
+          </div>
         </div>
         <svg class="frame" aria-hidden="true"><use href="#iphone"/></svg>
       </div>
@@ -309,13 +605,84 @@ footer{background:var(--black);color:var(--ice);font-family:'Plus Jakarta Sans',
 document.addEventListener('contextmenu', (e) => {
   if (['IMG','VIDEO','SVG','PICTURE'].includes(e.target.tagName.toUpperCase())) e.preventDefault();
 });
-// toca os videos apenas quando visiveis (o player do Canva faz o mesmo)
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(({isIntersecting, target}) => {
-    if (isIntersecting) { target.play().catch(() => {}); } else { target.pause(); }
+
+const allVideos = [...document.querySelectorAll('.screen video')];
+const fmt = (t) => {
+  if (!isFinite(t) || t < 0) t = 0;
+  const m = Math.floor(t / 60), s = Math.floor(t % 60);
+  return m + ':' + String(s).padStart(2, '0');
+};
+
+document.querySelectorAll('.screen').forEach((screen) => {
+  const v = screen.querySelector('video');
+  const ctrl = screen.querySelector('.vctrl');
+  if (!v || !ctrl) return;
+  const seek = ctrl.querySelector('.vseek');
+  const time = ctrl.querySelector('.vtime');
+  let seeking = false;
+
+  const paint = (p) => {
+    seek.value = p;
+    seek.style.background =
+      'linear-gradient(90deg, var(--green) ' + p + '%, rgba(247,249,249,.28) ' + p + '%)';
+  };
+  const sync = () => {
+    const p = v.duration ? (v.currentTime / v.duration) * 100 : 0;
+    if (!seeking) paint(p);
+    time.textContent = fmt(v.currentTime) + ' / ' + fmt(v.duration);
+  };
+
+  v.addEventListener('play',  () => v.classList.add('playing'));
+  v.addEventListener('pause', () => v.classList.remove('playing'));
+  v.addEventListener('loadedmetadata', sync);
+  v.addEventListener('timeupdate', sync);
+
+  ctrl.querySelector('.vplay').addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (v.paused) { delete v.dataset.userPaused; v.play().catch(() => {}); }
+    else { v.dataset.userPaused = '1'; v.pause(); }
   });
-}, {threshold: .25});
-document.querySelectorAll('video').forEach(v => io.observe(v));
+  ctrl.querySelector('.vback').addEventListener('click', (e) => {
+    e.stopPropagation(); v.currentTime = Math.max(0, v.currentTime - 10); sync();
+  });
+  ctrl.querySelector('.vfwd').addEventListener('click', (e) => {
+    e.stopPropagation(); v.currentTime = Math.min(v.duration || 0, v.currentTime + 10); sync();
+  });
+  ctrl.querySelector('.vmute').addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (v.muted) {
+      // som exclusivo: ativa neste e silencia os outros
+      allVideos.forEach((o) => { if (o !== v) { o.muted = true; o.classList.remove('son'); } });
+      v.muted = false; v.classList.add('son');
+    } else { v.muted = true; v.classList.remove('son'); }
+  });
+
+  seek.addEventListener('pointerdown', () => { seeking = true; });
+  const endSeek = () => { seeking = false; };
+  seek.addEventListener('pointerup', endSeek);
+  seek.addEventListener('change', endSeek);
+  seek.addEventListener('input', (e) => {
+    e.stopPropagation();
+    if (v.duration) { v.currentTime = (seek.value / 100) * v.duration; }
+    paint(seek.value);
+    time.textContent = fmt(v.currentTime) + ' / ' + fmt(v.duration);
+  });
+
+  // toque na tela alterna a visibilidade dos controles (mobile); cliques nos controles sao ignorados
+  screen.addEventListener('click', (e) => {
+    if (ctrl.contains(e.target)) return;
+    screen.classList.toggle('show-ctrl');
+  });
+});
+
+// toca os videos apenas quando visiveis; respeita a pausa manual do usuario
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(({ isIntersecting, target }) => {
+    if (isIntersecting) { if (!target.dataset.userPaused) target.play().catch(() => {}); }
+    else target.pause();
+  });
+}, { threshold: .25 });
+allVideos.forEach((v) => io.observe(v));
 </script>
 </body>
 </html>
