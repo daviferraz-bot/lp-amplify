@@ -8,7 +8,8 @@ de iPhone em SVG.
 ## Estrutura
 
 - `index.html` — página completa, auto-contida (um único arquivo).
-- Logo da Turbo (PNG branco no CDN) centralizada numa faixa no topo da página.
+- Logo da Turbo (PNG branco no CDN) centralizada no topo do hero, acima do
+  título — em destaque e próxima do texto.
 - Tipografia da marca: **Neue Kaine** (variável, local em `fonts/`) para
   títulos e nomes dos creators, e **Plus Jakarta Sans** (Google Fonts) para
   labels e textos — como no logo "Turbo partners".
@@ -23,12 +24,10 @@ de iPhone em SVG.
 
 Os creators com vídeo já enviado referenciam URLs remotas (CDN da Shopify)
 direto na tag `<video>` — nada de vídeo é versionado no repositório. Já têm
-vídeo: **Alan Melo**, **Luckyan Bessa**, **Arthur Zon**, **Lucas Y Paz**,
-**Diogo Brandão**, **Alexandre Soranz**, **Gustavo Mazzei**, **Stephan Orlandi**
-e **Lucas Santos** (3 vídeos cada, na ordem esquerda → centro → direita).
-
-Falta apenas **Matheus Pessona**, que fica com a tela no placeholder escuro
-até os vídeos serem enviados (padrão `videos/<slug>-N.mp4`).
+vídeo (3 cada, na ordem esquerda → centro → direita): **Alan Melo**,
+**Luckyan Bessa**, **Arthur Zon**, **Lucas Y Paz**, **Diogo Brandão**,
+**Alexandre Soranz**, **Gustavo Mazzei**, **Stephan Orlandi** e **Lucas Santos**
+— todos os creators da página.
 
 Para adicionar/trocar vídeos, edite o dicionário `VIDEO_URLS` no gerador
 (scratchpad `gen.py`) ou diretamente os `src` das tags `<video>` no
@@ -41,7 +40,7 @@ primeiro frame como poster. Todos tocam em autoplay/mudo/loop quando visíveis.
 1. Hero — "top creators / Turbo Partners"
 2. Alan Melo · 3. Luckyan Bessa · 4. Arthur Zon · 5. Lucas Y Paz ·
 6. Diogo Brandão · 7. Alexandre Soranz · 8. Gustavo Mazzei ·
-9. Stephan Orlandi · 10. Lucas Santos · 11. Matheus Pessona
+9. Stephan Orlandi · 10. Lucas Santos
 
 O lado (esquerda/direita) de cada nome é calculado por índice, alternando
 automaticamente — inserir/remover creators mantém o zigue-zague.
