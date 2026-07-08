@@ -19,22 +19,20 @@ de iPhone em SVG.
 
 ## Mídia (vídeos e posters)
 
-Cada celular referencia um vídeo e um poster na pasta `videos/`, com nomes
-previsíveis por creator (3 vídeos por seção):
+Os creators com vídeo já enviado referenciam URLs remotas (CDN da Shopify)
+direto na tag `<video>` — nada de vídeo é versionado no repositório. Já têm
+vídeo: **Alan Melo**, **Luckyan Bessa**, **Diogo Brandão** e **Gustavo Mazzei**
+(3 vídeos cada, na ordem esquerda → centro → direita).
 
-```
-videos/<slug>-1.mp4   videos/<slug>-1.jpg
-videos/<slug>-2.mp4   videos/<slug>-2.jpg
-videos/<slug>-3.mp4   videos/<slug>-3.jpg
-```
+Os demais creators (Lucas Y Paz, Alexandre Soranz, Stephan Orlandi, Lucas
+Santos, Matheus Pessona) ficam com a tela no placeholder escuro até os vídeos
+serem enviados; nesse caso o padrão é `videos/<slug>-N.mp4`.
 
-Slugs: `alan-melo`, `luckyan-bessa`, `lucas-y-paz`, `diogo-brandao`,
-`alexandre-soranz`, `gustavo-mazzei`, `stephan-orlandi`, `lucas-santos`,
-`matheus-pessona`.
+Para adicionar/trocar vídeos, edite o dicionário `VIDEO_URLS` no gerador
+(scratchpad `gen.py`) ou diretamente os `src` das tags `<video>` no
+`index.html`. Vídeos remotos usam `#t=0.1` no `src` para o navegador exibir o
+primeiro frame como poster. Todos tocam em autoplay/mudo/loop quando visíveis.
 
-Sem os arquivos, a página degrada graciosamente: as telas dos celulares ficam
-escuras e as marcas d'água são ocultadas. Os vídeos tocam em
-autoplay/mudo/loop apenas quando visíveis.
 
 ## Seções
 
