@@ -22,12 +22,13 @@ de iPhone em SVG.
 
 Os creators com vídeo já enviado referenciam URLs remotas (CDN da Shopify)
 direto na tag `<video>` — nada de vídeo é versionado no repositório. Já têm
-vídeo: **Alan Melo**, **Luckyan Bessa**, **Diogo Brandão** e **Gustavo Mazzei**
-(3 vídeos cada, na ordem esquerda → centro → direita).
+vídeo: **Alan Melo**, **Luckyan Bessa**, **Lucas Y Paz**, **Diogo Brandão**,
+**Alexandre Soranz**, **Gustavo Mazzei** e **Lucas Santos** (3 vídeos cada, na
+ordem esquerda → centro → direita).
 
-Os demais creators (Arthur Zon, Lucas Y Paz, Alexandre Soranz, Stephan Orlandi, Lucas
-Santos, Matheus Pessona) ficam com a tela no placeholder escuro até os vídeos
-serem enviados; nesse caso o padrão é `videos/<slug>-N.mp4`.
+Os demais creators (Arthur Zon, Stephan Orlandi, Matheus Pessona) ficam com a
+tela no placeholder escuro até os vídeos serem enviados; nesse caso o padrão é
+`videos/<slug>-N.mp4`.
 
 Para adicionar/trocar vídeos, edite o dicionário `VIDEO_URLS` no gerador
 (scratchpad `gen.py`) ou diretamente os `src` das tags `<video>` no
