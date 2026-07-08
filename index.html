@@ -662,7 +662,12 @@ document.querySelectorAll('.screen').forEach((screen) => {
 
   const toggle = (e) => {
     if (e) e.stopPropagation();
-    if (v.paused) v.play().catch(() => {}); else v.pause();
+    if (v.paused) {
+      // ao dar play, ativa o som deste video e silencia os demais (audio exclusivo)
+      allVideos.forEach((o) => { if (o !== v) { o.muted = true; o.classList.remove('son'); } });
+      v.muted = false; v.classList.add('son');
+      v.play().catch(() => {});
+    } else { v.pause(); }
   };
   const big = screen.querySelector('.vbig');
   if (big) big.addEventListener('click', toggle);
