@@ -8,12 +8,13 @@ de iPhone em SVG.
 ## Estrutura
 
 - `index.html` — página completa, auto-contida (um único arquivo).
+- Logo da Turbo (PNG branco no CDN) centralizada numa faixa no topo da página.
 - Tipografia da marca: **Neue Kaine** (variável, local em `fonts/`) para
   títulos e nomes dos creators, e **Plus Jakarta Sans** (Google Fonts) para
   labels e textos — como no logo "Turbo partners".
-- Paleta da marca: Blue `#1D1E6C` (fundo da página), Ice `#F7F9F9` (texto),
+- Paleta da marca: Dark `#0B0726` (fundo da página), Ice `#F7F9F9` (texto),
   Green `#37D3A4` (acentos), Blu `#415FF2` (acento de marca),
-  Dark `#0B0726` (telas dos celulares) e
+  Black `#03020A` (telas dos celulares) e
   Black `#03020A`/Gray 500 `#9398A1` (rodapé).
 - Layout em canvas de 1366×768 por seção, escalado proporcionalmente ao
   viewport via `--u: calc(100vw / 1366)` — mesmo comportamento do site do Canva.
@@ -22,13 +23,12 @@ de iPhone em SVG.
 
 Os creators com vídeo já enviado referenciam URLs remotas (CDN da Shopify)
 direto na tag `<video>` — nada de vídeo é versionado no repositório. Já têm
-vídeo: **Alan Melo**, **Luckyan Bessa**, **Lucas Y Paz**, **Diogo Brandão**,
-**Alexandre Soranz**, **Gustavo Mazzei** e **Lucas Santos** (3 vídeos cada, na
-ordem esquerda → centro → direita).
+vídeo: **Alan Melo**, **Luckyan Bessa**, **Arthur Zon**, **Lucas Y Paz**,
+**Diogo Brandão**, **Alexandre Soranz**, **Gustavo Mazzei**, **Stephan Orlandi**
+e **Lucas Santos** (3 vídeos cada, na ordem esquerda → centro → direita).
 
-Os demais creators (Arthur Zon, Stephan Orlandi, Matheus Pessona) ficam com a
-tela no placeholder escuro até os vídeos serem enviados; nesse caso o padrão é
-`videos/<slug>-N.mp4`.
+Falta apenas **Matheus Pessona**, que fica com a tela no placeholder escuro
+até os vídeos serem enviados (padrão `videos/<slug>-N.mp4`).
 
 Para adicionar/trocar vídeos, edite o dicionário `VIDEO_URLS` no gerador
 (scratchpad `gen.py`) ou diretamente os `src` das tags `<video>` no
