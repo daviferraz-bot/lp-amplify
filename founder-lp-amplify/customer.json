@@ -1,0 +1,37 @@
+{
+  "business": "LP Amplify: landing pages prontas para negócios locais sem site, vendidas por abordagem no WhatsApp",
+  "target": "Donos de pequenos negócios locais no Brasil que não têm site e atendem pelo WhatsApp, Instagram e Google Maps (todos os valores em reais, R$)",
+  "where": "Brasil, cidade não definida",
+  "age": [25, 60],
+  "segments": [
+    {"name": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$", "share": 0.30, "income": [30000, 90000]},
+    {"name": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$", "share": 0.20, "income": [70000, 200000]},
+    {"name": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$", "share": 0.25, "income": [35000, 120000]},
+    {"name": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$", "share": 0.25, "income": [35000, 110000]}
+  ],
+  "behaviours": [
+    {"name": "Vive de indicação", "share": 0.20, "how": "Quase todo cliente novo vem do boca a boca; nunca sentiu falta de site."},
+    {"name": "Tudo pelo Instagram", "share": 0.20, "how": "Posta no Instagram e atende pelo direct e WhatsApp; acha que o perfil já faz o papel de site."},
+    {"name": "Desconfiado de golpe", "share": 0.15, "how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas."},
+    {"name": "Quer crescer", "share": 0.15, "how": "Já pagou ou pensou em pagar anúncio; quer mais clientes e topa investir se fizer sentido."},
+    {"name": "Já se queimou", "share": 0.10, "how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado."},
+    {"name": "Sem tempo", "share": 0.10, "how": "Atende sozinho(a) o dia inteiro e não tem tempo para reunião com vendedor."},
+    {"name": "Pesquisa preço de tudo", "share": 0.10, "how": "Compara com o que acha na internet antes de gastar qualquer valor."}
+  ],
+  "objections": [
+    "Já tenho Instagram e perfil no Google, pra que site?",
+    "Isso é golpe?",
+    "Quanto vou pagar depois, todo mês?",
+    "Já paguei por site/marketing e não serviu pra nada",
+    "Não tenho tempo pra reunião",
+    "Um site traz cliente mesmo?",
+    "Dá pra fazer isso de graça com um aplicativo ou com IA",
+    "É caro pra uma página só"
+  ],
+  "habits": [
+    "você atende clientes o dia todo e só olha o WhatsApp nos intervalos",
+    "você recebe pelo menos uma mensagem de vendedor desconhecido por semana",
+    "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps",
+    "você posta no Instagram quando sobra tempo"
+  ]
+}

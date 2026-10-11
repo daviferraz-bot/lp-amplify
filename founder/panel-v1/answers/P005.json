@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Minha secretária nem me passaria essa mensagem, e mesmo que passasse: já paguei agência, ficou bonito e não trouxe um paciente a mais. R$ 2.500 por mês para alguém que eu não conheço, sem dizer quantos posts nem por quanto tempo, não.",
+  "objection": "Post bonito não enche agenda. Ninguém me mostra que isso vira consulta, e ainda vão querer que eu grave vídeo e aprove tudo, que é o tempo que eu não tenho.",
+  "would_change_my_mind": "Indicação de um colega médico da minha especialidade aqui da região mostrando que passou a receber pacientes particulares pelo Instagram depois do serviço.",
+  "price_too_cheap": 500,
+  "price_cheap": 1000,
+  "price_expensive": 1800,
+  "price_too_expensive": 2500
+}

@@ -1,0 +1,101 @@
+{
+ "n": 20,
+ "seed": 11,
+ "customer": {
+  "business": "Social media para médicos: gestão de Instagram vendida por prospecção ativa",
+  "target": "Médicos com consultório ou clínica na Grande Vitória (ES) e nas capitais do Sudeste, que têm Instagram profissional mas não contratam ninguém para cuidar dele (todos os valores em reais, R$)",
+  "where": "Grande Vitória (ES), São Paulo, Rio de Janeiro, Belo Horizonte",
+  "age": [
+   28,
+   62
+  ],
+  "segments": [
+   {
+    "name": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+    "share": 0.35,
+    "income": [
+     300000,
+     900000
+    ]
+   },
+   {
+    "name": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+    "share": 0.35,
+    "income": [
+     250000,
+     700000
+    ]
+   },
+   {
+    "name": "Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$",
+    "share": 0.2,
+    "income": [
+     150000,
+     350000
+    ]
+   },
+   {
+    "name": "Médico(a) dono(a) ou gestor(a) de clínica com vários médicos; renda pessoal anual em R$",
+    "share": 0.1,
+    "income": [
+     400000,
+     1500000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Posta sozinho quando dá",
+    "share": 0.2,
+    "how": "Posta no Instagram de vez em quando, sem frequência; sabe que deveria postar mais."
+   },
+   {
+    "name": "Secretária cuida do Instagram",
+    "share": 0.15,
+    "how": "A secretária ou uma assistente posta e responde; é ela quem lê as mensagens do perfil."
+   },
+   {
+    "name": "Já se decepcionou com agência",
+    "share": 0.15,
+    "how": "Já pagou agência ou social media, recebeu posts genéricos e não viu paciente novo."
+   },
+   {
+    "name": "Medo do conselho",
+    "share": 0.1,
+    "how": "Evita postar por medo de ferir as regras de publicidade do CFM."
+   },
+   {
+    "name": "Agenda cheia",
+    "share": 0.15,
+    "how": "Agenda cheia por convênio e indicação; não sente necessidade de marketing."
+   },
+   {
+    "name": "Quer crescer no particular",
+    "share": 0.15,
+    "how": "Quer mais paciente particular e já investe ou pensa em investir no Instagram."
+   },
+   {
+    "name": "Desconfiado de abordagem comercial",
+    "share": 0.1,
+    "how": "Recebe propostas de agências toda semana e ignora quase todas."
+   }
+  ],
+  "objections": [
+   "Não tenho tempo para gravar vídeo",
+   "Já tive agência e não trouxe paciente",
+   "Isso pode me dar problema com o CRM/CFM?",
+   "Quem é essa pessoa? Nunca ouvi falar",
+   "Minha agenda já está cheia",
+   "Instagram traz paciente mesmo ou só seguidor?",
+   "É caro para um serviço de post",
+   "Minha secretária já cuida disso"
+  ],
+  "habits": [
+   "você atende o dia todo e só olha mensagens à noite",
+   "sua secretária filtra quase todas as mensagens que chegam",
+   "você vê colegas da sua especialidade crescendo no Instagram",
+   "você recebe propostas de agências de marketing com frequência"
+  ]
+ },
+ "pitch": "Você recebe uma mensagem de uma social media que você não conhece: \"Oi, Dr(a)! Fiz um relatório do seu Instagram com alguns pontos de melhoria. Posso te enviar?\"\nSe você aceitar, ela manda um diagnóstico curto do seu perfil com pontos de melhoria e convida para uma reunião de 30 minutos para apresentar o serviço.\nO serviço: gestão mensal do seu Instagram (planejamento, criação de posts e stories, publicação), por R$ 2.500 por mês.\nA mensagem não diz quantos posts, por quanto tempo é o contrato nem quanto do seu tempo o serviço exige."
+}

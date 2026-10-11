@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Sofia",
+  "age": 40,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 395000,
+  "behaviour": "Desconfiado de abordagem comercial",
+  "behaviour_how": "Recebe propostas de agências toda semana e ignora quase todas.",
+  "objection": "Quem é essa pessoa? Nunca ouvi falar",
+  "habit": "você recebe propostas de agências de marketing com frequência"
+ },
+ {
+  "id": "P002",
+  "name": "Emil",
+  "age": 58,
+  "segment": "Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$",
+  "income": 271000,
+  "behaviour": "Já se decepcionou com agência",
+  "behaviour_how": "Já pagou agência ou social media, recebeu posts genéricos e não viu paciente novo.",
+  "objection": "É caro para um serviço de post",
+  "habit": "você atende o dia todo e só olha mensagens à noite"
+ },
+ {
+  "id": "P003",
+  "name": "Maeve",
+  "age": 34,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 365000,
+  "behaviour": "Secretária cuida do Instagram",
+  "behaviour_how": "A secretária ou uma assistente posta e responde; é ela quem lê as mensagens do perfil.",
+  "objection": "Minha agenda já está cheia",
+  "habit": "sua secretária filtra quase todas as mensagens que chegam"
+ },
+ {
+  "id": "P004",
+  "name": "Sara",
+  "age": 53,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 454000,
+  "behaviour": "Quer crescer no particular",
+  "behaviour_how": "Quer mais paciente particular e já investe ou pensa em investir no Instagram.",
+  "objection": "Minha secretária já cuida disso",
+  "habit": "você vê colegas da sua especialidade crescendo no Instagram"
+ },
+ {
+  "id": "P005",
+  "name": "Tariq",
+  "age": 61,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 329000,
+  "behaviour": "Posta sozinho quando dá",
+  "behaviour_how": "Posta no Instagram de vez em quando, sem frequência; sabe que deveria postar mais.",
+  "objection": "Já tive agência e não trouxe paciente",
+  "habit": "sua secretária filtra quase todas as mensagens que chegam"
+ },
+ {
+  "id": "P006",
+  "name": "Ethan",
+  "age": 42,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 466000,
+  "behaviour": "Quer crescer no particular",
+  "behaviour_how": "Quer mais paciente particular e já investe ou pensa em investir no Instagram.",
+  "objection": "Já tive agência e não trouxe paciente",
+  "habit": "você vê colegas da sua especialidade crescendo no Instagram"
+ },
+ {
+  "id": "P007",
+  "name": "Wes",
+  "age": 41,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 850000,
+  "behaviour": "Secretária cuida do Instagram",
+  "behaviour_how": "A secretária ou uma assistente posta e responde; é ela quem lê as mensagens do perfil.",
+  "objection": "Quem é essa pessoa? Nunca ouvi falar",
+  "habit": "você atende o dia todo e só olha mensagens à noite"
+ },
+ {
+  "id": "P008",
+  "name": "Fatima",
+  "age": 32,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 462000,
+  "behaviour": "Medo do conselho",
+  "behaviour_how": "Evita postar por medo de ferir as regras de publicidade do CFM.",
+  "objection": "Minha secretária já cuida disso",
+  "habit": "sua secretária filtra quase todas as mensagens que chegam"
+ },
+ {
+  "id": "P009",
+  "name": "Kai",
+  "age": 31,
+  "segment": "Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$",
+  "income": 159000,
+  "behaviour": "Já se decepcionou com agência",
+  "behaviour_how": "Já pagou agência ou social media, recebeu posts genéricos e não viu paciente novo.",
+  "objection": "Minha agenda já está cheia",
+  "habit": "você vê colegas da sua especialidade crescendo no Instagram"
+ },
+ {
+  "id": "P010",
+  "name": "Arjun",
+  "age": 61,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 507000,
+  "behaviour": "Posta sozinho quando dá",
+  "behaviour_how": "Posta no Instagram de vez em quando, sem frequência; sabe que deveria postar mais.",
+  "objection": "Isso pode me dar problema com o CRM/CFM?",
+  "habit": "você atende o dia todo e só olha mensagens à noite"
+ },
+ {
+  "id": "P011",
+  "name": "Mason",
+  "age": 51,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 312000,
+  "behaviour": "Medo do conselho",
+  "behaviour_how": "Evita postar por medo de ferir as regras de publicidade do CFM.",
+  "objection": "Minha secretária já cuida disso",
+  "habit": "você vê colegas da sua especialidade crescendo no Instagram"
+ },
+ {
+  "id": "P012",
+  "name": "Emma",
+  "age": 61,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 513000,
+  "behaviour": "Quer crescer no particular",
+  "behaviour_how": "Quer mais paciente particular e já investe ou pensa em investir no Instagram.",
+  "objection": "Isso pode me dar problema com o CRM/CFM?",
+  "habit": "você atende o dia todo e só olha mensagens à noite"
+ },
+ {
+  "id": "P013",
+  "name": "Caleb",
+  "age": 29,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 464000,
+  "behaviour": "Posta sozinho quando dá",
+  "behaviour_how": "Posta no Instagram de vez em quando, sem frequência; sabe que deveria postar mais.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor?",
+  "habit": "você vê colegas da sua especialidade crescendo no Instagram"
+ },
+ {
+  "id": "P014",
+  "name": "Sienna",
+  "age": 30,
+  "segment": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+  "income": 260000,
+  "behaviour": "Já se decepcionou com agência",
+  "behaviour_how": "Já pagou agência ou social media, recebeu posts genéricos e não viu paciente novo.",
+  "objection": "Já tive agência e não trouxe paciente",
+  "habit": "você recebe propostas de agências de marketing com frequência"
+ },
+ {
+  "id": "P015",
+  "name": "Kira",
+  "age": 32,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 738000,
+  "behaviour": "Agenda cheia",
+  "behaviour_how": "Agenda cheia por convênio e indicação; não sente necessidade de marketing.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor?",
+  "habit": "sua secretária filtra quase todas as mensagens que chegam"
+ },
+ {
+  "id": "P016",
+  "name": "Zoe",
+  "age": 32,
+  "segment": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+  "income": 345000,
+  "behaviour": "Posta sozinho quando dá",
+  "behaviour_how": "Posta no Instagram de vez em quando, sem frequência; sabe que deveria postar mais.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor?",
+  "habit": "você atende o dia todo e só olha mensagens à noite"
+ },
+ {
+  "id": "P017",
+  "name": "June",
+  "age": 36,
+  "segment": "Médico(a) dono(a) ou gestor(a) de clínica com vários médicos; renda pessoal anual em R$",
+  "income": 1273000,
+  "behaviour": "Secretária cuida do Instagram",
+  "behaviour_how": "A secretária ou uma assistente posta e responde; é ela quem lê as mensagens do perfil.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor?",
+  "habit": "você vê colegas da sua especialidade crescendo no Instagram"
+ },
+ {
+  "id": "P018",
+  "name": "Alma",
+  "age": 33,
+  "segment": "Médico(a) dono(a) ou gestor(a) de clínica com vários médicos; renda pessoal anual em R$",
+  "income": 1154000,
+  "behaviour": "Agenda cheia",
+  "behaviour_how": "Agenda cheia por convênio e indicação; não sente necessidade de marketing.",
+  "objection": "Já tive agência e não trouxe paciente",
+  "habit": "você recebe propostas de agências de marketing com frequência"
+ },
+ {
+  "id": "P019",
+  "name": "Hugo",
+  "age": 29,
+  "segment": "Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$",
+  "income": 323000,
+  "behaviour": "Agenda cheia",
+  "behaviour_how": "Agenda cheia por convênio e indicação; não sente necessidade de marketing.",
+  "objection": "Não tenho tempo para gravar vídeo",
+  "habit": "você recebe propostas de agências de marketing com frequência"
+ },
+ {
+  "id": "P020",
+  "name": "Hana",
+  "age": 52,
+  "segment": "Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$",
+  "income": 267000,
+  "behaviour": "Desconfiado de abordagem comercial",
+  "behaviour_how": "Recebe propostas de agências toda semana e ignora quase todas.",
+  "objection": "Já tive agência e não trouxe paciente",
+  "habit": "você atende o dia todo e só olha mensagens à noite"
+ }
+]

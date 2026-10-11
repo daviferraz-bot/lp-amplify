@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Recebo esse tipo de mensagem de gente que eu não conheço o tempo todo, e minha secretária já posta no Instagram. Posso até deixar mandar o relatório por curiosidade, mas não vou fechar R$ 2.500 por mês com uma desconhecida sem saber quantos posts, por quanto tempo é o contrato e se ela entende de comunicação médica.",
+  "objection": "Não sei quem é ela, nem se entende das regras do CFM para publicidade médica. Também não sei quanto do meu tempo isso vai tomar para gravar e aprovar conteúdo, e minha secretária já faz o básico de graça.",
+  "would_change_my_mind": "Ver casos reais de colegas da minha especialidade que ela atende, com aumento de pacientes particulares vindos do Instagram, e uma proposta clara com número de posts, quanto tempo meu ela precisa e um contrato sem fidelidade longa.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3000,
+  "price_too_expensive": 5000
+}

@@ -1,13 +1,8 @@
-# LP Amplify (nome provisório)
+# Social media para médicos (nome provisório)
 
-- O que é: um serviço de landing pages para negócios locais que ainda não têm site, vendido por prospecção ativa: o Claude ajuda a encontrar os leads, o fundador monta uma LP antes do contato e oferece mostrá-la numa reunião.
-- Para quem: negócios locais sem site ou landing page. Nicho e cidade ainda não definidos.
-- O que vende, a que preço: uma landing page pronta para o negócio. Preço em aberto, entre R$ 300 e R$ 1.997 (a primeira ideia era R$ 997 a R$ 1.997). O fundador prefere volume se vender barato for bem mais fácil ("vender 5 por 300 pode ser melhor que vender 3 por 500"). Sem cobrança recorrente definida.
-- Onde e como: prospecção pelo WhatsApp. Mensagem: "vi que seu negócio não tem página/site, fiz uma e queria te mostrar numa reunião". Leads levantados com ajuda do Claude.
-- Orçamento e limites: 10 horas por semana. É renda extra, não o trabalho principal. Orçamento em dinheiro não informado. O fundador diz que montar uma LP "não é um trabalho tão grande".
-
-## Atualização (contexto do fundador)
-
-- O fundador é PO de projetos tech numa agência que entrega landing pages por cerca de R$ 5.000 em 30 dias, e alguns clientes pagam esse valor. A ideia é pegar projetos por fora, como renda extra.
-- Opção em estudo: buscar clientes fora do Brasil.
-- Em aberto: se o contrato de trabalho permite atender clientes por fora no mesmo tipo de serviço.
+- O que é: gestão de Instagram para médicos, vendida por prospecção ativa. Um CRM com leads; a abordagem oferece um relatório do Instagram do médico, depois um diagnóstico curto com pontos de melhoria, uma reunião e o fechamento do serviço mensal.
+- Para quem: médicos e clínicas da Grande Vitória (ES) e das capitais do Sudeste.
+- O que vende, a que preço: gestão mensal de Instagram (social media). Preço ainda não definido.
+- Onde e como: prospecção ativa por mensagem, a partir de uma lista de leads num CRM próprio. Entrega remota.
+- Orçamento e limites: a social media tem 40 horas por semana para o projeto. Ela já atendeu mais de 50 marcas como social media numa agência. O sócio (PO de projetos tech) monta o CRM e as automações com IA. Orçamento em dinheiro não informado.
+- Resultado até agora: cerca de 50 mensagens enviadas, 1 reunião marcada, nenhuma venda.

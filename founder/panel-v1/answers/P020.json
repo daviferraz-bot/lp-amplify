@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Recebo esse tipo de mensagem toda semana e já paguei agência que não trouxe um paciente sequer. Uma desconhecida com um 'relatório' grátis e R$ 2.500 por mês sem dizer quantos posts nem o prazo do contrato eu nem respondo.",
+  "objection": "Já tive agência e não trouxe paciente. Post bonito não enche agenda, e ninguém me mostra resultado em consulta marcada.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço, com números reais de pacientes que chegaram pelo Instagram, e um contrato curto sem fidelidade com o escopo escrito.",
+  "price_too_cheap": 500,
+  "price_cheap": 1000,
+  "price_expensive": 2000,
+  "price_too_expensive": 3000
+}

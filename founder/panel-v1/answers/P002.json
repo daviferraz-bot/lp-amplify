@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já paguei social media antes, recebi post genérico e nenhum paciente novo. Uma desconhecida me mandando relatório no direct, cobrando R$ 2.500 sem dizer quantos posts nem o prazo do contrato, parece a mesma história de novo.",
+  "objection": "Não vejo como isso vira paciente na minha agenda. É caro para um serviço de post, e eu não tenho tempo para reunião de 30 minutos nem para ficar aprovando conteúdo à noite.",
+  "would_change_my_mind": "Resultado comprovado com outros médicos da região (pacientes novos que vieram do Instagram), com escopo claro e sem fidelidade, podendo cancelar no primeiro mês se não funcionar.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 1600,
+  "price_too_expensive": 2500
+}

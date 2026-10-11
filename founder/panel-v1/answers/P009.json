@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já paguei social media antes, recebi post genérico e nenhum paciente novo. Uma mensagem fria de alguém que eu não conheço, pedindo R$ 2.500 por mês sem dizer quantos posts nem por quanto tempo, não me convence, ainda mais com a agenda já cheia.",
+  "objection": "Vou pagar R$ 2.500 por mês, quase um quinto do que eu ganho, por mais post bonito que não traz paciente, e ainda vou ter que gastar meu tempo aprovando conteúdo e gravando story.",
+  "would_change_my_mind": "Ver resultado real de um colega médico da minha especialidade, com número de pacientes novos vindos do Instagram, e um contrato curto sem fidelidade com escopo claro.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 1500,
+  "price_too_expensive": 2200
+}

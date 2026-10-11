@@ -1,101 +1,101 @@
 {
  "n": 20,
- "seed": 7,
+ "seed": 11,
  "customer": {
-  "business": "LP Amplify: landing pages prontas para negócios locais sem site, vendidas por abordagem no WhatsApp",
-  "target": "Donos de pequenos negócios locais no Brasil que não têm site e atendem pelo WhatsApp, Instagram e Google Maps (todos os valores em reais, R$)",
-  "where": "Brasil, cidade não definida",
+  "business": "Social media para médicos: gestão de Instagram vendida por prospecção ativa",
+  "target": "Médicos com consultório ou clínica na Grande Vitória (ES) e nas capitais do Sudeste, que têm Instagram profissional mas não contratam ninguém para cuidar dele (todos os valores em reais, R$)",
+  "where": "Grande Vitória (ES), São Paulo, Rio de Janeiro, Belo Horizonte",
   "age": [
-   25,
-   60
+   28,
+   62
   ],
   "segments": [
    {
-    "name": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
-    "share": 0.3,
+    "name": "Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$",
+    "share": 0.35,
     "income": [
-     30000,
-     90000
+     300000,
+     900000
     ]
    },
    {
-    "name": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+    "name": "Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$",
+    "share": 0.35,
+    "income": [
+     250000,
+     700000
+    ]
+   },
+   {
+    "name": "Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$",
     "share": 0.2,
     "income": [
-     70000,
-     200000
+     150000,
+     350000
     ]
    },
    {
-    "name": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
-    "share": 0.25,
+    "name": "Médico(a) dono(a) ou gestor(a) de clínica com vários médicos; renda pessoal anual em R$",
+    "share": 0.1,
     "income": [
-     35000,
-     120000
-    ]
-   },
-   {
-    "name": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
-    "share": 0.25,
-    "income": [
-     35000,
-     110000
+     400000,
+     1500000
     ]
    }
   ],
   "behaviours": [
    {
-    "name": "Vive de indicação",
+    "name": "Posta sozinho quando dá",
     "share": 0.2,
-    "how": "Quase todo cliente novo vem do boca a boca; nunca sentiu falta de site."
+    "how": "Posta no Instagram de vez em quando, sem frequência; sabe que deveria postar mais."
    },
    {
-    "name": "Tudo pelo Instagram",
-    "share": 0.2,
-    "how": "Posta no Instagram e atende pelo direct e WhatsApp; acha que o perfil já faz o papel de site."
-   },
-   {
-    "name": "Desconfiado de golpe",
+    "name": "Secretária cuida do Instagram",
     "share": 0.15,
-    "how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas."
+    "how": "A secretária ou uma assistente posta e responde; é ela quem lê as mensagens do perfil."
    },
    {
-    "name": "Quer crescer",
+    "name": "Já se decepcionou com agência",
     "share": 0.15,
-    "how": "Já pagou ou pensou em pagar anúncio; quer mais clientes e topa investir se fizer sentido."
+    "how": "Já pagou agência ou social media, recebeu posts genéricos e não viu paciente novo."
    },
    {
-    "name": "Já se queimou",
+    "name": "Medo do conselho",
     "share": 0.1,
-    "how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado."
+    "how": "Evita postar por medo de ferir as regras de publicidade do CFM."
    },
    {
-    "name": "Sem tempo",
-    "share": 0.1,
-    "how": "Atende sozinho(a) o dia inteiro e não tem tempo para reunião com vendedor."
+    "name": "Agenda cheia",
+    "share": 0.15,
+    "how": "Agenda cheia por convênio e indicação; não sente necessidade de marketing."
    },
    {
-    "name": "Pesquisa preço de tudo",
+    "name": "Quer crescer no particular",
+    "share": 0.15,
+    "how": "Quer mais paciente particular e já investe ou pensa em investir no Instagram."
+   },
+   {
+    "name": "Desconfiado de abordagem comercial",
     "share": 0.1,
-    "how": "Compara com o que acha na internet antes de gastar qualquer valor."
+    "how": "Recebe propostas de agências toda semana e ignora quase todas."
    }
   ],
   "objections": [
-   "Já tenho Instagram e perfil no Google, pra que site?",
-   "Isso é golpe?",
-   "Quanto vou pagar depois, todo mês?",
-   "Já paguei por site/marketing e não serviu pra nada",
-   "Não tenho tempo pra reunião",
-   "Um site traz cliente mesmo?",
-   "Dá pra fazer isso de graça com um aplicativo ou com IA",
-   "É caro pra uma página só"
+   "Não tenho tempo para gravar vídeo",
+   "Já tive agência e não trouxe paciente",
+   "Isso pode me dar problema com o CRM/CFM?",
+   "Quem é essa pessoa? Nunca ouvi falar",
+   "Minha agenda já está cheia",
+   "Instagram traz paciente mesmo ou só seguidor?",
+   "É caro para um serviço de post",
+   "Minha secretária já cuida disso"
   ],
   "habits": [
-   "você atende clientes o dia todo e só olha o WhatsApp nos intervalos",
-   "você recebe pelo menos uma mensagem de vendedor desconhecido por semana",
-   "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps",
-   "você posta no Instagram quando sobra tempo"
+   "você atende o dia todo e só olha mensagens à noite",
+   "sua secretária filtra quase todas as mensagens que chegam",
+   "você vê colegas da sua especialidade crescendo no Instagram",
+   "você recebe propostas de agências de marketing com frequência"
   ]
  },
- "pitch": "Você recebe esta mensagem no WhatsApp do seu negócio, de um número que não conhece:\n\"Oi! Vi que o seu negócio não tem site nem página na internet. Eu fiz uma landing page para vocês, com seus serviços, fotos e um botão para chamar no WhatsApp. Posso te mostrar numa reunião rápida de 15 minutos?\"\nO que está à venda: essa landing page, publicada num endereço próprio, por R$ 997, pagamento único.\nA mensagem não diz quem paga hospedagem e domínio depois, nem quem faz alterações depois da entrega."
+ "pitch": "Você recebe uma mensagem de uma social media que você não conhece. Ela se identifica pelo nome, diz que atendeu mais de 50 marcas numa agência de marketing e que hoje trabalha só com médicos:\n\"Dr(a)., olhei seu Instagram: a bio não mostra o seu RQE, que a Resolução CFM 2.336 exige, e o último post é de mais de um mês atrás. Gravei um vídeo de 2 minutos mostrando 3 ajustes rápidos no seu perfil. Posso te mandar?\"\nSe você aceitar, recebe o vídeo e esta oferta, sem precisar de reunião (a reunião é opcional):\n- Passo 1, \"Perfil em dia com o CFM\": bio, destaques, link de agendamento e 9 posts fixos, tudo revisado pelas regras de publicidade médica, entregue em 7 dias. R$ 497, pagamento único, abatidos do primeiro mês se você continuar.\n- Passo 2, gestão mensal: 12 posts por mês (4 deles Reels com roteiro pronto; você grava tudo numa sessão de 1 hora por mês), stories 3 vezes por semana, calendário aprovado por você pelo WhatsApp, revisão de cada peça pelas regras do CFM e um relatório mensal de alcance e de cliques no seu link de agendamento. R$ 2.200 por mês, sem fidelidade: cancela quando quiser, com 30 dias de aviso.\n- Ela atende no máximo 8 médicos ao mesmo tempo para manter a qualidade. Não promete número de pacientes, porque o CFM proíbe promessa de resultado."
 }

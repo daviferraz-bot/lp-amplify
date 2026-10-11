@@ -2,12 +2,12 @@
   "id": "P007",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "need",
-  "reason": "Meu cliente me acha pelo Google Maps e me chama no WhatsApp, isso já funciona. Não vou parar o atendimento pra reunião com número desconhecido nem gastar quase mil reais numa página que não sei se traz um serviço a mais.",
-  "objection": "Já tenho Instagram e perfil no Google, pra que site? E depois quem paga domínio e hospedagem, e quem muda quando eu precisar? Não quero conta escondida todo ano.",
-  "would_change_my_mind": "Ver a página pronta direto no WhatsApp, sem reunião, com prova de que um colega do meu ramo aqui da região ganhou mais clientes com ela, e tudo incluso por um preço bem menor.",
-  "price_too_cheap": 80,
-  "price_cheap": 200,
-  "price_expensive": 450,
-  "price_too_expensive": 800
+  "reason_code": "trust",
+  "reason": "Quem lê o direct é minha secretária, e mensagem de desconhecido oferecendo serviço ela nem me repassa, ou me mostra à noite junto com outras dez iguais. Não vou entregar meu perfil e meu CRM para uma pessoa que nunca ouvi falar só porque ela achou um RQE faltando na bio; isso a secretária corrige amanhã de graça.",
+  "objection": "Não sei quem é essa pessoa, nenhum colega me indicou, e 'atendi 50 marcas numa agência' não prova nada sobre médico. Se ela errar alguma coisa de publicidade médica, quem responde no CRM sou eu, não ela.",
+  "would_change_my_mind": "Indicação de um colega médico que eu respeito e que já usa o serviço, mostrando o perfil dele antes e depois.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3500,
+  "price_too_expensive": 6000
 }

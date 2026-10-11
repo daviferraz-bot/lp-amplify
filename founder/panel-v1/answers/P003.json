@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia e minha secretária já posta e responde no Instagram, então não vejo por que pagar R$ 2.500 por mês para atrair paciente que eu não tenho horário para atender. Uma mensagem fria de uma social media que eu não conheço provavelmente nem chega até mim; a secretária filtra.",
+  "objection": "Não preciso de mais paciente agora, e uma desconhecida que manda 'relatório' pelo direct, sem dizer quantos posts, prazo de contrato ou quanto do meu tempo vai tomar, parece mais uma abordagem genérica de venda. Também não tenho 30 minutos livres para uma reunião de apresentação.",
+  "would_change_my_mind": "Ver casos reais de outros médicos da minha especialidade aqui na região com resultado concreto (por exemplo, mais pacientes particulares de procedimentos de maior valor), com escopo e contrato claros e sem exigir meu tempo, tudo resolvido com a minha secretária.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

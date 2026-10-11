@@ -1,26 +1,28 @@
 # Lente Product
-Nota: 5/10 | Voto: FUND IF
+Nota: 4/10 | Voto: FUND IF
 
 ## O que é forte
-- **O gancho começa pela experiência.** O dono vê a página do próprio negócio pronta antes de ouvir qualquer proposta. Mostrar em vez de explicar é o melhor da ideia.
-- **O pitch cabe numa frase:** "fiz uma página para o seu negócio, quer ver?".
-- **Produzir custa pouco** para quem já monta LP, então dá para testar barato.
+- Há ofício de verdade: experiência com mais de 50 marcas é o que a lente Product mais valoriza, porque é dela que vem a qualidade dos detalhes.
+- O diagnóstico gratuito é o melhor momento do produto. Se for excelente, o médico prova a qualidade do serviço antes de pagar, nos primeiros cinco minutos.
+- A Resolução CFM 2.336/2023 dá um detalhe de acabamento difícil de copiar: nome, CRM com "MÉDICO", RQE em cada peça. Feito sempre certo, isso pode ser *a* coisa que o negócio faz de forma brilhante.
+- Quem fundou sabe montar CRM, sites e IA, ou seja, consegue controlar todos os pontos de contato.
 
 ## O que mataria o negócio (os 3 maiores riscos, o mais perigoso primeiro)
-1. **O produto acaba na entrega, e é aí que o cliente começa.** O dono não compra "uma landing page", compra clientes chegando no WhatsApp. Depois do "uau" vêm emendas que ninguém definiu: domínio, hospedagem, quem muda preço ou horário, de onde vêm as visitas. Sem tráfego e sem dono, a página vira um link esquecido e o cliente conclui que "site não funciona". Sem cobrança recorrente, ninguém paga esse cuidado.
-2. **O primeiro contato é o elo mais fraco.** WhatsApp de um desconhecido pedindo reunião parece golpe. A reunião é uma etapa a mais: se a página é o produto, ela deveria se vender pelo link. Em aberto: usar foto, logo e avaliações sem autorização prejudica a confiança? Qual o risco de bloqueio do número em volume?
-3. **Falta foco.** Sem nicho, sem cidade, preço entre R$ 300 e R$ 1.997. "Negócios locais sem site" é todo mundo. Cada página parte do zero, a qualidade não sobe, e o preço baixo empurra para páginas genéricas que não impressionam ninguém.
+1. **Não existe "a coisa única".** "Social media para médicos" em quatro regiões metropolitanas, para qualquer especialidade, sem pacote e sem preço, ainda não é um produto. Não cabe numa frase que um médico repita. Sem foco, o serviço vira commodity e a disputa passa a ser por preço.
+2. **As emendas do funil.** São quatro passagens: mensagem, aceite, diagnóstico, reunião. Cada uma perde gente: até agora foram 50 mensagens, 1 reunião e 0 vendas. "Fiz um relatório do seu Instagram" soa como isca se o relatório ainda não existir, e um começo que parece truque contamina o resto da experiência. Também não se sabe quem lê a mensagem, se o médico ou a secretária, nem por qual canal ela chega.
+3. **O ofício não escala.** Uma pessoa, 40 h/semana. Sem saber as horas por cliente, a qualidade cai justamente quando o negócio começa a dar certo, e todo o produto depende de uma única pessoa.
 
-## As perguntas que eu faria ao fundador
-- Qual é o único nicho, em qual cidade, e por quê?
-- Descreva os 5 primeiros minutos do dono com a sua mensagem. Por que ele confiaria?
-- Por que pedir reunião em vez de mandar o link com um botão "quero essa página"?
-- O que o cliente recebe no dia seguinte à compra, e daqui a 6 meses?
-- O que você corta: reunião, preço alto ou páginas sob medida?
-- Quais taxas de resposta e fechamento tornam 10 h/semana viáveis? Ninguém sabe: /founder-consumer dá uma prévia e um teste real (/founder-launch) confirma. Preço: /founder-pricing. Ferramentas e horas por página: /founder-cfo. Substitutos (Instagram, link na bio, construtores grátis, agências locais): /founder-competitors.
+## As perguntas que eu faria aos fundadores
+- Diga em uma frase o que o médico recebe e por que vocês, e não outra agência.
+- Qual especialidade e qual cidade vocês atacariam sozinhas por 90 dias? O que cortariam?
+- Mostrem o relatório e o diagnóstico que um médico recebe hoje. Ele chegaria a publicar ou compartilhar esse material?
+- Qual é o primeiro mês do cliente, dia a dia? Onde a entrega passa de uma pessoa para outra ou de um sistema para outro?
+- Quantas horas por cliente por mês e quantos clientes cabem em 40 h? (pergunta aberta, responde com /founder-cfo)
+- Qual taxa de resposta e de aceite vem de médico e qual vem de secretária? (pergunta aberta, responde com /founder-consumer)
+- Quem já vende isso na Grande Vitória, e a que preço? (pergunta aberta, responde com /founder-competitors)
 
 ## Se FUND IF: as condições
-1. **Um nicho, uma cidade, um modelo de página** feito com capricho e repetido.
-2. **Um pacote fechado com preço único:** página, domínio, hospedagem, botão de WhatsApp e alterações limitadas, com a mensalidade decidida antes da primeira venda.
-3. **Abordagem que se sustenta sozinha:** link da página pronta e próximo passo de um clique, sem reunião obrigatória, com regra clara sobre usar material do negócio.
-4. **Um lote pequeno de teste real** antes de escalar, medindo resposta, fechamento e horas por venda.
+1. Escolher **uma** especialidade em **uma** cidade (sugestão: Grande Vitória, onde dá para ir até o cliente) e escrever o produto em uma frase.
+2. Definir um pacote fechado com preço (/founder-pricing) e com o cumprimento da CFM 2.336 garantido em cada peça, como compromisso visível.
+3. Juntar relatório e diagnóstico numa única entrega já pronta, enviada na primeira resposta, sem promessa de material que ainda não existe. Medir resposta e aceite por canal e por quem recebe.
+4. Fechar 3 clientes pagantes antes de ampliar mercado ou equipe. Se depois de mais 150 abordagens focadas ainda não houver nenhum, a decisão vira PASS.

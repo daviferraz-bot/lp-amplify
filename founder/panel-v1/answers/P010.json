@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Não conheço essa pessoa, a mensagem chegou do nada e não diz nada sobre como ela lida com as regras de publicidade médica. Com 61 anos e o nome que construí, não vou entregar meu Instagram a uma desconhecida por causa de um relatório gratuito.",
+  "objection": "Isso pode me dar problema com o CRM/CFM. Se ela postar antes e depois, promessa de resultado ou preço de consulta, quem responde ao conselho sou eu, não ela.",
+  "would_change_my_mind": "Indicação de um colega médico que já usa o serviço há meses sem problema com o CRM, e eu poder aprovar cada post antes de publicar.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

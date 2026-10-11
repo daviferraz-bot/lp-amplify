@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu Instagram já faz o papel de site e os clientes novos chegam por indicação e pelo Google Maps, então não vejo por que gastar quase mil reais numa página que ninguém vai abrir. Ainda mais vindo de um número que eu não conheço.",
+  "objection": "Quanto eu vou pagar depois, todo mês? A mensagem não fala de hospedagem, domínio nem de quem mexe na página quando eu mudar preço ou serviço, e eu não quero virar refém de mensalidade.",
+  "would_change_my_mind": "Ver que a página traz cliente de verdade pelo Google, com tudo incluso por escrito (domínio e hospedagem de um ano e algumas alterações sem custo extra) e alguém conhecido indicando quem fez.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 800
+}

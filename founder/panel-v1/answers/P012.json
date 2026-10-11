@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Até posso olhar o relatório à noite, mas não fecho R$ 2.500 por mês com alguém que me abordou do nada sem saber se ela entende as regras do CFM para publicidade médica. Meu nome e meu CRM valem mais que alguns seguidores.",
+  "objection": "Isso pode me dar problema com o CRM/CFM? Não sei se ela sabe o que médico pode ou não postar: antes e depois, preço, promessa de resultado. Além disso, a mensagem não diz quantos posts, por quanto tempo fico presa ao contrato nem quanto do meu tempo vou ter que gastar.",
+  "would_change_my_mind": "Ver que ela já atende outros médicos daqui, com perfis que eu possa conferir, e que conhece a resolução do CFM sobre publicidade médica, com o escopo e o contrato por escrito, sem fidelidade longa.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3000,
+  "price_too_expensive": 4500
+}

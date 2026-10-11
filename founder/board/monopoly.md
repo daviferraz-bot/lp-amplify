@@ -2,22 +2,26 @@
 Nota: 3/10 | Voto: PASS
 
 ## O que é forte
-- **Tem um jeito de chegar no cliente, não só um produto.** Montar a página antes do contato e mandar pelo WhatsApp é uma tática de distribuição concreta, e a lente Monopoly diz que a distribuição é metade do negócio. A maioria das ideias nem chega aí.
-- **Custa pouco para testar.** São 10 horas por semana, sem estoque e sem equipe. Errar sai barato e rápido.
-- **O começo pode ser pequeno.** Um nicho em uma cidade é exatamente o tipo de mercado pequeno que a lente manda dominar primeiro, se o fundador escolher um.
+- **Equipe certa para executar o serviço.** Uma social media com mais de 50 marcas no currículo e um fundador que domina IA, CRM e automação. O time sabe entregar o serviço; a dúvida é se o negócio vai durar.
+- **Uma porta para um nicho.** A Resolução CFM 2.336/2023 é recente e detalhada (CRM + "MÉDICO", RQE, regras de "antes e depois"). Conhecer bem essas regras pode virar know-how específico, se for transformado em método e não ficar só como promessa de venda.
+- **Distribuição ativa desde o primeiro dia.** Existe um CRM e um funil, não só a espera de indicações.
 
 ## O que mataria o negócio (os 3 maiores riscos, o mais perigoso primeiro)
-1. **Não há segredo nem defesa: é uma commodity.** Landing page para negócio local é vendida por freelancers, agências, construtores de site e, cada vez mais, pelo próprio dono com IA. O fundador usa a mesma IA para achar leads e montar as páginas, e qualquer um pode fazer igual. Nada impede um copiador no sexto mês; nada impede um copiador na semana que vem. Quem compete só no preço disputa margem fina, e o próprio fundador já pensa em descer para R$ 300.
-2. **Não dura: é uma venda avulsa, sem nada que prenda o cliente.** Sem hospedagem, domínio ou manutenção recorrente, cada cliente é uma venda única e o mês seguinte começa do zero. Não há efeito de rede, nem economia de escala, nem marca em formação. Daqui a dez anos, a tendência é a página feita por IA ficar ainda mais barata.
-3. **O canal pode secar ou queimar.** A mesma abordagem ("vi que você não tem site, fiz um") é fácil de copiar e, se muita gente fizer, o dono do negócio para de responder. Também falta saber se negócios sem site estão sem site porque não querem um (usam Instagram, perfil no Google ou só WhatsApp). Sem taxa de resposta nem de fechamento, não dá para saber quanto custa cada cliente.
+1. **Nada impede um imitador no sexto mês.** Gestão de Instagram não tem tecnologia própria, efeito de rede, escala nem marca. Qualquer social media ou agência pode copiar a mensagem do "relatório grátis" amanhã. Sem diferença real, a briga vira preço e a margem some. Quantos já vendem isso para o mesmo médico? Ninguém sabe (/founder-competitors).
+2. **Distribuição não comprovada e cara.** Cerca de 50 mensagens viraram 1 reunião e 0 vendas. Não se sabe quanto custa trazer um cliente nem se a mensagem chega ao médico ou à secretária. Sem isso, os primeiros 100 clientes não têm caminho (/founder-consumer para objeções, /founder-cfo para o custo por cliente).
+3. **Mercado largo demais para dominar.** Grande Vitória mais três capitais do Sudeste, todas as especialidades: isso é estar presente em muitos lugares sem liderar nenhum. Com 40 horas por semana de uma pessoa, o teto de capacidade chega antes de qualquer domínio. Quantas horas cada cliente consome por mês e com que frequência cancela são perguntas em aberto (/founder-cfo).
 
-## As perguntas que eu faria ao fundador
-- Qual é o nicho e a cidade em que você pode ser o primeiro nome que um dono lembra? Por que esse nicho?
-- O que você sabe sobre esse nicho que um freelancer genérico não sabe?
-- Quantos negócios desse nicho existem na sua cidade? Esse é o teto do mercado. (Em aberto: /founder-competitors.)
-- Quantos donos respondem no WhatsApp, quantos vão à reunião e quantos pagam? Quanto tempo você gasta por cliente fechado, da busca à entrega? (Em aberto: /founder-consumer para a demanda, /founder-cfo para o custo por cliente.)
-- O que faz o cliente continuar pagando no segundo mês?
-- R$ 300 ou R$ 1.997: o que muda na disposição a pagar? (Em aberto: /founder-pricing.)
+## As perguntas que eu faria aos fundadores
+- Qual mercado pequeno vocês conseguem dominar primeiro? Uma especialidade, uma cidade?
+- Qual é o segredo, aquilo que vocês sabem sobre marketing médico e as agências genéricas não sabem?
+- O que é 10x melhor do que contratar uma social media freelancer? Medido em quê: pacientes agendados, conformidade com o CFM, tempo do médico?
+- Por que agora? A resolução está em vigor desde março de 2024. Ainda é novidade para quem compra?
+- O fundador vai construir tecnologia própria (diagnóstico automatizado, painel de conformidade, conteúdo com IA validado pelas regras do CFM) ou isso continua sendo serviço puro?
+- Quem lê a mensagem, e por que o canal não foi definido?
+- Qual será o preço? Ainda não definido (/founder-pricing).
 
 ## Se FUND IF: as condições
-Não se aplica: o voto é PASS. Para a lente mudar o voto, o negócio teria de deixar de ser "fazer páginas" e virar "a solução de presença online para um nicho só em uma cidade só". Isso pede páginas de um nicho que convertam bem melhor que as genéricas, com números para provar, e uma receita recorrente (hospedagem, manutenção, agendamento, anúncios) que prenda o cliente. Como renda extra, pode até funcionar. Como negócio que se defende da concorrência, hoje não se defende.
+O voto não é FUND IF. O que o levaria até lá:
+- Escolher **uma especialidade em uma cidade** e mostrar participação relevante nela (meta a definir com dados de /founder-competitors).
+- Transformar o know-how de CFM + IA em um **ativo próprio** que um freelancer não copie em seis meses.
+- Provar distribuição: taxa de resposta, reunião e fechamento medidas em pelo menos algumas centenas de abordagens, com o custo por cliente calculado.

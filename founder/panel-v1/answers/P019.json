@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia com convênio e indicação, não preciso de mais paciente vindo do Instagram. Pagar R$ 2.500 por mês por algo que não me falta não faz sentido, e recebo esse tipo de mensagem toda semana.",
+  "objection": "Não tenho tempo para gravar vídeo nem para reunião de 30 minutos com alguém que não conheço, e a mensagem nem diz quantos posts, por quanto tempo é o contrato ou quanto do meu tempo isso vai consumir.",
+  "would_change_my_mind": "Se a agenda esvaziasse ou eu quisesse sair do convênio para particular, e o serviço fosse indicado por um colega médico, com zero gravação da minha parte e sem fidelidade.",
+  "price_too_cheap": 400,
+  "price_cheap": 800,
+  "price_expensive": 1500,
+  "price_too_expensive": 2500
+}

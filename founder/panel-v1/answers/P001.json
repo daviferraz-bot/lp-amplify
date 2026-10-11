@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Recebo esse tipo de mensagem toda semana e não respondo. Não sei quem ela é, não vi trabalho dela com nenhum colega, e 'relatório do seu Instagram' para mim é isca para me colocar numa reunião de venda.",
+  "objection": "Quem é essa pessoa? Nunca ouvi falar. E R$ 2.500 por mês sem dizer quantos posts, por quanto tempo de contrato, nem quanto do meu tempo vai tomar, sendo que conteúdo médico tem regra do CFM e eu é que respondo por ele.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheça e que tenha resultado comprovado com ela (agenda particular cheia vinda do Instagram), mais uma proposta clara com escopo, contrato sem fidelidade longa e que entenda as regras de publicidade médica.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3000,
+  "price_too_expensive": 5000
+}

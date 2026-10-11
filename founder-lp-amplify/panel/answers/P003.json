@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido no WhatsApp dizendo que já fez um site pra mim? Já paguei sobrinho e agência e não vi um pedido a mais. Meu cliente me acha no Instagram e no Google, não vou largar o balcão pra reunião de 15 minutos pra ouvir mais uma promessa.",
+  "objection": "Já me queimei pagando site e marketing que não trouxe cliente nenhum, e essa mensagem nem diz quem paga domínio e hospedagem depois nem quem mexe no cardápio quando eu mudar preço. Vira mais um custo escondido.",
+  "would_change_my_mind": "Só pagar depois que o site estiver no ar e trouxer pedidos que eu consiga contar no WhatsApp, com domínio, hospedagem e alterações inclusas por escrito.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 900
+}

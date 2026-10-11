@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Quem lê o direct é a minha secretária, e mensagem de social media desconhecida oferecendo 'relatório' ela nem me repassa, ou eu vejo à noite e ignoro. Não vou abrir a imagem do meu consultório para alguém que nunca ouvi falar, sem saber quantos posts, por quanto tempo de contrato e quanto do meu tempo isso vai tomar.",
+  "objection": "Quem é essa pessoa? Nunca ouvi falar. Sem indicação de colega e sem saber se ela entende das regras do CFM para publicidade médica, não arrisco meu nome por R$ 2.500.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço e que usa o serviço, com resultado visível no perfil dele e garantia de que ela segue as regras do CFM sem tomar meu tempo de atendimento.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 4000,
+  "price_too_expensive": 7000
+}

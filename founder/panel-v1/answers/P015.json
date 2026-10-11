@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia por indicação e convênio, não tenho onde encaixar mais paciente. Uma mensagem de alguém que eu não conheço provavelmente nem chega até mim, a secretária filtra, e mesmo que chegasse eu não pararia 30 minutos para uma reunião de venda.",
+  "objection": "Instagram traz paciente de verdade ou só seguidor? Não vou pagar R$ 2.500 por mês por curtida, ainda mais sem saber quantos posts são, por quanto tempo fica preso no contrato e quanto do meu tempo vai exigir gravando ou aprovando conteúdo.",
+  "would_change_my_mind": "Se minha agenda começasse a esvaziar, ou se um colega médico de confiança me mostrasse números reais de pacientes particulares que chegaram pelo Instagram com esse serviço, sem me tomar tempo.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

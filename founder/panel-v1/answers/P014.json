@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já paguei agência, recebi post genérico e nenhum paciente novo. Uma desconhecida me mandando 'relatório do seu Instagram' é exatamente o que recebo toda semana, e R$ 2.500 por mês sem dizer quantos posts, prazo de contrato ou quanto do meu tempo vai tomar não me convence a perder 30 minutos de consultório.",
+  "objection": "Já tive agência e não trouxe paciente. Não sei o que estou comprando nem como vou medir se funcionou; posts bonitos não pagam a conta, paciente marcado sim.",
+  "would_change_my_mind": "Ver resultado comprovado com outros médicos da minha especialidade (pacientes novos agendados vindos do Instagram, com referência que eu possa ligar) e um primeiro mês sem fidelidade, com escopo e número de posts definidos.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2000,
+  "price_too_expensive": 3000
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Quase mil reais numa pagina so com meus servicos e um botao de WhatsApp? Isso o Google Meu Negocio ja faz de graca, e o resto eu monto com um aplicativo ou peco pra IA. Meus clientes chegam por indicacao e pelo Maps, nao tenho por que gastar isso.",
+  "objection": "Da pra fazer de graca ou quase de graca com aplicativo ou IA, e ainda nao falaram quem paga dominio e hospedagem depois nem quem mexe quando eu precisar mudar preco ou foto. Vira gasto todo ano.",
+  "would_change_my_mind": "Um preco bem mais baixo, tipo uns 300 reais, ja com dominio, hospedagem e alteracoes inclusos por um ano, e ver um exemplo de outro prestador da regiao que passou a receber mais chamado por causa da pagina.",
+  "price_too_cheap": 80,
+  "price_cheap": 200,
+  "price_expensive": 450,
+  "price_too_expensive": 800
+}

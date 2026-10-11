@@ -1,23 +1,23 @@
 # Briefing para o conselho
 
-Este briefing é tudo o que o conselho sabe sobre a ideia. Ele reproduz o que o fundador disse, sem opinião de quem o escreveu.
+Tudo o que o conselho sabe sobre a ideia está aqui. É o que os fundadores disseram, sem opinião de quem escreveu.
 
 ## A ideia, nas palavras do fundador
 
-"Quero criar um sistema de prospecção ativa para negócios locais usando o Claude para extrair leads em potencial e abordar dizendo que eu vi que o negócio deles não tem uma página ou site/LP e dizer que eu fiz uma e queria mostrar para eles em reunião para vender essas landing pages e fazer uma renda extra."
+"Montei um CRM pra ela com leads em potencial para vender por prospecção ativa. Ela manda mensagem dizendo que fez um relatório do Instagram da pessoa e, se a pessoa responder e aceitar, mandamos um diagnóstico curto trazendo pontos de melhoria, para depois marcar uma reunião e fechar o serviço de social media para Instagram."
 
-## Ficha da ideia
+## Ficha
 
-- Nome: LP Amplify (provisório; o repositório do projeto se chama lp-amplify).
-- Mercado: Brasil (o fundador escreve em português e os preços estão em reais). Cidade não informada.
-- Cliente: negócios locais que não têm site nem landing page. Nicho ainda não escolhido.
-- Produto: uma landing page feita para o negócio. O fundador monta a página **antes** do primeiro contato e usa a página pronta como gancho para marcar uma reunião.
-- Preço: em aberto. A primeira ideia foi R$ 997 a R$ 1.997. O fundador também considera um preço bem menor, perto de R$ 300, se isso vender muito mais: "o trabalho para fazer um projeto não é TÃO grande, então vender 5 por 300 pode ser melhor que vender 3 por 500, se for mais fácil vender 5 a 300". Nenhuma cobrança recorrente (hospedagem, domínio, manutenção) foi definida.
-- Captação: o Claude ajuda a encontrar negócios sem site. A abordagem é pelo WhatsApp: "vi que seu negócio não tem página/site, fiz uma e queria te mostrar numa reunião".
-- Tempo: 10 horas por semana. É renda extra, não o trabalho principal.
-- Dinheiro para começar: não informado.
-- Habilidades: o fundador diz que consegue montar uma landing page sem muito trabalho.
+- Serviço: gestão mensal do Instagram (social media) para médicos.
+- Mercado: médicos e clínicas da Grande Vitória (ES) e das capitais do Sudeste (São Paulo, Rio de Janeiro, Belo Horizonte). Brasil, valores em reais.
+- Equipe: a social media (namorada do fundador), com 40 horas por semana disponíveis. Ela já foi social media de mais de 50 marcas numa agência de marketing. O fundador é PO de projetos tech, domina IA, CRMs, sites e e-commerce, e montou o CRM de leads.
+- Funil atual: (1) mensagem dizendo que ela fez um relatório do Instagram do médico; (2) se ele aceitar, envio de um diagnóstico curto com pontos de melhoria; (3) reunião; (4) fechamento do serviço mensal.
+- Canal da mensagem: não informado.
+- Preço: ainda não definido.
+- Resultado até agora: cerca de 50 mensagens, 1 reunião marcada, 0 vendas.
+- Contexto regulatório (fato público): a publicidade médica no Brasil segue a Resolução CFM 2.336/2023, em vigor desde março de 2024. Ela permite divulgar preço de consulta e "antes e depois" com finalidade educativa, e exige nome, número do CRM seguido de "MÉDICO" e, se houver, especialidade com RQE nas peças e redes.
+- Orçamento em dinheiro: não informado.
 
 ## O que ainda não se sabe
 
-Nicho e cidade; preço final; tamanho do mercado; quanto tempo leva cada página, da busca do lead até a entrega; taxa de resposta no WhatsApp; taxa de fechamento nas reuniões; custo de ferramentas (domínio, hospedagem, WhatsApp, Claude); concorrência local.
+Preço; o que o pacote inclui; horas por cliente por mês; especialidades-alvo; quem recebe a mensagem (o médico ou a secretária); taxa de resposta e de aceite do relatório; concorrência local; cancelamento médio.
