@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Mensagem de número desconhecido no WhatsApp eu já desconfio, e já paguei agência de site e marketing que não me trouxe um paciente sequer. Meus pacientes novos vêm de indicação e do Google Maps, então não vejo por que pagar R$ 197 todo mês por uma página que talvez ninguém abra.",
+  "objection": "Já paguei por site antes e não serviu pra nada. Um 'contato' pela página não é paciente, e R$ 197 por mês somado no ano dá quase R$ 2.400 por algo que eu não sei se muda alguma coisa no meu consultório.",
+  "would_change_my_mind": "Ver resultado de outro consultório da minha área, aqui na minha cidade, que eu consiga confirmar de verdade, mostrando que a página trouxe pacientes que não viriam pelo Maps ou por indicação.",
+  "price_too_cheap": 30,
+  "price_cheap": 60,
+  "price_expensive": 120,
+  "price_too_expensive": 200
+}

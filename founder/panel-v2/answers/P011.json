@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda enche por indicação há anos, paciente novo chega pelo boca a boca e me chama no WhatsApp. Pagar R$ 197 todo mês por uma página que eu nunca senti falta não faz sentido pra mim.",
+  "objection": "É caro pra uma página só, e por mês, pra sempre. Em um ano dá mais de dois mil reais por algo que talvez não traga ninguém que já não viria por indicação. E mensagem de número desconhecido no WhatsApp eu já desconfio.",
+  "would_change_my_mind": "Se eu começasse a ver a agenda com horários vagos e soubesse de um colega da minha área, aqui da cidade, que ganhou pacientes novos de verdade com essa página.",
+  "price_too_cheap": 30,
+  "price_cheap": 60,
+  "price_expensive": 100,
+  "price_too_expensive": 150
+}

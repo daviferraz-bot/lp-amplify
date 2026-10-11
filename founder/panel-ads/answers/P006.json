@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus pacientes chegam pelo Instagram, pelo Google Maps e por indicação, e o meu gestor de tráfego já manda tudo direto pro WhatsApp. Já paguei por site uma vez e ninguém marcou consulta por ele, então mais R$ 197 por mês numa página não me parece necessário, ainda mais vindo de um número que eu não conheço.",
+  "objection": "Já paguei por site e não trouxe paciente nenhum. Na minha área ninguém escolhe profissional de saúde por página com preço, escolhe por indicação e avaliação, e eu nem sei se posso ficar divulgando preço de consulta por causa do conselho.",
+  "would_change_my_mind": "Ver números reais de outro profissional de saúde da minha cidade que passou a receber mais agendamentos com a página, e o meu gestor de tráfego dizer que mandar o anúncio pra ela converte melhor do que mandar direto pro WhatsApp.",
+  "price_too_cheap": 50,
+  "price_cheap": 97,
+  "price_expensive": 197,
+  "price_too_expensive": 300
+}

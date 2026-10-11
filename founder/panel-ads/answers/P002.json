@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "R$ 197 todo mês dá mais de R$ 2.300 no ano por uma página que eu acho que monto de graça com IA ou com o Google Meu Negócio. Esse dinheiro eu prefiro botar em impulsionamento quando o movimento cai, que eu já sei que traz cliente.",
+  "objection": "Pagar mensalidade pra sempre por uma página simples que dá pra fazer de graça num aplicativo, e meu cliente já me chama direto no WhatsApp pelo Instagram, não sei se página muda alguma coisa.",
+  "would_change_my_mind": "Ver outro prestador de serviço aqui da região mostrando que a página trouxe orçamento fechado a mais, e um preço mais perto de R$ 50 a R$ 70 por mês.",
+  "price_too_cheap": 20,
+  "price_cheap": 50,
+  "price_expensive": 100,
+  "price_too_expensive": 150
+}

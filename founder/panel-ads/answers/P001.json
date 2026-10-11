@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Já pago o gestor de tráfego e o anúncio cai direto no meu WhatsApp, o cliente me chama e eu fecho ali mesmo. Mais R$ 197 todo mês por uma página que eu não sei se vai trazer alguém a mais do que já chega, não dá agora.",
+  "objection": "Mais uma mensalidade em cima do gestor e do impulsionamento, e meu cliente de oficina/reforma quer falar no zap, não ficar lendo página. Não sei se isso vira serviço ou só vira mais um boleto.",
+  "would_change_my_mind": "Se meu próprio gestor de tráfego dissesse que mandando o anúncio para essa página o custo por contato cai, e o preço ficasse perto de R$ 97 pra eu testar sem doer.",
+  "price_too_cheap": 30,
+  "price_cheap": 79,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}

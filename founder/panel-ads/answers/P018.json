@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason": "Já paguei site e agência antes e não veio cliente nenhum; meu cliente me acha pelo Instagram, pelo WhatsApp e pelo boca a boca, não sei se uma página a mais muda isso. Até abriria o link por curiosidade, mas R$ 197 todo mês pra uma lanchonete é dinheiro de verdade, e mensagem de vendedor eu recebo toda semana.",
+  "reason_code": "trust",
+  "objection": "Página bonita eu já tive e não serviu pra nada. Quem garante que esse 'relatório de contatos' não vai ser só gente que já ia me chamar de qualquer jeito pelo Instagram? E a garantia só vale se vier zero contato, aí é fácil cumprir.",
+  "would_change_my_mind": "Ver um negócio de comida parecido com o meu, aqui perto, mostrando quantos pedidos a mais chegaram pela página em uns meses, ou pagar só se vier um número mínimo de contatos novos.",
+  "price_too_cheap": 40,
+  "price_cheap": 80,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}

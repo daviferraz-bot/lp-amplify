@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido me mandando link no WhatsApp, eu nem clico, recebo isso toda semana. E meus clientes já me acham pelo Google Maps, pelo Instagram e por indicação, não vejo por que pagar R$ 197 todo mês por uma página que meu sobrinho ou uma IA faz de graça.",
+  "objection": "Não conheço esse Davi, e mesmo com CNPJ pode ser golpe. Mesmo sendo sério, é mais uma mensalidade pra uma coisa que eu não sei se traz cliente a mais do que o Maps já traz.",
+  "would_change_my_mind": "Um colega de ramo que eu conheço me indicar dizendo que a página trouxe serviço de verdade pra ele.",
+  "price_too_cheap": 30,
+  "price_cheap": 60,
+  "price_expensive": 100,
+  "price_too_expensive": 150
+}

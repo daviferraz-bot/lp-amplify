@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Achei a página bonita e gostei de não pagar nada antes de publicar, mas mensagem de número desconhecido no WhatsApp com link eu não clico na hora, primeiro vou pesquisar o CNPJ e perguntar pra alguém. Minhas clientes já me acham pelo Google Maps e pelo Instagram, então R$ 197 todo mês ainda não me convenceu que vai trazer gente a mais.",
+  "objection": "Isso é golpe? Como eu sei que esse Davi existe mesmo e que não vai sumir depois de eu passar meus dados, e que uma página vai trazer cliente que o Google Maps já não traz?",
+  "would_change_my_mind": "Ver um salão ou estética de verdade aqui da região que usa e falar com a dona, ou uma ligação rápida com o Davi mostrando quantos contatos a página trouxe pra ela.",
+  "price_too_cheap": 39,
+  "price_cheap": 89,
+  "price_expensive": 180,
+  "price_too_expensive": 300
+}

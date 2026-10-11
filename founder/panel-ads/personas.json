@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Omar",
+  "age": 25,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 71000,
+  "behaviour": "Tem gestor de tráfego",
+  "behaviour_how": "Paga um gestor de tráfego ou agência pequena que manda os anúncios para o WhatsApp ou Instagram.",
+  "objection": "Mais uma mensalidade?",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P002",
+  "name": "Raj",
+  "age": 43,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 35000,
+  "behaviour": "Pesquisa preço de tudo",
+  "behaviour_how": "Compara com o que acha na internet antes de gastar qualquer valor.",
+  "objection": "Dá pra fazer isso de graça com um aplicativo ou com IA",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P003",
+  "name": "Emil",
+  "age": 45,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 116000,
+  "behaviour": "Já se queimou",
+  "behaviour_how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+ },
+ {
+  "id": "P004",
+  "name": "Owen",
+  "age": 60,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 64000,
+  "behaviour": "Desconfiado de golpe",
+  "behaviour_how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas.",
+  "objection": "Dá pra fazer isso de graça com um aplicativo ou com IA",
+  "habit": "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+ },
+ {
+  "id": "P005",
+  "name": "Sana",
+  "age": 31,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 133000,
+  "behaviour": "Impulsiona post no Instagram",
+  "behaviour_how": "Gasta de R$ 200 a R$ 1.000 por mês impulsionando posts; nunca sabe direito quantos clientes isso trouxe.",
+  "objection": "Dá pra fazer isso de graça com um aplicativo ou com IA",
+  "habit": "você atende clientes o dia todo e só olha o WhatsApp nos intervalos"
+ },
+ {
+  "id": "P006",
+  "name": "Maya",
+  "age": 37,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 79000,
+  "behaviour": "Tem gestor de tráfego",
+  "behaviour_how": "Paga um gestor de tráfego ou agência pequena que manda os anúncios para o WhatsApp ou Instagram.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+ },
+ {
+  "id": "P007",
+  "name": "Selin",
+  "age": 35,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 43000,
+  "behaviour": "Sem tempo",
+  "behaviour_how": "Atende o dia inteiro e responde o WhatsApp quando dá; perde mensagem às vezes.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "você atende clientes o dia todo e só olha o WhatsApp nos intervalos"
+ },
+ {
+  "id": "P008",
+  "name": "Ruby",
+  "age": 25,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 64000,
+  "behaviour": "Quer crescer",
+  "behaviour_how": "Quer mais clientes e topa investir se fizer sentido no bolso.",
+  "objection": "Isso é golpe?",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P009",
+  "name": "Nora",
+  "age": 26,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 41000,
+  "behaviour": "Tem gestor de tráfego",
+  "behaviour_how": "Paga um gestor de tráfego ou agência pequena que manda os anúncios para o WhatsApp ou Instagram.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+ },
+ {
+  "id": "P010",
+  "name": "Fatima",
+  "age": 34,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 68000,
+  "behaviour": "Quer crescer",
+  "behaviour_how": "Quer mais clientes e topa investir se fizer sentido no bolso.",
+  "objection": "Um site traz cliente mesmo?",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P011",
+  "name": "Tariq",
+  "age": 55,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 86000,
+  "behaviour": "Impulsiona post no Instagram",
+  "behaviour_how": "Gasta de R$ 200 a R$ 1.000 por mês impulsionando posts; nunca sabe direito quantos clientes isso trouxe.",
+  "objection": "Não sei se o anúncio já não está bom do jeito que está",
+  "habit": "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+ },
+ {
+  "id": "P012",
+  "name": "Felix",
+  "age": 55,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 59000,
+  "behaviour": "Desconfiado de golpe",
+  "behaviour_how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas.",
+  "objection": "Isso é golpe?",
+  "habit": "você recebe pelo menos uma mensagem de vendedor desconhecido por semana"
+ },
+ {
+  "id": "P013",
+  "name": "Zoe",
+  "age": 31,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 91000,
+  "behaviour": "Pesquisa preço de tudo",
+  "behaviour_how": "Compara com o que acha na internet antes de gastar qualquer valor.",
+  "objection": "Meu gestor de tráfego/agência já cuida disso",
+  "habit": "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+ },
+ {
+  "id": "P014",
+  "name": "Dev",
+  "age": 35,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 137000,
+  "behaviour": "Desconfiado de golpe",
+  "behaviour_how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P015",
+  "name": "Yusuf",
+  "age": 34,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 94000,
+  "behaviour": "Já se queimou",
+  "behaviour_how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P016",
+  "name": "Theo",
+  "age": 30,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 72000,
+  "behaviour": "Impulsiona post no Instagram",
+  "behaviour_how": "Gasta de R$ 200 a R$ 1.000 por mês impulsionando posts; nunca sabe direito quantos clientes isso trouxe.",
+  "objection": "Meu gestor de tráfego/agência já cuida disso",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P017",
+  "name": "Alma",
+  "age": 35,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 51000,
+  "behaviour": "Impulsiona post no Instagram",
+  "behaviour_how": "Gasta de R$ 200 a R$ 1.000 por mês impulsionando posts; nunca sabe direito quantos clientes isso trouxe.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você impulsiona posts quando o movimento cai"
+ },
+ {
+  "id": "P018",
+  "name": "Freya",
+  "age": 39,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 87000,
+  "behaviour": "Quer crescer",
+  "behaviour_how": "Quer mais clientes e topa investir se fizer sentido no bolso.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você recebe pelo menos uma mensagem de vendedor desconhecido por semana"
+ },
+ {
+  "id": "P019",
+  "name": "Harper",
+  "age": 50,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 74000,
+  "behaviour": "Sem tempo",
+  "behaviour_how": "Atende o dia inteiro e responde o WhatsApp quando dá; perde mensagem às vezes.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você recebe pelo menos uma mensagem de vendedor desconhecido por semana"
+ },
+ {
+  "id": "P020",
+  "name": "Emma",
+  "age": 58,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 77000,
+  "behaviour": "Impulsiona post no Instagram",
+  "behaviour_how": "Gasta de R$ 200 a R$ 1.000 por mês impulsionando posts; nunca sabe direito quantos clientes isso trouxe.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "você atende clientes o dia todo e só olha o WhatsApp nos intervalos"
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu gestor de tráfego já manda o anúncio direto pro WhatsApp e o cardápio tá no Instagram. Já paguei site antes e ninguém usava, então mais R$ 197 por mês pra uma página que o cliente de lanchonete nem vai abrir eu não vejo sentido.",
+  "objection": "Já paguei por site e marketing e não serviu pra nada. Quem quer pedir comida vai direto no WhatsApp ou no Instagram, ninguém entra em página. E é um número desconhecido me mandando mensagem, já recebo muito disso.",
+  "would_change_my_mind": "Se meu gestor de tráfego testasse mandando parte do anúncio pra essa página e mostrasse que chegam mais pedidos pelo WhatsApp do que mandando direto, aí eu pensava, ainda mais pagando só depois de ver funcionar.",
+  "price_too_cheap": 40,
+  "price_cheap": 80,
+  "price_expensive": 150,
+  "price_too_expensive": 220
+}

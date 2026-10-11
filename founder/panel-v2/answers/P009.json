@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu cliente me acha no Instagram e fecha pelo direct e WhatsApp, o cardápio e os preços já estão lá. Já paguei por site e marketing antes e não vi um pedido a mais, então R$ 197 todo mês pra uma página que ninguém vai abrir não entra na minha conta da lanchonete.",
+  "objection": "Quem compra comida comigo chega pelo Instagram ou pelo Maps e vai direto pro WhatsApp. Não acredito que alguém vai entrar num site antes de pedir um lanche, e já me queimei pagando por isso.",
+  "would_change_my_mind": "Ver números reais de outro negócio de comida aqui da região, tipo uma lanchonete ou doceria, mostrando que a página trouxe pedidos a mais todo mês, e um preço bem mais baixo, perto de R$ 70 a 80.",
+  "price_too_cheap": 25,
+  "price_cheap": 60,
+  "price_expensive": 110,
+  "price_too_expensive": 170
+}

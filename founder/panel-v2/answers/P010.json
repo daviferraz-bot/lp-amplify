@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Eu quero crescer e a página já veio pronta com o meu salão, sem taxa e sem fidelidade, então testar dois ou três meses custa pouco. Se eu pegar a vaga de R$ 147 melhor ainda, mas antes vou ligar, conferir o CNPJ e ver se o domínio fica mesmo no meu nome.",
+  "objection": "Um site traz cliente mesmo? Meus clientes novos já chegam por indicação e pelo Google Maps, e a garantia de 'pelo menos um contato' é fácil demais de cumprir; tenho medo de pagar R$ 197 todo mês por contatos que já chegariam de qualquer jeito.",
+  "would_change_my_mind": "Se depois de dois meses o relatório não mostrar agendamentos novos que vieram da página, e não só cliques, eu cancelo.",
+  "price_too_cheap": 40,
+  "price_cheap": 97,
+  "price_expensive": 197,
+  "price_too_expensive": 300
+}

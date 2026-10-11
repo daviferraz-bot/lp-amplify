@@ -1,0 +1,101 @@
+{
+ "n": 20,
+ "seed": 7,
+ "customer": {
+  "business": "LP Amplify: landing pages prontas para negócios locais sem site, vendidas por abordagem no WhatsApp",
+  "target": "Donos de pequenos negócios locais no Brasil que já pagam anúncio ou impulsionamento (Meta ou Google) e mandam esse tráfego para o Instagram ou direto para o WhatsApp, sem página própria (todos os valores em reais, R$)",
+  "where": "Brasil, cidade não definida",
+  "age": [
+   25,
+   60
+  ],
+  "segments": [
+   {
+    "name": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+    "share": 0.3,
+    "income": [
+     30000,
+     90000
+    ]
+   },
+   {
+    "name": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+    "share": 0.2,
+    "income": [
+     70000,
+     200000
+    ]
+   },
+   {
+    "name": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+    "share": 0.25,
+    "income": [
+     35000,
+     120000
+    ]
+   },
+   {
+    "name": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+    "share": 0.25,
+    "income": [
+     35000,
+     110000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Impulsiona post no Instagram",
+    "share": 0.25,
+    "how": "Gasta de R$ 200 a R$ 1.000 por mês impulsionando posts; nunca sabe direito quantos clientes isso trouxe."
+   },
+   {
+    "name": "Tem gestor de tráfego",
+    "share": 0.15,
+    "how": "Paga um gestor de tráfego ou agência pequena que manda os anúncios para o WhatsApp ou Instagram."
+   },
+   {
+    "name": "Desconfiado de golpe",
+    "share": 0.15,
+    "how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas."
+   },
+   {
+    "name": "Quer crescer",
+    "share": 0.15,
+    "how": "Quer mais clientes e topa investir se fizer sentido no bolso."
+   },
+   {
+    "name": "Já se queimou",
+    "share": 0.1,
+    "how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado."
+   },
+   {
+    "name": "Sem tempo",
+    "share": 0.1,
+    "how": "Atende o dia inteiro e responde o WhatsApp quando dá; perde mensagem às vezes."
+   },
+   {
+    "name": "Pesquisa preço de tudo",
+    "share": 0.1,
+    "how": "Compara com o que acha na internet antes de gastar qualquer valor."
+   }
+  ],
+  "objections": [
+   "Já tenho Instagram e perfil no Google, pra que site?",
+   "Isso é golpe?",
+   "Mais uma mensalidade?",
+   "Já paguei por site/marketing e não serviu pra nada",
+   "Meu gestor de tráfego/agência já cuida disso",
+   "Um site traz cliente mesmo?",
+   "Dá pra fazer isso de graça com um aplicativo ou com IA",
+   "Não sei se o anúncio já não está bom do jeito que está"
+  ],
+  "habits": [
+   "você atende clientes o dia todo e só olha o WhatsApp nos intervalos",
+   "você recebe pelo menos uma mensagem de vendedor desconhecido por semana",
+   "você impulsiona posts quando o movimento cai",
+   "a maioria dos seus clientes novos chega pelo Instagram, pelo Google Maps ou por indicação"
+  ]
+ },
+ "pitch": "Você recebe esta mensagem no WhatsApp do seu negócio, de um número que não conhece. A mensagem traz o nome de quem envia, o CNPJ e um link de portfólio, e cita a nota e as avaliações reais do seu perfil no Google:\n\"Oi! Aqui é o Davi, da LP Amplify. Vi que vocês têm ótimas avaliações no Google, mas quem procura vocês não tem onde ver serviços e preços além do Instagram. Montei uma página de exemplo para o seu negócio, dá uma olhada: [link]. Se não fizer sentido, sem problema.\"\nO link abre uma página já pronta com o nome, os serviços e as fotos públicas do seu negócio, e embaixo a oferta:\n- Página no seu próprio domínio (.com.br registrado no seu nome), hospedagem, botão de WhatsApp, perfil no Google revisado e um relatório mensal de quantos contatos chegaram pela página.\n- Até 2 alterações por mês (preço, horário, cardápio), pedidas pelo WhatsApp.\n- Sem taxa de criação e sem reunião. Você só começa a pagar depois de aprovar e publicar: R$ 197 por mês, sem fidelidade. Se cancelar, o domínio continua seu.\n- Se nos primeiros 30 dias publicada a página não trouxer nenhum contato, o segundo mês é por conta da LP Amplify.\n- Os 5 primeiros clientes pagam R$ 147 por mês fixos, em troca de autorizar que o resultado seja mostrado como exemplo."
+}

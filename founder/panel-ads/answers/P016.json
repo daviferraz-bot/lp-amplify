@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha cliente me acha no Instagram e marca pelo WhatsApp, nunca ninguém me pediu site. R$ 197 todo mês é quase o que eu gasto impulsionando num mês fraco, e prefiro pôr esse dinheiro no post que pelo menos aparece no feed.",
+  "objection": "Não vejo por que alguém iria numa página em vez de ir direto no meu Instagram, e mensagem de número desconhecido oferecendo coisa eu já desconfio de cara.",
+  "would_change_my_mind": "Ver outro salão ou barbearia daqui da cidade mostrando que a página trouxe agendamento novo que não vinha do Instagram, com número de verdade.",
+  "price_too_cheap": 30,
+  "price_cheap": 70,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}

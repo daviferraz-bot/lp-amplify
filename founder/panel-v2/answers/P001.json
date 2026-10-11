@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus clientes já chegam por indicação e pelo Google Maps, e o Instagram com o WhatsApp já faz o papel de site. Pagar R$ 197 todo mês por uma página que eu nem sei se vai trazer serviço a mais não faz sentido pra mim agora.",
+  "objection": "Quanto vou pagar depois, todo mês? São quase R$ 2.400 por ano pra uma coisa que o meu Instagram já faz de graça, e a garantia só cobre se não vier nenhum contato, não se vier pouco.",
+  "would_change_my_mind": "Se custasse uns R$ 60 a R$ 80 por mês, ou se eu visse outro eletricista ou oficina da minha região mostrando que a página trouxe serviço fechado que o Instagram não trazia.",
+  "price_too_cheap": 25,
+  "price_cheap": 50,
+  "price_expensive": 100,
+  "price_too_expensive": 160
+}

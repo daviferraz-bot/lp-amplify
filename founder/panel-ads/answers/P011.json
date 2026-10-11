@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason": "Meus pacientes novos já chegam pelo Instagram, pelo Google Maps e principalmente por indicação, então não vejo por que pagar mais R$ 197 todo mês por uma página que ninguém pediu. Mensagem de número desconhecido no WhatsApp do consultório eu já olho com desconfiança, por mais que venha com CNPJ.",
+  "reason_code": "need",
+  "objection": "Não sei se o que eu tenho hoje já não está bom do jeito que está; paciente de consultório vem por confiança e indicação, não porque viu uma página com preço. Mais uma mensalidade para algo que talvez não mude nada.",
+  "would_change_my_mind": "Ver um colega da minha área, aqui da minha cidade, mostrando com números que a página trouxe pacientes novos que o Instagram não trazia.",
+  "price_too_cheap": 40,
+  "price_cheap": 80,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}

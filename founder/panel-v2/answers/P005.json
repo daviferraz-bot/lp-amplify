@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus pacientes chegam por indicação e pelo Instagram, e lá eu já mostro meus serviços; um site não vai mudar minha agenda. E se um dia eu quiser uma página, faço sozinha com um app ou com IA de graça, não vou pagar R$ 197 todo mês por isso.",
+  "objection": "Pagar mensalidade para sempre por uma página que eu acho que poderia montar de graça, e que nem sei se alguém vai abrir, já que todo mundo me acha pelo Instagram.",
+  "would_change_my_mind": "Ver números de outro consultório da minha área, perto de mim, mostrando que a página trouxe pacientes novos que não teriam chegado pelo Instagram, e um preço bem menor.",
+  "price_too_cheap": 20,
+  "price_cheap": 50,
+  "price_expensive": 100,
+  "price_too_expensive": 180
+}

@@ -1,0 +1,159 @@
+{
+ "business": "LP Amplify: landing pages prontas para negócios locais sem site, vendidas por abordagem no WhatsApp",
+ "seed": 7,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 1,
+ "passes": 19,
+ "buy_rate": 0.05,
+ "by_segment": [
+  [
+   "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+   6,
+   0.16666666666666666
+  ],
+  [
+   "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+   5,
+   0.0
+  ],
+  [
+   "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+   5,
+   0.0
+  ],
+  [
+   "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+   4,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Quer crescer",
+   3,
+   0.3333333333333333
+  ],
+  [
+   "Tudo pelo Instagram",
+   4,
+   0.0
+  ],
+  [
+   "Pesquisa preço de tudo",
+   2,
+   0.0
+  ],
+  [
+   "Já se queimou",
+   2,
+   0.0
+  ],
+  [
+   "Desconfiado de golpe",
+   3,
+   0.0
+  ],
+  [
+   "Sem tempo",
+   2,
+   0.0
+  ],
+  [
+   "Vive de indicação",
+   4,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$64,000 to $86,000",
+   8,
+   0.125
+  ],
+  [
+   "under $64,000",
+   5,
+   0.0
+  ],
+  [
+   "$86,000 and up",
+   7,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "need",
+   12,
+   [
+    "Meus clientes já chegam por indicação e pelo Google Maps, e o Instagram com o WhatsApp já faz o papel de site. Pagar R$ 197 todo mês por uma página que eu nem sei se vai trazer serviço a mais não faz sentido pra mim agora.",
+    "Meu cliente me acha no Instagram e no Google e pede pelo WhatsApp, isso já funciona. Pagar R$ 197 todo mês por uma página que ninguém vai abrir, depois de já ter jogado dinheiro fora com sobrinho e agência, não entra na conta da lanchonete."
+   ],
+   [
+    "P001",
+    "P003"
+   ]
+  ],
+  [
+   "trust",
+   5,
+   [
+    "Número desconhecido mandando link no WhatsApp eu não abro, por mais que venha com CNPJ e minhas avaliações, golpista também sabe copiar isso. E meu serviço chega por indicação e pelo Google Maps; R$ 197 todo mês, pra sempre, por uma página que meu sobrinho ou uma IA faz de graça, não fecha a conta.",
+    "Achei a página bonita e gostei de não pagar nada antes de publicar, mas mensagem de número desconhecido no WhatsApp com link eu não clico na hora, primeiro vou pesquisar o CNPJ e perguntar pra alguém. Minhas clientes já me acham pelo Google Maps e pelo Instagram, então R$ 197 todo mês ainda não me convenceu que vai trazer gente a mais."
+   ],
+   [
+    "P004",
+    "P008"
+   ]
+  ],
+  [
+   "price",
+   2,
+   [
+    "R$ 197 por mês dá quase R$ 2.400 por ano, isso pesa muito pra quem ganha o que eu ganho, e meu cliente já me acha pela indicação e pelo Google Maps. Página bonita eu monto de graça com um aplicativo ou peço pra IA, e o meu sobrinho me ajuda a registrar o domínio.",
+    "Gostei de não ter reunião e de só pagar depois de aprovar, mas R$ 197 por mês dá quase R$ 2.400 por ano por uma página. Pesquisei rápido e acho site pronto em Wix ou freelancer por um valor único, e meus clientes já me acham pelo Google Maps e me chamam no WhatsApp."
+   ],
+   [
+    "P002",
+    "P013"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "need",
+   1,
+   [
+    "Eu quero crescer e a página já veio pronta com o meu salão, sem taxa e sem fidelidade, então testar dois ou três meses custa pouco. Se eu pegar a vaga de R$ 147 melhor ainda, mas antes vou ligar, conferir o CNPJ e ver se o domínio fica mesmo no meu nome."
+   ],
+   [
+    "P010"
+   ]
+  ]
+ ],
+ "flip": [
+  "Se custasse uns R$ 60 a R$ 80 por mês, ou se eu visse outro eletricista ou oficina da minha região mostrando que a página trouxe serviço fechado que o Instagram não trazia.",
+  "Uma taxa única baixa, tipo uns R$ 300 pra montar e depois só uns R$ 30 ou R$ 40 por mês, ou ver outro eletricista ou oficina da minha cidade mostrando que fechou serviço de verdade por causa da página.",
+  "Ver um negócio de comida aqui da minha cidade, de verdade, que eu possa ligar e perguntar, mostrando que a página trouxe pedidos que não vinham pelo Instagram.",
+  "Um colega do meu ramo aqui da cidade, que eu conheço, me dizer que usa e que a página trouxe serviço de verdade, e o preço ficar perto de uns R$ 80 por mês.",
+  "Ver números de outro consultório da minha área, perto de mim, mostrando que a página trouxe pacientes novos que não teriam chegado pelo Instagram, e um preço bem menor.",
+  "Ver o relatório real de um colega da minha área aqui na cidade, com quantos contatos e pacientes vieram pela página em alguns meses, ou poder rodar o primeiro mês inteiro sem pagar nada para ver os números eu mesma.",
+  "Ver outro eletricista ou encanador da minha região mostrando que a página trouxe serviço novo de verdade todo mês, e um preço perto de R$ 80 a R$ 100.",
+  "Ver um salão ou estética de verdade aqui da região que usa e falar com a dona, ou uma ligação rápida com o Davi mostrando quantos contatos a página trouxe pra ela.",
+  "Ver números reais de outro negócio de comida aqui da região, tipo uma lanchonete ou doceria, mostrando que a página trouxe pedidos a mais todo mês, e um preço bem mais baixo, perto de R$ 70 a 80.",
+  "Se eu começasse a ver a agenda com horários vagos e soubesse de um colega da minha área, aqui da cidade, que ganhou pacientes novos de verdade com essa página.",
+  "Um colega dono de salão aqui da região que eu conheço me dizer que usa e que trouxe cliente de verdade.",
+  "Um preço perto de R$ 70 a 90 por mês, ou ver um prestador de serviço como eu, na minha região, mostrando que a página trouxe orçamentos que o Instagram e o Maps não traziam.",
+  "Ver resultado de outro consultório da minha área, aqui na minha cidade, que eu consiga confirmar de verdade, mostrando que a página trouxe pacientes que não viriam pelo Maps ou por indicação.",
+  "Ver um negócio de comida parecido com o meu, aqui da região, mostrando que passou a receber pedidos de gente nova pela página que não chegaria pelo Instagram ou Maps, e um preço perto de R$ 80 por mês.",
+  "Ver um salão ou barbearia aqui da minha região, parecido com o meu, mostrando que começou a receber clientes novos pela página que não vinham por indicação, e por um preço mais perto de R$ 80 por mês.",
+  "Ver um salão aqui da região, parecido com o meu, mostrando no relatório que a página trouxe clientes novos de verdade que não teriam vindo pelo Maps ou indicação.",
+  "Ver outro negócio de comida aqui da minha cidade usando a página, com o relatório mostrando quantos pedidos a mais chegaram pelo WhatsApp por causa dela.",
+  "Ver outro salão aqui da minha região, de verdade, que eu possa perguntar pra dona se a página trouxe cliente nova agendada.",
+  "Ver uma lanchonete ou doceria aqui do bairro, parecida com a minha, mostrando que a página trouxe pedidos novos de verdade, e um preço bem menor, lá pelos R$ 60 a R$ 80."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 20
+}

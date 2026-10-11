@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus clientes chegam por indicação e me acham no Instagram e no Google, e o pedido já cai no WhatsApp. Pagar R$ 197 todo mês por uma página que ninguém me pediu não cabe na conta de uma lanchonete.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site? Não vejo cliente novo vindo de página, e R$ 197 por mês é dinheiro de insumo.",
+  "would_change_my_mind": "Ver uma lanchonete ou doceria aqui do bairro, parecida com a minha, mostrando que a página trouxe pedidos novos de verdade, e um preço bem menor, lá pelos R$ 60 a R$ 80.",
+  "price_too_cheap": 20,
+  "price_cheap": 50,
+  "price_expensive": 100,
+  "price_too_expensive": 150
+}

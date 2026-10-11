@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Omar",
+  "age": 25,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 71000,
+  "behaviour": "Tudo pelo Instagram",
+  "behaviour_how": "Posta no Instagram e atende pelo direct e WhatsApp; acha que o perfil já faz o papel de site.",
+  "objection": "Quanto vou pagar depois, todo mês?",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P002",
+  "name": "Raj",
+  "age": 43,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 35000,
+  "behaviour": "Pesquisa preço de tudo",
+  "behaviour_how": "Compara com o que acha na internet antes de gastar qualquer valor.",
+  "objection": "Dá pra fazer isso de graça com um aplicativo ou com IA",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P003",
+  "name": "Emil",
+  "age": 45,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 116000,
+  "behaviour": "Já se queimou",
+  "behaviour_how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "você posta no Instagram quando sobra tempo"
+ },
+ {
+  "id": "P004",
+  "name": "Owen",
+  "age": 60,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 64000,
+  "behaviour": "Desconfiado de golpe",
+  "behaviour_how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas.",
+  "objection": "Dá pra fazer isso de graça com um aplicativo ou com IA",
+  "habit": "você posta no Instagram quando sobra tempo"
+ },
+ {
+  "id": "P005",
+  "name": "Sana",
+  "age": 31,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 133000,
+  "behaviour": "Tudo pelo Instagram",
+  "behaviour_how": "Posta no Instagram e atende pelo direct e WhatsApp; acha que o perfil já faz o papel de site.",
+  "objection": "Dá pra fazer isso de graça com um aplicativo ou com IA",
+  "habit": "você atende clientes o dia todo e só olha o WhatsApp nos intervalos"
+ },
+ {
+  "id": "P006",
+  "name": "Maya",
+  "age": 37,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 79000,
+  "behaviour": "Tudo pelo Instagram",
+  "behaviour_how": "Posta no Instagram e atende pelo direct e WhatsApp; acha que o perfil já faz o papel de site.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você posta no Instagram quando sobra tempo"
+ },
+ {
+  "id": "P007",
+  "name": "Selin",
+  "age": 35,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 43000,
+  "behaviour": "Sem tempo",
+  "behaviour_how": "Atende sozinho(a) o dia inteiro e não tem tempo para reunião com vendedor.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "você atende clientes o dia todo e só olha o WhatsApp nos intervalos"
+ },
+ {
+  "id": "P008",
+  "name": "Ruby",
+  "age": 25,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 64000,
+  "behaviour": "Quer crescer",
+  "behaviour_how": "Já pagou ou pensou em pagar anúncio; quer mais clientes e topa investir se fizer sentido.",
+  "objection": "Isso é golpe?",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P009",
+  "name": "Nora",
+  "age": 26,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 41000,
+  "behaviour": "Tudo pelo Instagram",
+  "behaviour_how": "Posta no Instagram e atende pelo direct e WhatsApp; acha que o perfil já faz o papel de site.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você posta no Instagram quando sobra tempo"
+ },
+ {
+  "id": "P010",
+  "name": "Fatima",
+  "age": 34,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 68000,
+  "behaviour": "Quer crescer",
+  "behaviour_how": "Já pagou ou pensou em pagar anúncio; quer mais clientes e topa investir se fizer sentido.",
+  "objection": "Um site traz cliente mesmo?",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P011",
+  "name": "Tariq",
+  "age": 55,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 86000,
+  "behaviour": "Vive de indicação",
+  "behaviour_how": "Quase todo cliente novo vem do boca a boca; nunca sentiu falta de site.",
+  "objection": "É caro pra uma página só",
+  "habit": "você posta no Instagram quando sobra tempo"
+ },
+ {
+  "id": "P012",
+  "name": "Felix",
+  "age": 55,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 59000,
+  "behaviour": "Desconfiado de golpe",
+  "behaviour_how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas.",
+  "objection": "Isso é golpe?",
+  "habit": "você recebe pelo menos uma mensagem de vendedor desconhecido por semana"
+ },
+ {
+  "id": "P013",
+  "name": "Zoe",
+  "age": 31,
+  "segment": "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+  "income": 91000,
+  "behaviour": "Pesquisa preço de tudo",
+  "behaviour_how": "Compara com o que acha na internet antes de gastar qualquer valor.",
+  "objection": "Não tenho tempo pra reunião",
+  "habit": "você posta no Instagram quando sobra tempo"
+ },
+ {
+  "id": "P014",
+  "name": "Dev",
+  "age": 35,
+  "segment": "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+  "income": 137000,
+  "behaviour": "Desconfiado de golpe",
+  "behaviour_how": "Recebe mensagens de desconhecidos oferecendo coisas toda semana e ignora quase todas.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P015",
+  "name": "Yusuf",
+  "age": 34,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 94000,
+  "behaviour": "Já se queimou",
+  "behaviour_how": "Já pagou agência, sobrinho ou freelancer por site ou marketing e não viu resultado.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P016",
+  "name": "Theo",
+  "age": 30,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 72000,
+  "behaviour": "Vive de indicação",
+  "behaviour_how": "Quase todo cliente novo vem do boca a boca; nunca sentiu falta de site.",
+  "objection": "Não tenho tempo pra reunião",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P017",
+  "name": "Alma",
+  "age": 35,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 51000,
+  "behaviour": "Vive de indicação",
+  "behaviour_how": "Quase todo cliente novo vem do boca a boca; nunca sentiu falta de site.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "a maioria dos seus clientes novos chega por indicação ou pelo Google Maps"
+ },
+ {
+  "id": "P018",
+  "name": "Freya",
+  "age": 39,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 87000,
+  "behaviour": "Quer crescer",
+  "behaviour_how": "Já pagou ou pensou em pagar anúncio; quer mais clientes e topa investir se fizer sentido.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você recebe pelo menos uma mensagem de vendedor desconhecido por semana"
+ },
+ {
+  "id": "P019",
+  "name": "Harper",
+  "age": 50,
+  "segment": "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+  "income": 74000,
+  "behaviour": "Sem tempo",
+  "behaviour_how": "Atende sozinho(a) o dia inteiro e não tem tempo para reunião com vendedor.",
+  "objection": "Já paguei por site/marketing e não serviu pra nada",
+  "habit": "você recebe pelo menos uma mensagem de vendedor desconhecido por semana"
+ },
+ {
+  "id": "P020",
+  "name": "Emma",
+  "age": 58,
+  "segment": "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+  "income": 77000,
+  "behaviour": "Vive de indicação",
+  "behaviour_how": "Quase todo cliente novo vem do boca a boca; nunca sentiu falta de site.",
+  "objection": "Já tenho Instagram e perfil no Google, pra que site?",
+  "habit": "você atende clientes o dia todo e só olha o WhatsApp nos intervalos"
+ }
+]

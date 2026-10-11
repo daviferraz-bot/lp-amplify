@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus pedidos chegam pelo iFood, pelo WhatsApp e pelo cardápio que já tá no Instagram e no Google. Já paguei site uma vez e ninguém entrou nele, então R$ 197 todo mês pra outra página não me convence, mesmo sem fidelidade.",
+  "objection": "Cliente de lanchonete não procura site, procura no iFood ou no Maps e chama no zap. Tenho medo de virar mais uma conta mensal que não traz pedido nenhum, igual da outra vez.",
+  "would_change_my_mind": "Ver outro negócio de comida aqui da minha cidade usando a página, com o relatório mostrando quantos pedidos a mais chegaram pelo WhatsApp por causa dela.",
+  "price_too_cheap": 40,
+  "price_cheap": 80,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}

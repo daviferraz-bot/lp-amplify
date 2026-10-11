@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason": "Meus pacientes chegam por indicação e pelo Instagram, e o perfil já mostra o que eu faço. A página de exemplo ficou bonita, mas R$ 197 todo mês por algo que eu não sinto falta é mais uma conta fixa no consultório.",
+  "reason_code": "need",
+  "objection": "Já paguei por site e por agência de marketing e não veio nenhum paciente a mais. Uma mensagem de número desconhecido prometendo contatos parece a mesma história de novo, e eu não sei se paciente de saúde procura no Google ou só pede indicação.",
+  "would_change_my_mind": "Ver o relatório real de um colega da minha área aqui na cidade, com quantos contatos e pacientes vieram pela página em alguns meses, ou poder rodar o primeiro mês inteiro sem pagar nada para ver os números eu mesma.",
+  "price_too_cheap": 40,
+  "price_cheap": 80,
+  "price_expensive": 150,
+  "price_too_expensive": 250
+}
