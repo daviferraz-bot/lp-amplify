@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda está cheia por convênio e indicação, e essa mensagem provavelmente nem passaria da minha secretária. Mesmo com o 'só paga se aprovar', não tenho problema de paciente para resolver com Instagram, e não vou gastar tempo revisando perfil e aprovando post.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor? Eu não preciso de mais paciente agora, e um desconhecido me dizendo que meu perfil está irregular com o CFM soa como tática para me assustar e vender.",
+  "would_change_my_mind": "Receber uma notificação ou advertência real do CRM sobre meu perfil, ou um colega de confiança me dizer que foi cobrado por isso; aí eu pagaria para resolver só a parte da conformidade.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

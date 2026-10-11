@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Recebo proposta de agência toda semana e normalmente ignoro, mas essa não me pede nada antes: só pago se aprovar, e R$ 497 é menos que duas consultas particulares. Se tem mesmo algo do CFM faltando no meu perfil, prefiro corrigir agora do que ter dor de cabeça com o CRM.",
+  "objection": "Já paguei agência, recebi post genérico e nenhum paciente novo. Tenho medo de que o 'ponto do CFM' seja só isca para me empurrar a gestão de R$ 1.500 por mês, e de que os 9 posts fiquem com cara de banco de imagem igual aos da última.",
+  "would_change_my_mind": "Se o vídeo vier genérico, sem nada específico do meu perfil, ou se o 'item do CFM' for algo que eu já tenho, eu não respondo mais.",
+  "price_too_cheap": 150,
+  "price_cheap": 350,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
+}

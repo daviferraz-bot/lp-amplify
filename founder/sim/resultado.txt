@@ -1,0 +1,25 @@
+Compra da entrada por grupo (painel, suavizada):
+  33%  Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia)
+  78%  Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia)
+  33%  Médico(a) jovem montando o próprio consultório (até 5 anos de formado)
+  50%  Médico(a) dono(a) ou gestor(a) de clínica com vários médicos
+
+=== Mensagem A: gancho CFM + portfólio | lista geral ===
+pessimista chega 336 (328-345) | responde 20 (15-26) | entrada 3 (1-6) | mensal 1 (0-2) | receita_entrada 1601 (497-2982) | mrr 956 (0-3000)
+base       chega 336 (327-345) | responde 41 (34-49) | entrada 11 (7-15) | mensal 4 (1-6) | receita_entrada 5421 (3479-7455) | mrr 5342 (1500-9000)
+otimista   chega 336 (327-345) | responde 69 (59-78) | entrada 29 (23-36) | mensal 13 (9-18) | receita_entrada 14496 (11431-17892) | mrr 19740 (13500-27000)
+
+=== Mensagem A: gancho CFM + portfólio | lista focada ===
+pessimista chega 324 (315-334) | responde 24 (18-30) | entrada 6 (3-9) | mensal 1 (0-3) | receita_entrada 2869 (1491-4473) | mrr 1744 (0-4500)
+base       chega 324 (315-334) | responde 48 (40-57) | entrada 20 (14-25) | mensal 6 (3-10) | receita_entrada 9736 (6958-12425) | mrr 9747 (4500-15000)
+otimista   chega 324 (315-333) | responde 80 (70-91) | entrada 52 (43-60) | mensal 23 (17-30) | receita_entrada 25813 (21371-29820) | mrr 35108 (25500-45000)
+
+=== Mensagem B: análise genérica | lista geral ===
+pessimista chega 336 (327-345) | responde 12 (8-17) | entrada 2 (0-4) | mensal 0 (0-1) | receita_entrada 981 (0-1988) | mrr 590 (0-1500)
+base       chega 336 (327-344) | responde 25 (18-31) | entrada 7 (4-10) | mensal 2 (0-4) | receita_entrada 3247 (1988-4970) | mrr 3226 (0-6000)
+otimista   chega 336 (327-344) | responde 41 (33-49) | entrada 17 (12-23) | mensal 8 (4-11) | receita_entrada 8630 (5964-11431) | mrr 11733 (6000-16500)
+
+=== Mensagem B: análise genérica | lista focada ===
+pessimista chega 324 (315-333) | responde 14 (10-19) | entrada 3 (1-6) | mensal 1 (0-2) | receita_entrada 1732 (497-2982) | mrr 1043 (0-3000)
+base       chega 324 (315-333) | responde 29 (22-36) | entrada 12 (8-16) | mensal 4 (2-6) | receita_entrada 5828 (3976-7952) | mrr 5841 (3000-9000)
+otimista   chega 324 (315-333) | responde 48 (40-56) | entrada 31 (24-38) | mensal 14 (9-19) | receita_entrada 15482 (11928-18886) | mrr 21088 (13500-28500)

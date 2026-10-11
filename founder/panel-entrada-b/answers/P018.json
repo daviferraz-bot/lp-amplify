@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia por convênio e indicação, não preciso de mais paciente pelo Instagram. Recebo esse tipo de mensagem toda semana e já paguei agência que não trouxe ninguém; no máximo eu peço para minha secretária corrigir o item do CFM sozinha.",
+  "objection": "Não tenho problema de demanda para resolver, e já vi agência prometer muito e não entregar nada. Se o único ponto real é a exigência do CFM, isso eu ajusto em dez minutos sem contratar ninguém.",
+  "would_change_my_mind": "Se eu recebesse uma notificação ou advertência do CRM sobre o perfil, ou se a clínica abrisse um serviço particular novo que precisasse de agenda, aí um ajuste rápido sem pagar antes de aprovar faria sentido.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

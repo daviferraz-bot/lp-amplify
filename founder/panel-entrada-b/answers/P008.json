@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Mensagem de desconhecida no direct quase nunca chega até mim, minha secretária filtra. E se chegar, não vou entregar meu perfil e minha exposição perante o CFM para alguém que eu não conheço só porque ela diz que achou um erro.",
+  "objection": "Meu medo é justamente o CRM. Uma estranha postando 9 posts no meu nome pode me trazer mais problema do que resolver; quem garante que ela entende a resolução melhor que o jurídico da minha sociedade? E 'refaz sem custo' não me livra de uma sindicância.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço e que já usou o serviço sem problema com o CRM, ou o vídeo apontando qual exigência específica está faltando no meu perfil e ela se mostrar certa.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 1500,
+  "price_too_expensive": 3000
+}

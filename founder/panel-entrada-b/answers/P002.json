@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se meu perfil está mesmo faltando algo que o CFM exige, isso me preocupa mais do que os posts, e como só pago se aprovar, o risco de perder dinheiro de novo com agência é baixo. Vejo o vídeo à noite e, se os três pontos forem concretos e não papo de vendedor, deixo ela fazer a entrada.",
+  "objection": "Já paguei por post genérico que não trouxe ninguém. R$ 497 por um checklist e 9 posts ainda me parece caro para o que é, e a mensalidade de R$ 1.500 eu duvido que eu continue.",
+  "would_change_my_mind": "Se o vídeo vier genérico, sem mostrar de fato o que falta no meu perfil em relação à resolução do CFM, eu ignoro e não respondo mais.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 600,
+  "price_too_expensive": 900
+}

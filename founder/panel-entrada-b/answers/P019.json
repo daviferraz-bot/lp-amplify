@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia com convênio e indicação, não preciso de mais paciente vindo do Instagram. Recebo esse tipo de mensagem toda semana e essa é só mais uma, por mais que o 'pague só se aprovar' seja interessante.",
+  "objection": "Não tenho problema de agenda para resolver, e depois dos 9 posts isso vira uma mensalidade de R$ 1.500 e alguém me pedindo para gravar vídeo, o que eu não tenho tempo de fazer.",
+  "would_change_my_mind": "Se eu soubesse com certeza que meu perfil está irregular com o CFM e corro risco de sindicância, eu pagaria só para corrigir a conformidade, sem a parte de posts.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 700,
+  "price_too_expensive": 1200
+}

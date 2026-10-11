@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Recebo esse tipo de mensagem toda semana e não sei quem ela é. Talvez eu até aceite o vídeo por causa da menção ao CFM, mas se for algo de conformidade eu peço para minha secretária corrigir o item e pronto, não entrego meu Instagram para uma desconhecida.",
+  "objection": "Quem é essa pessoa? Dar acesso ao meu perfil profissional para alguém que nunca vi, que me aborda com um 'gancho' de medo do CRM, parece tática de venda. O preço não me incomoda, o que me incomoda é não saber se posso confiar.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheça e que tenha trabalhado com ela, ou ver no portfólio um perfil de alguém da minha especialidade que eu respeito.",
+  "price_too_cheap": 150,
+  "price_cheap": 350,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

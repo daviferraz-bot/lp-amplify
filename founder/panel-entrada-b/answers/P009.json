@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Eu aceitaria ver o vídeo, porque é de graça e o lance do CFM me preocupa. Mas se ela me mostra os três pontos, eu mesmo arrumo a bio, o CRM e o RQE numa noite. Minha agenda já está cheia, então não preciso de 9 posts nem de relatório de agendamento agora.",
+  "objection": "Já paguei social media e recebi post genérico. 9 posts fixos me parecem a mesma coisa de novo, e o ajuste de conformidade, depois que ela aponta, eu faço sozinho.",
+  "would_change_my_mind": "Se o vídeo mostrar que o problema com o CFM é mais sério do que eu consigo resolver sozinho, ou se eu tiver horários vagos de verdade na agenda e precisar de paciente novo.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
+}

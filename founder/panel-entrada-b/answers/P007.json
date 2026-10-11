@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Quem lê a mensagem é minha secretária; se ela me mostrar à noite, o máximo que faço é dizer 'pede o vídeo e corrige você mesma o que for do CFM'. Não vou entregar meu perfil profissional para uma pessoa que nunca ouvi falar, e o vídeo já me dá os três pontos de graça.",
+  "objection": "Não sei quem é ela nem quem indicou, e não quero uma estranha mexendo no perfil que leva meu nome e meu CRM. Minha secretária já posta; o problema que ela aponta parece coisa que a gente resolve sozinho.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço e confio dizendo que ela fez o perfil dele e deu certo; aí R$ 497 pagando só depois de aprovar não é nem decisão.",
+  "price_too_cheap": 150,
+  "price_cheap": 350,
+  "price_expensive": 1500,
+  "price_too_expensive": 3000
+}

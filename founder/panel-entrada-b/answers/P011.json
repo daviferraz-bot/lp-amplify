@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "values",
+  "reason": "Se meu perfil está descumprindo uma exigência da 2.336, isso me preocupa mais do que qualquer promessa de seguidores; minha secretária só posta foto e não entende de resolução. Por R$ 497, pagando só depois de aprovar e com ela refazendo se o CRM questionar, eu deixo arrumar, mas a gestão mensal de R$ 1.500 eu não assino agora.",
+  "objection": "É uma desconhecida que me abordou por mensagem e vai mexer no meu perfil profissional; tenho medo de ela publicar algo que o conselho entenda como autopromoção e quem responde no CRM sou eu, não ela.",
+  "would_change_my_mind": "Se o vídeo não mostrar com clareza qual item da resolução está faltando, ou se ela não aceitar que eu revise e aprove cada um dos 9 posts antes de ir ao ar, eu não sigo.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

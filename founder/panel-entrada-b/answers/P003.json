@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia e a minha secretária já cuida do Instagram; uma mensagem de uma social media desconhecida provavelmente nem chega até mim, e se chegar eu não vejo motivo para mexer no que está funcionando.",
+  "objection": "Não preciso de mais pacientes, e não quero mais uma pessoa mexendo no meu perfil e atrapalhando a rotina da minha secretária. Dizer que falta uma exigência do CFM me parece um pouco de tática para assustar.",
+  "would_change_my_mind": "Se a minha secretária me mostrasse o vídeo e ficasse claro que existe uma irregularidade real no perfil que pode me render um processo no CRM, eu pagaria os R$ 497 só para resolver e não pensar mais nisso.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
+}

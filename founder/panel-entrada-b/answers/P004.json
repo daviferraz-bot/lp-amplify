@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Minha primeira reação seria 'minha secretária já cuida disso', mas se o vídeo mostrar mesmo uma falha de CFM no meu perfil, isso me preocupa, e eu quero crescer no particular como meus colegas. R$ 497, pagando só depois de aprovar, é um risco que nem pesa para mim.",
+  "objection": "É uma desconhecida me mandando mensagem fria e pedindo acesso ao meu Instagram; não sei se é sério, e não quero que meu perfil fique com cara de marketing barato ou que isso me arrume problema com o CRM.",
+  "would_change_my_mind": "Se o vídeo for genérico, sem nada específico do meu perfil, ou se o 'ponto do CFM' for exagero para me assustar, eu ignoro e deixo com a secretária.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 1500,
+  "price_too_expensive": 3500
+}
