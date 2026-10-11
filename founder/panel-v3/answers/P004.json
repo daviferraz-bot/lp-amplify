@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se tem uma exigência do CFM faltando no meu perfil, eu quero saber e corrigir antes que vire problema, e R$ 497 para resolver isso em 7 dias é nada perto do risco. Compro a entrada para testar; o plano mensal só depois de ver se o trabalho dela tem a cara do meu consultório.",
+  "objection": "Minha secretária já posta e responde o Instagram. Não sei se vale pagar R$ 1.500 ou R$ 2.200 por mês a uma desconhecida que me abordou por mensagem, e tenho medo de o conteúdo ficar genérico, igual ao de qualquer outro médico.",
+  "would_change_my_mind": "Para assinar o plano mensal: ver no relatório, em dois ou três meses, agendamentos particulares chegando pelo link do perfil que a minha secretária sozinha não estava trazendo.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

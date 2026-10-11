@@ -1,13 +1,13 @@
 {
   "id": "P003",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Minha agenda já está cheia e minha secretária já posta e responde o Instagram; não preciso de mais paciente, então pagar R$ 1.500 a R$ 2.200 por mês para uma desconhecida não resolve um problema que eu tenho. E essa mensagem provavelmente nem chega até mim, a secretária filtra.",
-  "objection": "Não preciso de mais paciente, e não vou gastar meu tempo vendo vídeo de quem me mandou mensagem fria. Se o perfil tem um problema com o CFM, quero saber se é real ou só um gancho para vender.",
-  "would_change_my_mind": "Se minha secretária me mostrasse o vídeo e o ponto do CFM fosse uma falha real no meu perfil, eu pagaria os R$ 497 só para deixar o perfil em conformidade, sem contratar o mensal.",
-  "price_too_cheap": 600,
-  "price_cheap": 1200,
-  "price_expensive": 2500,
+  "reason": "O ponto do CFM me pegou: a clínica tem vários médicos e não quero problema no CRM por causa de perfil. Como só pago depois de ver pronto, o risco é só meu tempo; fecho a entrada de R$ 997 para ver o relatório de agendamentos, mas a gestão mensal só depois de ver número.",
+  "objection": "Já paguei agência e recebi post genérico sem nenhum paciente novo. Não acredito que Instagram traga paciente, e não tenho tempo de ficar aprovando post toda semana à noite.",
+  "would_change_my_mind": "Se o vídeo mostrar post com cara de banco de imagem ou se o médico da referência não confirmar que chegou agendamento pelo Instagram, eu fico só com os R$ 497 da conformidade ou nem isso.",
+  "price_too_cheap": 300,
+  "price_cheap": 700,
+  "price_expensive": 2000,
   "price_too_expensive": 4000
 }

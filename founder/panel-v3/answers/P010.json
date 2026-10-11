@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se meu perfil está mesmo descumprindo uma exigência do CFM, isso me preocupa mais do que qualquer post; R$ 497 para deixar tudo em dia é pouco perto do risco de um processo ético. Eu vejo o vídeo à noite, confiro o que ela apontou na resolução e, se fizer sentido, pago só a entrada; plano mensal eu não fecho agora.",
+  "objection": "Não conheço essa pessoa, e mensagem de desconhecido dizendo que tem algo errado no meu perfil cheira a tática de susto. Também não sei se ela entende de fato a resolução ou só repete o nome dela, e não quero entregar meu Instagram a alguém que pode me criar o problema que eu quero evitar.",
+  "would_change_my_mind": "Para assinar o plano mensal: ver um colega médico que eu conheça, da minha especialidade, atendido por ela há meses sem nenhum problema com o CRM.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 1000,
+  "price_too_expensive": 1800
+}

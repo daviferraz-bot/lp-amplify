@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Quem lê o direct é minha secretária, e ela recebe mensagem de 'social media que trabalha só com médicos' toda semana; se chegar até mim, é à noite, cansado, e eu não vou abrir vídeo de uma pessoa que nunca ouvi falar. O dinheiro não é o problema, R$ 497 eu nem sinto, o problema é deixar uma desconhecida falar em meu nome com meus pacientes.",
+  "objection": "Nunca ouvi falar dela. Portfólio qualquer um monta; quero saber se um colega meu que eu conheço trabalha com ela e está satisfeito, e se ela não vai me arrumar problema no CRM em vez de resolver.",
+  "would_change_my_mind": "Indicação de um colega médico daqui de Vitória que eu conheço e que usa o serviço, ou minha secretária me mostrar que o ponto do CFM que está faltando é real e pode me dar dor de cabeça.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2800,
+  "price_too_expensive": 4500
+}

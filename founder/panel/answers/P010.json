@@ -1,13 +1,13 @@
 {
   "id": "P010",
-  "buys": true,
-  "purchases_first_month": 1,
+  "buys": false,
+  "purchases_first_month": 0,
   "reason_code": "need",
-  "reason": "Se meu perfil está mesmo descumprindo uma exigência do CFM, isso me preocupa mais do que qualquer post; R$ 497 para deixar tudo em dia é pouco perto do risco de um processo ético. Eu vejo o vídeo à noite, confiro o que ela apontou na resolução e, se fizer sentido, pago só a entrada; plano mensal eu não fecho agora.",
-  "objection": "Não conheço essa pessoa, e mensagem de desconhecido dizendo que tem algo errado no meu perfil cheira a tática de susto. Também não sei se ela entende de fato a resolução ou só repete o nome dela, e não quero entregar meu Instagram a alguém que pode me criar o problema que eu quero evitar.",
-  "would_change_my_mind": "Para assinar o plano mensal: ver um colega médico que eu conheça, da minha especialidade, atendido por ela há meses sem nenhum problema com o CRM.",
+  "reason": "Eu até deixaria ela mandar o vídeo, porque falar em CFM me pega. Mas se o problema é CRM e RQE faltando no perfil, eu mesma coloco na bio em dois minutos. Minha agenda já está cheia e eu quase não posto justamente para não me arriscar, então não preciso de 9 posts nem de gestão mensal.",
+  "objection": "Uma desconhecida que me aborda no direct apontando erro de CFM no meu perfil parece tática de medo para vender. E se eu passar a postar mais, aumento justamente o risco que hoje eu evito ficando quieta.",
+  "would_change_my_mind": "Receber alguma notificação do CRM ou ver um colega próximo ser processado por publicidade; aí eu pagaria os R$ 497 só da conformidade, com a revisão da advogada, sem pensar duas vezes.",
   "price_too_cheap": 150,
   "price_cheap": 300,
-  "price_expensive": 1000,
-  "price_too_expensive": 1800
+  "price_expensive": 800,
+  "price_too_expensive": 1500
 }

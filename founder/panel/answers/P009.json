@@ -1,13 +1,13 @@
 {
   "id": "P009",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Minha agenda já está cheia e eu já paguei social media antes, recebi post genérico e nenhum paciente novo. Eu aceitaria o vídeo, mas se o problema do CFM for só a bio, eu mesmo corrijo em dez minutos e não pago nada.",
-  "objection": "Não preciso de mais paciente agora, e R$ 1.500 por mês para posts que podem sair iguais aos da última agência é muito dinheiro para quem ainda está montando o consultório.",
-  "would_change_my_mind": "Se o vídeo mostrasse que a falha do CFM pode me dar processo no conselho e o conserto não é trivial, eu pagaria os R$ 497 da entrada, só isso; para o plano mensal, só quando eu quisesse abrir agenda para particular.",
-  "price_too_cheap": 400,
-  "price_cheap": 800,
-  "price_expensive": 1500,
-  "price_too_expensive": 2200
+  "reason": "Se ela apontou que falta CRM e RQE no meu perfil, isso é exatamente o que me tira o sono com o conselho, e só pago depois de ver pronto. Eu fecharia a parte de conformidade de R$ 497. Os 9 posts eu deixaria para depois, porque postar ainda me deixa insegura.",
+  "objection": "Uma desconhecida no direct me dizendo que estou irregular pode ser só tática de medo. Também não sei se essa advogada de direito médico existe mesmo, nem se o 'refaz sem custo' me protege caso o CRM abra um processo contra mim e não contra ela.",
+  "would_change_my_mind": "Falar rápido com o médico de referência e ver o nome e a OAB da advogada que revisou o checklist. Se isso não se confirmar, eu desisto.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
 }

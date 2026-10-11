@@ -1,22 +1,56 @@
 {
-  "business": "Social media para médicos (gestão mensal de Instagram)",
-  "unit": "cliente-mês",
-  "price": 2200,
-  "variable": [
-    {"label": "Imposto sobre a nota (Simples Nacional, estimativa 6%)", "cost": 132},
-    {"label": "Taxa de cobrança (boleto/Pix recorrente, estimativa)", "cost": 5},
-    {"label": "Banco de imagens e ferramentas por cliente (estimativa)", "cost": 40}
-  ],
-  "fixed_monthly": [
-    {"label": "Ferramentas: Canva, agendador, IA, edição de vídeo (estimativa)", "cost": 350},
-    {"label": "Contador (estimativa)", "cost": 300}
-  ],
-  "startup": [
-    {"label": "Abertura de CNPJ e contrato padrão (estimativa)", "cost": 800},
-    {"label": "Kit de gravação: microfone e luz (estimativa)", "cost": 400}
-  ],
-  "days_per_month": 1,
-  "capacity_per_day": 8,
-  "plan_per_day": 8,
-  "ramp_per_day": [0, 1, 2, 3, 4, 5, 6, 6, 7, 7, 8, 8]
+ "business": "Social media para médicos (gestão mensal, mix Essencial R$ 1.500 e Completo R$ 2.200)",
+ "unit": "cliente-mês",
+ "price": 1700,
+ "variable": [
+  {
+   "label": "Imposto sobre a nota (Simples Nacional, estimativa 6%)",
+   "cost": 102
+  },
+  {
+   "label": "Taxa de cobrança (boleto/Pix recorrente, estimativa)",
+   "cost": 5
+  },
+  {
+   "label": "Banco de imagens e ferramentas por cliente (estimativa)",
+   "cost": 40
+  }
+ ],
+ "fixed_monthly": [
+  {
+   "label": "Ferramentas: Canva, agendador, IA, edição de vídeo (estimativa)",
+   "cost": 350
+  },
+  {
+   "label": "Contador (estimativa)",
+   "cost": 300
+  }
+ ],
+ "startup": [
+  {
+   "label": "Abertura de CNPJ e contrato padrão (estimativa)",
+   "cost": 800
+  },
+  {
+   "label": "Kit de gravação: microfone e luz (estimativa)",
+   "cost": 400
+  }
+ ],
+ "days_per_month": 1,
+ "capacity_per_day": 11,
+ "plan_per_day": 11,
+ "ramp_per_day": [
+  0,
+  4,
+  7,
+  9,
+  10,
+  11,
+  11,
+  11,
+  11,
+  11,
+  11,
+  11
+ ]
 }

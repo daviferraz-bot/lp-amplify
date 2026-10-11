@@ -1,13 +1,13 @@
 {
   "id": "P015",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Minha agenda já está cheia por indicação e convênio, não preciso de mais paciente vindo do Instagram. E essa mensagem provavelmente nem chegaria em mim, minha secretária filtra esse tipo de abordagem.",
-  "objection": "Instagram traz paciente de verdade ou só seguidor? Pagar R$ 1.500 a R$ 2.200 por mês para algo que eu não preciso, e ainda ter que aprovar calendário pelo WhatsApp, é mais uma tarefa na minha semana.",
-  "would_change_my_mind": "Se a pendência do CFM no meu perfil for real e me expuser a um processo ético, eu pagaria os R$ 497 só para corrigir isso, mas não assinaria o plano mensal.",
-  "price_too_cheap": 400,
-  "price_cheap": 800,
-  "price_expensive": 1800,
-  "price_too_expensive": 3000
+  "reason": "Recebo proposta de agência toda semana e ignoro quase todas, mas essa apontou uma falha concreta no meu perfil, o RQE que não aparece, e isso pode me dar dor de cabeça com o CRM. Como só pago depois de ver pronto e aprovar, meu risco é perder uns minutos revisando, então eu fecho, provavelmente o pacote de R$ 997, porque os 9 posts resolvem o que eu nunca consigo fazer sozinho.",
+  "objection": "Quem é essa pessoa? Nunca ouvi falar. Antes de liberar acesso ao meu Instagram vou ligar para o médico da referência e checar se o portfólio é de verdade, e tenho medo de os posts saírem genéricos e eu não ter tempo de aprovar.",
+  "would_change_my_mind": "Se o médico indicado não atender ou falar mal dela, ou se o post de exemplo no vídeo vier genérico, sem cara de especialista, eu desisto e corrijo o CRM/RQE eu mesmo.",
+  "price_too_cheap": 200,
+  "price_cheap": 500,
+  "price_expensive": 1500,
+  "price_too_expensive": 2500
 }

@@ -2,12 +2,12 @@
   "id": "P014",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "Já tive agência e não trouxe paciente, e essa mensagem é igual às três que recebo por semana, só que com o CFM de isca. Eu até aceitaria o vídeo por medo de estar irregular, mas se ela me mostra os três pontos, eu mesma corrijo a bio e o RQE numa tarde e não pago nada.",
-  "objection": "Relatório de quantas mensagens chegaram pelo link não é paciente na cadeira; já paguei R$ 1.500 por mês para ver curtida e post genérico, e 'sem promessa de resultado' para mim soa como 'sem compromisso com resultado'.",
-  "would_change_my_mind": "Uma colega da minha especialidade que eu conheço me dizer que contratou ela e que passou a receber agendamento particular pelo Instagram; aí eu pagaria os R$ 497 da entrada para testar.",
-  "price_too_cheap": 500,
-  "price_cheap": 900,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia por convênio e indicação, não preciso de mais paciente vindo do Instagram. Se o problema é CRM e RQE na bio, peço para minha secretária colocar amanhã e resolvo de graça.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor? Para quem já tem fila de espera, post bonito não muda nada, e eu não quero mais uma pessoa me mandando coisa para aprovar à noite.",
+  "would_change_my_mind": "Uma notificação ou advertência do CRM sobre a publicidade da clínica, ou um colega da minha área que eu respeite dizendo que teve problema com o conselho por causa do perfil; aí eu pagaria os R$ 497 da conformidade sem pensar duas vezes.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
   "price_expensive": 1500,
-  "price_too_expensive": 2200
+  "price_too_expensive": 3000
 }

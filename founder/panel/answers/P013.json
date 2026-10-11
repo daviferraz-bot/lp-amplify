@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Se o vídeo mostrar mesmo que falta algo do CFM no meu perfil, R$ 497 pra resolver isso em 7 dias é barato perto do risco e do que eu ganho numa tarde de consultório, então pago a entrada. O plano mensal eu só fecho depois de ver o trabalho dela e o primeiro relatório, não agora.",
-  "objection": "Instagram traz paciente mesmo ou só seguidor? Não quero pagar R$ 1.500 todo mês pra ter post bonito e a agenda continuar igual, e ainda é uma pessoa que eu não conheço que me mandou mensagem do nada.",
-  "would_change_my_mind": "Falar com um ou dois médicos do portfólio dela que confirmem que chegou paciente agendado pelo link do perfil.",
-  "price_too_cheap": 600,
-  "price_cheap": 1000,
-  "price_expensive": 2000,
-  "price_too_expensive": 3000
+  "reason": "Recebo DM de agência toda semana e ignoro, mas essa apontou uma falha de CFM no meu perfil e só cobra depois que eu aprovar. R$ 997 é menos que uma consulta e meia; eu fecho o pacote completo para ajustar o perfil e usar os 30 dias de relatório para ver se o Instagram traz paciente mesmo.",
+  "objection": "Instagram traz paciente particular ou só seguidor e curtida? E 9 posts feitos por alguém de fora vão soar como eu, ou como mais um perfil genérico de médico? Antes de fechar ainda ligaria para o colega da referência.",
+  "would_change_my_mind": "Se o colega da referência dissesse que não viu nenhum agendamento novo, ou se o post de exemplo parecesse genérico, eu ficaria só nos ajustes de conformidade por R$ 497 ou não fecharia nada.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 1800,
+  "price_too_expensive": 3500
 }

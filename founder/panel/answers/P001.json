@@ -1,13 +1,13 @@
 {
   "id": "P001",
-  "buys": false,
-  "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "Recebo esse tipo de mensagem toda semana e não sei quem ela é; o gancho do CFM chama atenção, mas soa como tática de medo para vender. Provavelmente deixaria no visto ou pediria para minha secretária checar o perfil e esqueceria.",
-  "objection": "Quem é essa pessoa? Nunca ouvi falar. Não vou entregar o Instagram do meu consultório e meu nome no CRM para uma desconhecida que me abordou do nada, e portfólio qualquer um monta.",
-  "would_change_my_mind": "Indicação de um colega médico que eu conheço e confio, dizendo que ela cuida do perfil dele e que deu certo.",
-  "price_too_cheap": 600,
-  "price_cheap": 1000,
-  "price_expensive": 2200,
-  "price_too_expensive": 3500
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se minha secretária me mostra um vídeo dizendo que meu perfil está irregular com o CFM, eu olho, porque não quero dor de cabeça com o CRM aos 60 anos. Pago os R$ 497 da parte da conformidade, já que só pago depois de ver pronto; os posts eu dispenso, já paguei por post genérico e não veio paciente nenhum.",
+  "objection": "Já fui enganado por agência: post bonito que não traz paciente. R$ 997 por 9 posts continua me parecendo caro para um serviço de post, e não tenho tempo para ficar aprovando conteúdo.",
+  "would_change_my_mind": "Se os 3 pontos do vídeo fossem genéricos ou o item do CFM não fosse real no meu perfil, eu nem responderia.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
 }

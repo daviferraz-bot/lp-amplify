@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Minha secretária só me passou porque falava em exigência do CFM faltando no meu perfil, e isso me preocupa mais do que seguidor. Pago os R$ 497 para deixar o perfil em dia, que é barato para tirar esse risco, mas não entro no plano mensal agora.",
-  "objection": "Já paguei agência por meses e não veio paciente nenhum. Post bonito eu já tive; não vou voltar a pagar R$ 1.500 ou R$ 2.200 por mês para uma pessoa que não conheço sem ver agendamento chegando.",
-  "would_change_my_mind": "Para assinar o mensal: ver no relatório, depois de um ou dois meses, agendamentos reais chegando pelo link do perfil, ou o depoimento de um colega médico aqui de Vitória que eu conheça.",
-  "price_too_cheap": 500,
-  "price_cheap": 1000,
-  "price_expensive": 1800,
-  "price_too_expensive": 3000
+  "reason": "Ela tocou exatamente no que me preocupa: se falta CRM e RQE no meu perfil, prefiro corrigir antes que alguém denuncie. Só pago depois de ver pronto e aprovar, e R$ 997 não pesa pra mim, então peço pra mandar o vídeo pra minha secretária e, se os pontos forem reais, fecho o pacote completo.",
+  "objection": "Não conheço essa pessoa, e os posts com meu nome é que podem me complicar no CRM. Checklist revisado por advogada é bonito no papel, mas se der problema quem responde no conselho sou eu, não ela. E não gosto de passar senha do meu Instagram pra estranho.",
+  "would_change_my_mind": "Se no vídeo os 3 pontos forem genéricos, iguais pra qualquer médico, ou se o colega da referência não confirmar que o trabalho foi bom, eu não respondo mais.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
 }

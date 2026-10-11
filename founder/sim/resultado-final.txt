@@ -1,0 +1,13 @@
+Compra da entrada por grupo (painel, suavizada):
+  56%  Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia)
+  56%  Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia)
+  33%  Médico(a) jovem montando o próprio consultório (até 5 anos de formado)
+  50%  Médico(a) dono(a) ou gestor(a) de clínica com vários médicos
+=== Mensagem A: gancho CFM + portfólio | lista geral ===
+pessimista chega 336 (327-345) | responde 20 (15-26) | entrada 3 (1-5) | mensal 1 (0-2) | receita_entrada 2661 (847-4235) | mrr 922 (0-3000)
+base       chega 336 (327-345) | responde 41 (33-49) | entrada 11 (7-15) | mensal 4 (1-6) | receita_entrada 9093 (5929-12705) | mrr 5287 (1500-9000)
+otimista   chega 336 (327-344) | responde 68 (59-78) | entrada 29 (22-35) | mensal 13 (9-17) | receita_entrada 24151 (18634-29645) | mrr 19275 (13500-25500)
+=== Mensagem A: gancho CFM + portfólio | lista focada ===
+pessimista chega 324 (315-333) | responde 24 (18-30) | entrada 4 (2-7) | mensal 1 (0-2) | receita_entrada 3772 (1694-5929) | mrr 1348 (0-3000)
+base       chega 324 (315-333) | responde 48 (40-57) | entrada 15 (10-20) | mensal 5 (2-8) | receita_entrada 12575 (8470-16940) | mrr 7380 (3000-12000)
+otimista   chega 324 (315-334) | responde 80 (70-91) | entrada 39 (32-47) | mensal 18 (13-23) | receita_entrada 33423 (27104-39809) | mrr 26535 (19500-34500)

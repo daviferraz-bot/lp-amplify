@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se ela me mostra que falta algo do CFM no meu perfil, eu resolvo por R$ 497 sem pensar muito, porque é barato perto do risco de uma denúncia no conselho e eu não tenho tempo de ler a resolução. O plano mensal eu não fecho agora; quero ver primeiro o relatório de agendamentos.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor? R$ 1.500 todo mês é dinheiro de verdade, e eu já tenho agenda cheia de particular por indicação; não sei se post bonito vira consulta.",
+  "would_change_my_mind": "Ver números reais de agendamentos que chegaram pelo link do perfil de outro médico da minha especialidade que ela atende, ou um primeiro mês em que o relatório mostre pacientes novos de fato.",
+  "price_too_cheap": 600,
+  "price_cheap": 1000,
+  "price_expensive": 2000,
+  "price_too_expensive": 3000
+}

@@ -1,0 +1,8 @@
+Você recebe uma mensagem de uma social media que você não conhece. Ela se identifica pelo nome, diz que trabalha só com médicos e manda o link do portfólio com perfis de médicos que ela atende, junto com o contato de um deles que topou dar referência:
+"Dr(a)., revisei seu Instagram e encontrei 3 pontos que podem ser melhorados; um deles é um item da Resolução CFM 2.336 (identificação com CRM e RQE) que não aparece no perfil. Gravei um vídeo de 2 minutos mostrando os três. Posso te mandar por aqui ou prefere que eu envie para sua secretária?"
+Se você aceitar, recebe o vídeo: ela mostra os 3 pontos no seu perfil e um post de exemplo já feito com a cara do seu perfil. Depois, por escrito, a oferta (sem reunião obrigatória):
+- "Perfil em dia com o CFM" (completo): os 12 itens de um checklist da Resolução CFM 2.336 aplicados ao seu perfil (checklist revisado por uma advogada de direito médico), link de agendamento rastreado e 9 posts com a sua cara, cada um aprovado por você antes de ir ao ar. Entrega em 7 dias. Você só paga depois de ver pronto e aprovar: R$ 997. Bônus: durante 30 dias, relatório de quantas mensagens e agendamentos chegaram pelo Instagram.
+- Se preferir só a parte da conformidade (os 12 itens, sem os posts): R$ 497, também pago só depois de aprovar.
+- Se algum item ajustado for questionado pelo CRM, ela refaz sem custo.
+- Se quiser continuar depois: gestão mensal a partir de R$ 1.500 (sem precisar gravar nada) ou R$ 2.200 com gravação feita por ela no seu consultório. Sem fidelidade, e metade do valor da entrada é abatida do primeiro mês.
+- Ela faz no máximo 10 entradas por mês e não promete número de pacientes, porque o CFM proíbe promessa de resultado.

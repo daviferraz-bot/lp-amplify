@@ -2,21 +2,21 @@
 
 **Verdict: Profitable**
 
-- ✓ Each cliente-mês earns $2023.00 before fixed costs (92% contribution).
-- ✓ Year 1 operating profit: $107,511.
-- ✓ Break-even is 1 cliente-mêss a day against a capacity of 8.
-- ✓ 9 of 20 simulated buyers buy (45%, the bar is 25%).
+- ✓ Each cliente-mês earns $1553.00 before fixed costs (91% contribution).
+- ✓ Year 1 operating profit: $158,371.
+- ✓ Break-even is 1 cliente-mêss a day against a capacity of 11.
+- ✓ 10 of 20 simulated buyers buy (50%, the bar is 25%).
 
 | key number | |
 | --- | ---: |
-| Price | $2200.00 a cliente-mês |
+| Price | $1700.00 a cliente-mês |
 | Profit margin at plan | 88% per cliente-mês |
 | Break-even | 1 cliente-mêss a day |
-| Year 1 operating profit | $107,511 |
+| Year 1 operating profit | $158,371 |
 | Startup spend | $1,200 |
 | Cash needed before it pays for itself | $1,850 |
-| Startup money earned back | month 3 |
-| Buyer panel | 9 buy · 11 pass |
+| Startup money earned back | month 2 |
+| Buyer panel | 10 buy · 10 pass |
 
 ## The idea
 
@@ -29,19 +29,19 @@
 
 ## Summary
 
-**O que é:** gestão de Instagram para médicos, vendida por prospecção ativa, começando pela Grande Vitória. Diferencial: tudo dentro das regras do CFM (Resolução 2.336), sem tomar o tempo do médico, com um relatório de agendamentos.
+**O que é:** "Instagram em dia com o CFM", gestão de Instagram para médicos da Grande Vitória, vendida por prospecção ativa. A entrada fica pronta em 7 dias e o médico só paga se aprovar. Depois vem o mensal sem fidelidade. Tudo em `oferta-final.md`.
 
-**Veredito calculado: veja o topo do plano.** Os números (`cfo.md`) fecham com folga: margem de cerca de 88% com 8 clientes a R$ 2.200 e cerca de R$ 107 mil de lucro no ano 1, antes da remuneração dela. **Mas o painel só comprou a entrada (R$ 497), nunca o mensal direto.** O veredito depende de converter a entrada em mensal, e isso só se prova com médicos reais.
+**Veredito calculado:** veja o topo do plano. Com 11 mensais no mix (R$ 1.700 em média), a margem é de cerca de 88% e o lucro do ano 1, só com mensalidades, fica em cerca de R$ 158 mil, antes da remuneração dela (`cfo.md`).
 
-**Conselho:** 2 FUND IF, 1 PASS. Todos concordam que é preciso focar, ter pacote fechado com preço e conseguir prova. A lente Monopoly diz que é fácil de copiar.
+**Painéis:** a abordagem original vendeu 0 de 20. A oferta final vendeu a entrada para 10 de 20 médicos **novos**, 7 deles na de R$ 997. Ninguém fecha o mensal na primeira conversa: o mensal se vende no relatório do dia 30.
 
-**Painel:** a abordagem atual teve 0 de 20 compras, e 16 dos 20 citaram confiança. A oferta nova teve 6 de 20. A oferta corrigida (casos de médicos, sem citar a agência) teve **9 de 20**, todos na entrada, e nenhum fechou o mensal na primeira conversa.
+**Conselho:** 2 FUND IF, 1 PASS. As condições (foco, pacote com preço, prova) foram atendidas na oferta; a prova real ainda falta.
 
-**Maior risco:** confiança. "Se ela errar, quem responde no conselho sou eu" e "já tive agência e não trouxe paciente". A resposta são os casos de médicos fundadores, o checklist CFM registrado e o relatório de agendamentos.
+**Maior risco:** confiança e indicação. "Um colega que eu conheço indicou" foi o pedido em 53 de 65 recusas. A resposta é o médico de referência, o portfólio autorizado e os pedidos de indicação a cada entrega.
 
-**Para começar:** cerca de R$ 1.850 de caixa e o teste de 4 semanas em `launch.md`, com lançamento em 19/10 e a linha de sucesso de 6 entradas e 2 mensais até 15/11.
+**Para começar:** cerca de R$ 1.850 de caixa e os 7 itens que "precisam ser verdade" (seção 6 de `oferta-final.md`).
 
-**Esta semana:** montar o checklist CFM e o modelo de vídeo, e preparar as 2 mensagens para começar a enviar em 19/10.
+**Esta semana:** conseguir o médico de referência, montar o checklist de 12 itens e o fluxo de IA do vídeo, e fechar a lista de 400 no CRM. Começar em 19/10.
 
 ## What the board said
 
@@ -112,7 +112,7 @@ Qualquer social media pode copiar o gancho do CFM em semanas. A defesa vem dos c
 
 ## The buyer panel
 
-**9 buy · 11 pass** (45% buy) out of 20 simulated buyers. Seed 11, so the same cards can be dealt again.
+**10 buy · 10 pass** (50% buy) out of 20 simulated buyers. Seed 31, so the same cards can be dealt again.
 
 These are simulated buyers, not customers. Use this to find objections and weak spots, then confirm the big ones with real people before you spend.
 
@@ -120,57 +120,57 @@ These are simulated buyers, not customers. Use this to find objections and weak 
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$ | 7 | 86%  (thin) |
+| Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$ | 7 | 57%  (thin) |
+| Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$ | 7 | 57%  (thin) |
 | Médico(a) dono(a) ou gestor(a) de clínica com vários médicos; renda pessoal anual em R$ | 2 | 50%  (thin) |
-| Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$ | 7 | 29%  (thin) |
-| Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$ | 4 | 0%  (thin) |
+| Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$ | 4 | 25%  (thin) |
 
 ### By buying behaviour
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
+| Já se decepcionou com agência | 3 | 100%  (thin) |
 | Quer crescer no particular | 3 | 100%  (thin) |
-| Posta sozinho quando dá | 4 | 100%  (thin) |
+| Posta sozinho quando dá | 4 | 50%  (thin) |
 | Medo do conselho | 2 | 50%  (thin) |
 | Secretária cuida do Instagram | 3 | 33%  (thin) |
-| Desconfiado de abordagem comercial | 2 | 0%  (thin) |
-| Já se decepcionou com agência | 3 | 0%  (thin) |
 | Agenda cheia | 3 | 0%  (thin) |
+| Desconfiado de abordagem comercial | 2 | 0%  (thin) |
 
 ### By income
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| $329,000 to $466,000 | 7 | 57%  (thin) |
-| $466,000 and up | 7 | 57%  (thin) |
-| under $329,000 | 6 | 17%  (thin) |
+| $580,000 and up | 7 | 71%  (thin) |
+| $328,000 to $580,000 | 7 | 43%  (thin) |
+| under $328,000 | 6 | 33%  (thin) |
 
 ### Why they pass
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| trust | 6 | "Recebo esse tipo de mensagem toda semana e não sei quem ela é; o gancho do CFM chama atenção, mas soa como tática de medo para vender. Provavelmente deixaria no visto ou pediria para minha secretária checar o perfil e esqueceria." (P001) · "Já paguei social media, recebi post genérico e nenhum paciente novo; uma desconhecida no direct à noite, depois de um dia inteiro de consultório, não me faz abrir a carteira. Talvez eu até assista ao vídeo pela curiosidade do CFM, mas R$ 1.500 por mês por post é caro e o relatório de mensagens não me garante paciente." (P002) |
-| need | 5 | "Minha agenda já está cheia e minha secretária já posta e responde o Instagram; não preciso de mais paciente, então pagar R$ 1.500 a R$ 2.200 por mês para uma desconhecida não resolve um problema que eu tenho. E essa mensagem provavelmente nem chega até mim, a secretária filtra." (P003) · "Minha agenda já está cheia e eu já paguei social media antes, recebi post genérico e nenhum paciente novo. Eu aceitaria o vídeo, mas se o problema do CFM for só a bio, eu mesmo corrijo em dez minutos e não pago nada." (P009) |
+| need | 8 | "Minha agenda está cheia há anos por convênio e indicação, não preciso de post nem de mais paciente. Se faltar CRM e RQE na bio, peço para minha secretária colocar hoje mesmo, não vou pagar R$ 997 por isso." (P002) · "Minha agenda já está cheia e não preciso de mais paciente vindo do Instagram. Se falta CRM e RQE no perfil, eu mesmo ou minha secretária corrigimos em cinco minutos, sem pagar ninguém." (P007) |
+| trust | 1 | "Quem lê essa mensagem é a minha secretária, e o que chega até mim é 'uma social media que a senhora não conhece quer mandar um vídeo'. Nunca ouvi falar dela, e falar de CFM numa mensagem fria soa mais como tática de susto do que como ajuda, então eu digo para não responder ou deixo para depois." (P006) |
+| habit | 1 | "Quem lê as mensagens do perfil é minha secretária, e ela já cuida do Instagram; recebo proposta de agência toda semana e isso vira mais uma. No máximo eu peço para ela dar uma olhada no tal item do CRM e RQE e corrigir ela mesma, sem pagar ninguém." (P012) |
 
 ### Why they buy
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| need | 9 | "Se tem uma exigência do CFM faltando no meu perfil, eu quero saber e corrigir antes que vire problema, e R$ 497 para resolver isso em 7 dias é nada perto do risco. Compro a entrada para testar; o plano mensal só depois de ver se o trabalho dela tem a cara do meu consultório." (P004) · "Minha secretária só me passou porque falava em exigência do CFM faltando no meu perfil, e isso me preocupa mais do que seguidor. Pago os R$ 497 para deixar o perfil em dia, que é barato para tirar esse risco, mas não entro no plano mensal agora." (P005) |
+| need | 10 | "Se minha secretária me mostra um vídeo dizendo que meu perfil está irregular com o CFM, eu olho, porque não quero dor de cabeça com o CRM aos 60 anos. Pago os R$ 497 da parte da conformidade, já que só pago depois de ver pronto; os posts eu dispenso, já paguei por post genérico e não veio paciente nenhum." (P001) · "O ponto do CFM me pegou: a clínica tem vários médicos e não quero problema no CRM por causa de perfil. Como só pago depois de ver pronto, o risco é só meu tempo; fecho a entrada de R$ 997 para ver o relatório de agendamentos, mas a gestão mensal só depois de ver número." (P003) |
 
 ### What would flip a no
 
-- Indicação de um colega médico que eu conheço e confio, dizendo que ela cuida do perfil dele e que deu certo.
-- Um colega médico que eu conheço me dizer que trabalha com ela e que a agenda dele encheu pelo Instagram; aí eu toparia pelo menos os R$ 497 da entrada.
-- Se minha secretária me mostrasse o vídeo e o ponto do CFM fosse uma falha real no meu perfil, eu pagaria os R$ 497 só para deixar o perfil em conformidade, sem contratar o mensal.
-- Indicação de um colega médico daqui de Vitória que eu conheço e que usa o serviço, ou minha secretária me mostrar que o ponto do CFM que está faltando é real e pode me dar dor de cabeça.
-- A indicação de um colega médico que eu conheço e que usa o serviço há meses sem problema com o CRM, ou a revisão das peças assinada por um advogado de direito médico.
-- Se o vídeo mostrasse que a falha do CFM pode me dar processo no conselho e o conserto não é trivial, eu pagaria os R$ 497 da entrada, só isso; para o plano mensal, só quando eu quisesse abrir agenda para particular.
-- Uma colega da minha especialidade que eu conheço me dizer que contratou ela e que passou a receber agendamento particular pelo Instagram; aí eu pagaria os R$ 497 da entrada para testar.
-- Se a pendência do CFM no meu perfil for real e me expuser a um processo ético, eu pagaria os R$ 497 só para corrigir isso, mas não assinaria o plano mensal.
-- Uma notificação ou cobrança real do CRM sobre o meu perfil; aí eu pagaria os R$ 497 só para ficar em dia e encerrar o assunto.
-- Se eu sair dos convênios e precisar encher a agenda com particular, aí um serviço que não exige que eu grave nada passaria a valer a pena.
-- Um colega médico que eu conheço me dizer que trabalha com ela e que o relatório mostra agendamentos de verdade chegando pelo link.
+- Uma notificação ou advertência concreta do CRM sobre o meu perfil, aí eu pagaria os R$ 497 só da conformidade para ter alguém revisado por advogada cuidando disso.
+- Se um colega que eu conheço de verdade, da minha especialidade ou da minha cidade, me falasse dela. Aí, com o pagamento só depois de aprovar, eu pagaria os R$ 497 da conformidade sem pensar muito.
+- Um colega de especialidade que eu conheço pessoalmente me indicar ela e dizer que teve um problema real com o CRM por causa do perfil, e ela resolveu.
+- Uma notificação ou advertência real do CRM sobre o meu perfil, ou um colega de confiança me dizendo que teve problema com o conselho por causa do Instagram; aí eu pagaria os R$ 497 só pela conformidade.
+- Receber alguma notificação do CRM ou ver um colega próximo ser processado por publicidade; aí eu pagaria os R$ 497 só da conformidade, com a revisão da advogada, sem pensar duas vezes.
+- Um colega médico que eu conheço pessoalmente me dizer que contratou e que ela resolveu um problema real com o CRM; aí eu pagaria os R$ 497 só da parte de conformidade sem pensar muito.
+- Uma notificação ou advertência do CRM sobre a publicidade da clínica, ou um colega da minha área que eu respeite dizendo que teve problema com o conselho por causa do perfil; aí eu pagaria os R$ 497 da conformidade sem pensar duas vezes.
+- Uma notificação ou advertência do CRM sobre meu perfil, ou um colega meu de especialidade dizendo que foi questionado e que ela resolveu. Aí eu pagaria os R$ 497 só pela conformidade.
+- Um colega médico que eu conheço, aqui da região, me dizer que fez, que deu trabalho zero para ele e que começou a aparecer paciente particular marcando pelo Instagram.
+- Se eu abrir um consultório particular novo, com horário vago e querendo sair do convênio, aí os 9 posts com pagamento só depois de aprovar começam a valer a pena.
 
 Buyers say they would buy **1.0 times** in the first month on average.
 
@@ -221,6 +221,9 @@ O custo variável é baixo (imposto e ferramentas, cerca de R$ 180 por cliente).
 - "É caro para um serviço de post, e sem promessa de paciente eu não tenho como saber se vai ser diferente da última agência." (P002)
 - "Pagar R$ 2.200 por mês para atrair paciente que eu não tenho horário para atender não faz sentido." (P003)
 - "Eu pago R$ 2.200 por mês por alcance e cliques, que foi exatamente o que a outra agência me entregou." (P020)
+
+### 8. Entrada a R$ 997 (11/10)
+No painel, a entrada a R$ 997 vendeu para os mesmos 10 de 20 médicos que a de R$ 497, sem nenhuma recusa por preço. A recomendação passa a ser: **entrada completa a R$ 997**, **"Só conformidade CFM" a R$ 497** como versão menor, e **50% da entrada abatidos no mensal**. Testar R$ 997 contra R$ 497 com médicos reais; se a R$ 997 vender menos da metade, voltar. Detalhes em `oferta-irresistivel.md`, seção 6.
 
 ## The offer
 
@@ -291,21 +294,20 @@ Mudanças: sem citar a agência, portfólio com perfis de médicos atendidos, Es
 
 ## The numbers
 
-**Leia assim:** a ferramenta escreve `$`, mas os valores são em R$. "A day" significa clientes ativos no mês (a unidade é cliente-mês). Os custos são estimativas (veja `cfo-sources.md`). O **lucro aqui é antes de pagar a própria social media**: é a renda dela.
+**Como ler:** a ferramenta escreve `$`, mas os valores são em R$. "A day" quer dizer clientes mensais ativos (a unidade é cliente-mês). Os custos são estimativas (`cfo-sources.md`). O **lucro mostrado é antes de pagar a própria social media**: é a renda dela.
 
-- **Margem:** cada cliente do plano Completo (R$ 2.200) deixa cerca de R$ 2.023 depois de imposto e ferramentas (92%). Com 8 clientes, a margem é de 88% e o faturamento de R$ 17.600/mês.
-- **Ano 1:** cerca de R$ 107 mil de lucro antes da remuneração dela, com a rampa de 0 a 8 clientes em 11 meses. O caixa inicial é pequeno (cerca de R$ 1.850).
-- **O número que mais pesa é a rampa, não o custo.** O painel mostrou 0% de compra direta do mensal; a rampa supõe que **1 em cada 3 médicos que compram a entrada vira mensal** (estimativa a confirmar). Com volume 20% menor, o lucro do ano cai para cerca de R$ 84 mil.
-- **O limite é o tempo.** 40 h/semana dão cerca de 170 h/mês. Com 15 h por cliente Completo e uns 30% do tempo para prospectar, cabem **cerca de 8 clientes**. Mais que isso exige baixar as horas por cliente (IA, modelos) ou contratar.
-- **Três formas de melhorar:**
-  1. Preço do Completo a R$ 2.500: margem de 90% (ferramenta, `--price 2500`).
-  2. Reduzir de 15 h para 10 h por cliente com o fluxo de IA do sócio: a capacidade sobe de 8 para cerca de 12 clientes.
-  3. Vender a entrada (R$ 497) com frequência: ela não está na conta acima e é receita extra que paga a prospecção.
-- **Condições do conselho:** a margem está ok; o que falta provar é a conversão (casos e funil medido).
+- **Mix mensal:** preço médio de R$ 1.700, uma mistura de Essencial (R$ 1.500, cerca de 8 h por cliente) e Completo (R$ 2.200, cerca de 15 h). Com cerca de 10 h por cliente em média e 70% do tempo para entregar, cabem **11 clientes**.
+- **Margem:** cada cliente deixa R$ 1.553 (91%). Com 11 clientes, a margem é de 88% e o faturamento de **R$ 18.700/mês**.
+- **Ano 1, só mensalidades:** cerca de **R$ 158 mil de lucro** sobre R$ 182 mil de faturamento. A rampa vem da simulação (cenário base): 400 abordagens no mês 1 e cerca de 200 por mês depois.
+- **Entradas, que não estão na conta acima:** no cenário base, cerca de R$ 12,6 mil no mês 1 (15 entradas) e cerca de R$ 6 mil por mês depois, com 200 abordagens. Elas pagam a prospecção e alimentam o mensal.
+- **O que mais pesa:** a conversão da entrada em mensal (premissa de 1 em 3). Com volume 20% menor, o lucro do ano cai cerca de 20%.
+- **O limite é o tempo:** passando de 11 clientes, é preciso reduzir as horas com IA ou contratar uma assistente.
+- **Caixa inicial:** cerca de R$ 1.850.
 
-Não é aconselhamento contábil: um contador deve confirmar o regime tributário (Simples Nacional, Anexo III ou V conforme o fator R) e a alíquota real.
+Um contador deve confirmar o regime tributário e a alíquota. Não é aconselhamento contábil.
 
-## Unit economics: Social media para médicos (gestão mensal de Instagram)
+---
+## Unit economics: Social media para médicos (gestão mensal, mix Essencial R$ 1.500 e Completo R$ 2.200)
 
 Every number below comes from the input file. Nothing is looked up or guessed.
 
@@ -313,50 +315,50 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 
 | line | per cliente-mês |
 | --- | ---: |
-| Price | $2,200.00 |
-| Imposto sobre a nota (Simples Nacional, estimativa 6%) | -$132.00 |
+| Price | $1,700.00 |
+| Imposto sobre a nota (Simples Nacional, estimativa 6%) | -$102.00 |
 | Taxa de cobrança (boleto/Pix recorrente, estimativa) | -$5.00 |
 | Banco de imagens e ferramentas por cliente (estimativa) | -$40.00 |
-| **Contribution** (what each cliente-mês leaves to pay the fixed costs) | **$2,023.00** (92%) |
+| **Contribution** (what each cliente-mês leaves to pay the fixed costs) | **$1,553.00** (91%) |
 
 ### The margin that matters
 
 Fixed costs: $650 a month (Ferramentas: Canva, agendador, IA, edição de vídeo (estimativa) $350, Contador (estimativa) $300).
 
 - **Break-even: 1 cliente-mêss a day.** Below that you lose money every month.
-- **Profit margin at your plan** (8 a day): **88%** of every sale, after every cost.
-- Capacity: 8 a day.
+- **Profit margin at your plan** (11 a day): **88%** of every sale, after every cost.
+- Capacity: 11 a day.
 
 ### Year 1, month by month
 
 | month | cliente-mêss a day | revenue | profit | cumulative (after $1,200 startup) |
 | ---: | ---: | ---: | ---: | ---: |
 | 1 | 0 | $0 | -$650 | -$1,850 |
-| 2 | 1 | $2,200 | $1,373 | -$477 |
-| 3 | 2 | $4,400 | $3,396 | $2,919 |
-| 4 | 3 | $6,600 | $5,419 | $8,338 |
-| 5 | 4 | $8,800 | $7,442 | $15,780 |
-| 6 | 5 | $11,000 | $9,465 | $25,245 |
-| 7 | 6 | $13,200 | $11,488 | $36,733 |
-| 8 | 6 | $13,200 | $11,488 | $48,221 |
-| 9 | 7 | $15,400 | $13,511 | $61,732 |
-| 10 | 7 | $15,400 | $13,511 | $75,243 |
-| 11 | 8 | $17,600 | $15,534 | $90,777 |
-| 12 | 8 | $17,600 | $15,534 | $106,311 |
+| 2 | 4 | $6,800 | $5,562 | $3,712 |
+| 3 | 7 | $11,900 | $10,221 | $13,933 |
+| 4 | 9 | $15,300 | $13,327 | $27,260 |
+| 5 | 10 | $17,000 | $14,880 | $42,140 |
+| 6 | 11 | $18,700 | $16,433 | $58,573 |
+| 7 | 11 | $18,700 | $16,433 | $75,006 |
+| 8 | 11 | $18,700 | $16,433 | $91,439 |
+| 9 | 11 | $18,700 | $16,433 | $107,872 |
+| 10 | 11 | $18,700 | $16,433 | $124,305 |
+| 11 | 11 | $18,700 | $16,433 | $140,738 |
+| 12 | 11 | $18,700 | $16,433 | $157,171 |
 
-- **Year 1 operating profit: $107,511** on $125,400 of revenue.
-- After the $1,200 startup spend: $106,311.
-- Startup money earned back: month 3.
+- **Year 1 operating profit: $158,371** on $181,900 of revenue.
+- After the $1,200 startup spend: $157,171.
+- Startup money earned back: month 2.
 - Cash you need before it pays for itself: **$1,850**.
 
 ### What if
 
 | scenario | margin at plan | break-even a day | year 1 profit |
 | --- | ---: | ---: | ---: |
-| Base plan | 88% | 1 | $107,511 |
-| Price -10% | 87% | 1 | $94,971 |
-| Volume -20% | 87% | 1 | $84,449 |
-| Unit costs +15% | 87% | 1 | $105,998 |
+| Base plan | 88% | 1 | $158,371 |
+| Price -10% | 87% | 1 | $140,181 |
+| Volume -20% | 87% | 1 | $125,137 |
+| Unit costs +15% | 87% | 1 | $156,012 |
 
 No red flags in these numbers. They are only as good as the inputs: check every cost against a real quote.
 
@@ -370,12 +372,14 @@ No red flags in these numbers. They are only as good as the inputs: check every 
 
 **Tipo:** serviço, ou seja, pilotos pagantes ao preço planejado.
 
-**Linha de sucesso, escrita antes de começar.** Entre 19/10 e 15/11, com 300 abordagens focadas:
-- **6 entradas vendidas** (R$ 497 cada);
-- **2 mensais fechados** (Essencial ou Completo) até 30 dias depois da entrega da entrada.
+> **Atualizado com a oferta final** (`oferta-final.md`): entrada completa a R$ 997 ou só conformidade a R$ 497, as duas pagas só depois de aprovar; mensagem que não nomeia o item do CFM; contato de um médico que dá referência. Mensagens e roteiros finais estão nesse arquivo.
+
+**Linha de sucesso, escrita antes de começar.** Entre 19/10 e 15/11, com 400 abordagens:
+- **10 entradas vendidas** (R$ 997 ou R$ 497);
+- **3 mensais fechados** (Essencial ou Completo) até 30 dias depois da entrega da entrada.
 
 **Comparação com o painel simulado:**
-- No painel, 9 de 20 médicos (45%) compraram a entrada **depois de ver o vídeo e a oferta**. No mundo real, compare com quem aceitou o vídeo, não com o total de abordagens.
+- No painel da oferta final, com 20 médicos novos, 10 de 20 (50%) compraram a entrada **depois de ver o vídeo e a oferta**. No mundo real, compare com quem aceitou o vídeo, não com o total de abordagens.
 - Se menos de 15% de quem aceitou o vídeo comprar, **acredite no real**: volte para `/founder-offer`, que pode refazer o gancho, o vídeo ou o preço.
 - No painel, **ninguém fechou o mensal na primeira conversa**. Todos querem ver a entrada e o primeiro relatório antes. Então o mensal se mede só depois da entrega.
 
@@ -383,7 +387,7 @@ No red flags in these numbers. They are only as good as the inputs: check every 
 
 **Foco do teste (vem do painel):**
 - **Grande Vitória.**
-- **Especialidades clínicas com consultório próprio:** ginecologia, endocrinologia, ortopedia, cardiologia. No painel, 6 de 7 compraram a entrada.
+- **Especialidades clínicas com consultório próprio:** ginecologia, endocrinologia, ortopedia, cardiologia. No painel, 6 de 7 compraram a entrada. Com 20 médicos novos, as estéticas compraram tanto quanto as clínicas (4 de 7), então o filtro principal passa a ser o comportamento, não a especialidade.
 - Médicos que **postam sozinhos** ou que **querem crescer no particular**.
 - Deixe estética, recém-formados e agenda cheia para depois.
 

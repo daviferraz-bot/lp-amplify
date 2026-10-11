@@ -8,12 +8,14 @@
 
 **Tipo:** serviço, ou seja, pilotos pagantes ao preço planejado.
 
-**Linha de sucesso, escrita antes de começar.** Entre 19/10 e 15/11, com 300 abordagens focadas:
-- **6 entradas vendidas** (R$ 497 cada);
-- **2 mensais fechados** (Essencial ou Completo) até 30 dias depois da entrega da entrada.
+> **Atualizado com a oferta final** (`oferta-final.md`): entrada completa a R$ 997 ou só conformidade a R$ 497, as duas pagas só depois de aprovar; mensagem que não nomeia o item do CFM; contato de um médico que dá referência. Mensagens e roteiros finais estão nesse arquivo.
+
+**Linha de sucesso, escrita antes de começar.** Entre 19/10 e 15/11, com 400 abordagens:
+- **10 entradas vendidas** (R$ 997 ou R$ 497);
+- **3 mensais fechados** (Essencial ou Completo) até 30 dias depois da entrega da entrada.
 
 **Comparação com o painel simulado:**
-- No painel, 9 de 20 médicos (45%) compraram a entrada **depois de ver o vídeo e a oferta**. No mundo real, compare com quem aceitou o vídeo, não com o total de abordagens.
+- No painel da oferta final, com 20 médicos novos, 10 de 20 (50%) compraram a entrada **depois de ver o vídeo e a oferta**. No mundo real, compare com quem aceitou o vídeo, não com o total de abordagens.
 - Se menos de 15% de quem aceitou o vídeo comprar, **acredite no real**: volte para `/founder-offer`, que pode refazer o gancho, o vídeo ou o preço.
 - No painel, **ninguém fechou o mensal na primeira conversa**. Todos querem ver a entrada e o primeiro relatório antes. Então o mensal se mede só depois da entrega.
 
@@ -21,7 +23,7 @@
 
 **Foco do teste (vem do painel):**
 - **Grande Vitória.**
-- **Especialidades clínicas com consultório próprio:** ginecologia, endocrinologia, ortopedia, cardiologia. No painel, 6 de 7 compraram a entrada.
+- **Especialidades clínicas com consultório próprio:** ginecologia, endocrinologia, ortopedia, cardiologia. No painel, 6 de 7 compraram a entrada. Com 20 médicos novos, as estéticas compraram tanto quanto as clínicas (4 de 7), então o filtro principal passa a ser o comportamento, não a especialidade.
 - Médicos que **postam sozinhos** ou que **querem crescer no particular**.
 - Deixe estética, recém-formados e agenda cheia para depois.
 

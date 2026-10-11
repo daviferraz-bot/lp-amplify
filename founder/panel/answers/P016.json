@@ -1,13 +1,13 @@
 {
   "id": "P016",
-  "buys": true,
-  "purchases_first_month": 1,
+  "buys": false,
+  "purchases_first_month": 0,
   "reason_code": "need",
-  "reason": "Se ela me mostra que falta algo do CFM no meu perfil, eu resolvo por R$ 497 sem pensar muito, porque é barato perto do risco de uma denúncia no conselho e eu não tenho tempo de ler a resolução. O plano mensal eu não fecho agora; quero ver primeiro o relatório de agendamentos.",
-  "objection": "Instagram traz paciente mesmo ou só seguidor? R$ 1.500 todo mês é dinheiro de verdade, e eu já tenho agenda cheia de particular por indicação; não sei se post bonito vira consulta.",
-  "would_change_my_mind": "Ver números reais de agendamentos que chegaram pelo link do perfil de outro médico da minha especialidade que ela atende, ou um primeiro mês em que o relatório mostre pacientes novos de fato.",
-  "price_too_cheap": 600,
-  "price_cheap": 1000,
-  "price_expensive": 2000,
-  "price_too_expensive": 3000
+  "reason": "Minha agenda já está cheia, não preciso de mais paciente vindo do Instagram. Se faltar CRM e RQE no perfil, peço para minha secretária colocar em cinco minutos, de graça.",
+  "objection": "Não preciso de nove posts nem de relatório de agendamento. O único ponto que me preocupa é o CFM, e isso eu mesmo corrijo depois que alguém me aponta.",
+  "would_change_my_mind": "Uma notificação ou advertência do CRM sobre meu perfil, ou um colega meu de especialidade dizendo que foi questionado e que ela resolveu. Aí eu pagaria os R$ 497 só pela conformidade.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 1200,
+  "price_too_expensive": 2500
 }

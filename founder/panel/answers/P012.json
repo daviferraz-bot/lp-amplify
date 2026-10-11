@@ -1,13 +1,13 @@
 {
   "id": "P012",
-  "buys": true,
-  "purchases_first_month": 1,
-  "reason_code": "need",
-  "reason": "Se ela diz que falta uma exigência do CFM no meu perfil, eu quero ver o vídeo, e R$ 497 para deixar tudo em ordem e não ter dor de cabeça com o CRM eu pago sem pensar muito. O plano mensal eu só decido depois de ver como ela trabalha nessa entrada e de perguntar a algum colega se conhece ela.",
-  "objection": "Não conheço essa moça. Quem responde no CRM sou eu, não ela. Se ela publicar alguma coisa que pareça promessa ou autopromoção, o problema é meu. E eu não tenho tempo para ficar revisando post à noite pelo WhatsApp.",
-  "would_change_my_mind": "Para assinar o plano mensal: um colega médico que eu conheço me dizer que trabalha com ela e que os pacientes particulares aumentaram, sem nenhum problema com o conselho.",
-  "price_too_cheap": 600,
-  "price_cheap": 1200,
-  "price_expensive": 2500,
-  "price_too_expensive": 4000
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Quem lê as mensagens do perfil é minha secretária, e ela já cuida do Instagram; recebo proposta de agência toda semana e isso vira mais uma. No máximo eu peço para ela dar uma olhada no tal item do CRM e RQE e corrigir ela mesma, sem pagar ninguém.",
+  "objection": "Minha secretária já cuida disso, e uma desconhecida usando a resolução do CFM para chamar minha atenção soa como tática de venda, não como ajuda.",
+  "would_change_my_mind": "Um colega médico que eu conheço pessoalmente me dizer que contratou e que ela resolveu um problema real com o CRM; aí eu pagaria os R$ 497 só da parte de conformidade sem pensar muito.",
+  "price_too_cheap": 200,
+  "price_cheap": 450,
+  "price_expensive": 1500,
+  "price_too_expensive": 3000
 }

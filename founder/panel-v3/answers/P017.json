@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason": "Minha secretária só me mostrou a mensagem porque falava de exigência do CFM, e numa clínica com vários médicos o risco de um perfil fora da resolução é meu. Por R$ 497 eu corrijo isso e testo o trabalho dela antes de pensar em plano mensal.",
+  "reason_code": "need",
+  "objection": "Instagram traz paciente mesmo ou só seguidor? Pagar R$ 1.500 ou R$ 2.200 por mês só faz sentido se o relatório mostrar agendamento chegando pelo link, e uma pessoa sozinha com até 8 médicos talvez não dê conta de uma clínica inteira.",
+  "would_change_my_mind": "Para ir ao plano mensal: ver no relatório do primeiro mês agendamentos reais vindos do link do perfil, ou falar com um médico do portfólio que confirme que ganhou paciente, não só seguidor.",
+  "price_too_cheap": 600,
+  "price_cheap": 1500,
+  "price_expensive": 3500,
+  "price_too_expensive": 6000
+}

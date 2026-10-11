@@ -2,12 +2,12 @@
   "id": "P002",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "Já paguei social media, recebi post genérico e nenhum paciente novo; uma desconhecida no direct à noite, depois de um dia inteiro de consultório, não me faz abrir a carteira. Talvez eu até assista ao vídeo pela curiosidade do CFM, mas R$ 1.500 por mês por post é caro e o relatório de mensagens não me garante paciente.",
-  "objection": "Já ouvi essa conversa antes: no começo é tudo personalizado, depois vira post de banco de imagem e eu pago todo mês sem ver retorno na agenda.",
-  "would_change_my_mind": "Um colega médico que eu conheço me dizer que trabalha com ela e que a agenda dele encheu pelo Instagram; aí eu toparia pelo menos os R$ 497 da entrada.",
-  "price_too_cheap": 400,
-  "price_cheap": 700,
-  "price_expensive": 1100,
-  "price_too_expensive": 1600
+  "reason_code": "need",
+  "reason": "Minha agenda está cheia há anos por convênio e indicação, não preciso de post nem de mais paciente. Se faltar CRM e RQE na bio, peço para minha secretária colocar hoje mesmo, não vou pagar R$ 997 por isso.",
+  "objection": "Não preciso de marketing, e o único ponto que me preocupa de verdade, a identificação exigida pelo CFM, é uma correção de cinco minutos que minha secretária resolve de graça.",
+  "would_change_my_mind": "Uma notificação ou advertência concreta do CRM sobre o meu perfil, aí eu pagaria os R$ 497 só da conformidade para ter alguém revisado por advogada cuidando disso.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 800,
+  "price_too_expensive": 1500
 }

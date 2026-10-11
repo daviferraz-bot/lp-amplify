@@ -1,15 +1,15 @@
 # Resumo
 
-**O que é:** gestão de Instagram para médicos, vendida por prospecção ativa, começando pela Grande Vitória. Diferencial: tudo dentro das regras do CFM (Resolução 2.336), sem tomar o tempo do médico, com um relatório de agendamentos.
+**O que é:** "Instagram em dia com o CFM", gestão de Instagram para médicos da Grande Vitória, vendida por prospecção ativa. A entrada fica pronta em 7 dias e o médico só paga se aprovar. Depois vem o mensal sem fidelidade. Tudo em `oferta-final.md`.
 
-**Veredito calculado: veja o topo do plano.** Os números (`cfo.md`) fecham com folga: margem de cerca de 88% com 8 clientes a R$ 2.200 e cerca de R$ 107 mil de lucro no ano 1, antes da remuneração dela. **Mas o painel só comprou a entrada (R$ 497), nunca o mensal direto.** O veredito depende de converter a entrada em mensal, e isso só se prova com médicos reais.
+**Veredito calculado:** veja o topo do plano. Com 11 mensais no mix (R$ 1.700 em média), a margem é de cerca de 88% e o lucro do ano 1, só com mensalidades, fica em cerca de R$ 158 mil, antes da remuneração dela (`cfo.md`).
 
-**Conselho:** 2 FUND IF, 1 PASS. Todos concordam que é preciso focar, ter pacote fechado com preço e conseguir prova. A lente Monopoly diz que é fácil de copiar.
+**Painéis:** a abordagem original vendeu 0 de 20. A oferta final vendeu a entrada para 10 de 20 médicos **novos**, 7 deles na de R$ 997. Ninguém fecha o mensal na primeira conversa: o mensal se vende no relatório do dia 30.
 
-**Painel:** a abordagem atual teve 0 de 20 compras, e 16 dos 20 citaram confiança. A oferta nova teve 6 de 20. A oferta corrigida (casos de médicos, sem citar a agência) teve **9 de 20**, todos na entrada, e nenhum fechou o mensal na primeira conversa.
+**Conselho:** 2 FUND IF, 1 PASS. As condições (foco, pacote com preço, prova) foram atendidas na oferta; a prova real ainda falta.
 
-**Maior risco:** confiança. "Se ela errar, quem responde no conselho sou eu" e "já tive agência e não trouxe paciente". A resposta são os casos de médicos fundadores, o checklist CFM registrado e o relatório de agendamentos.
+**Maior risco:** confiança e indicação. "Um colega que eu conheço indicou" foi o pedido em 53 de 65 recusas. A resposta é o médico de referência, o portfólio autorizado e os pedidos de indicação a cada entrega.
 
-**Para começar:** cerca de R$ 1.850 de caixa e o teste de 4 semanas em `launch.md`, com lançamento em 19/10 e a linha de sucesso de 6 entradas e 2 mensais até 15/11.
+**Para começar:** cerca de R$ 1.850 de caixa e os 7 itens que "precisam ser verdade" (seção 6 de `oferta-final.md`).
 
-**Esta semana:** montar o checklist CFM e o modelo de vídeo, e preparar as 2 mensagens para começar a enviar em 19/10.
+**Esta semana:** conseguir o médico de referência, montar o checklist de 12 itens e o fluxo de IA do vídeo, e fechar a lista de 400 no CRM. Começar em 19/10.
