@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "O que me pega é a parte do CFM: se falta algo no meu perfil que pode me dar problema no CRM, quero corrigir, e como só pago depois de ver pronto e aprovar, o risco é dela, não meu. Vi o vídeo à noite, sem reunião, e isso cabe na minha rotina.",
+  "objection": "Já paguei agência e recebi post genérico sem nenhum paciente novo; R$ 997 por checklist e 9 posts ainda me parece caro para um serviço de post, e tenho medo de que a mensal de R$ 1.500 seja mais do mesmo.",
+  "would_change_my_mind": "Se o vídeo de 2 minutos mostrasse pontos genéricos que servem para qualquer perfil, ou se a tal exigência do CFM não fosse real no meu caso, eu não seguiria.",
+  "price_too_cheap": 300,
+  "price_cheap": 500,
+  "price_expensive": 1200,
+  "price_too_expensive": 2000
+}

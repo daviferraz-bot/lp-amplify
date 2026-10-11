@@ -43,3 +43,6 @@ O custo variável é baixo (imposto e ferramentas, cerca de R$ 180 por cliente).
 - "É caro para um serviço de post, e sem promessa de paciente eu não tenho como saber se vai ser diferente da última agência." (P002)
 - "Pagar R$ 2.200 por mês para atrair paciente que eu não tenho horário para atender não faz sentido." (P003)
 - "Eu pago R$ 2.200 por mês por alcance e cliques, que foi exatamente o que a outra agência me entregou." (P020)
+
+## 8. Entrada a R$ 997 (11/10)
+No painel, a entrada a R$ 997 vendeu para os mesmos 10 de 20 médicos que a de R$ 497, sem nenhuma recusa por preço. A recomendação passa a ser: **entrada completa a R$ 997**, **"Só conformidade CFM" a R$ 497** como versão menor, e **50% da entrada abatidos no mensal**. Testar R$ 997 contra R$ 497 com médicos reais; se a R$ 997 vender menos da metade, voltar. Detalhes em `oferta-irresistivel.md`, seção 6.

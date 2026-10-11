@@ -14,13 +14,15 @@ ROOT = os.path.dirname(HERE)
 spec = importlib.util.spec_from_file_location("panel", "/root/.claude/skills/founder-consumer/panel.py")
 panel = importlib.util.module_from_spec(spec); spec.loader.exec_module(panel)
 
+PANEL = sys.argv[1] if len(sys.argv) > 1 else "panel-entrada-b"
+PRICE = int(sys.argv[2]) if len(sys.argv) > 2 else 497
 customer = json.load(open(os.path.join(ROOT, "customer.json")))
 doctors = panel.deal(customer, n=400, seed=2026)
 
 # Etapa 3: compra da entrada por grupo (painel-entrada-b), suavizada: (compras+1)/(n+2)
-answers = {json.load(open(os.path.join(ROOT, "panel-entrada-b/answers", f)))["id"]: json.load(open(os.path.join(ROOT, "panel-entrada-b/answers", f)))
-           for f in os.listdir(os.path.join(ROOT, "panel-entrada-b/answers"))}
-cards = {c["id"]: c for c in json.load(open(os.path.join(ROOT, "panel-entrada-b/personas.json")))}
+answers = {json.load(open(os.path.join(ROOT, PANEL + "/answers", f)))["id"]: json.load(open(os.path.join(ROOT, PANEL + "/answers", f)))
+           for f in os.listdir(os.path.join(ROOT, PANEL + "/answers"))}
+cards = {c["id"]: c for c in json.load(open(os.path.join(ROOT, PANEL + "/personas.json")))}
 seg_stats = {}
 for pid, a in answers.items():
     s = cards[pid]["segment"]
@@ -62,7 +64,7 @@ def run(sc, msg_mult, focus=False, runs=4000, rng=random.Random(7)):
             if rng.random() > min(q, 0.95): continue
             en += 1
             if rng.random() < sc["monthly"]: me += 1
-        for k, v in zip(out, (ch, rp, en, me, en * 497, me * 1500)):
+        for k, v in zip(out, (ch, rp, en, me, en * PRICE, me * 1500)):
             out[k].append(v)
     q = lambda xs, p: sorted(xs)[int(p * (len(xs) - 1))]
     return {k: (statistics.mean(v), q(v, 0.1), q(v, 0.9)) for k, v in out.items()}

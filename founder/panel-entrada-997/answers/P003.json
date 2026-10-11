@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Quem lê a mensagem é a minha secretária, e mesmo que ela me repasse por causa do CFM, minha agenda já está cheia; não preciso de mais paciente pelo Instagram. Se tiver algo irregular no perfil, peço para ela mesma corrigir.",
+  "objection": "Minha agenda já está lotada e a secretária já cuida do perfil; um relatório de agendamentos pelo Instagram não me diz nada que eu precise agora.",
+  "would_change_my_mind": "Uma notificação ou advertência real do CRM sobre o meu perfil; aí eu pagaria para resolver rápido sem me envolver.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

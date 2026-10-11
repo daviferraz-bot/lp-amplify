@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Pagar agência pra trazer paciente eu já paguei e não funcionou, mas aqui eu não pago nada se não gostar, e se tem mesmo uma exigência do CFM faltando no meu perfil eu quero corrigir antes que algum colega ou o CRM aponte. R$ 997 só depois de aprovar é um risco que eu topo, e o relatório de 30 dias me dá número pra decidir sem achismo.",
+  "objection": "Isso pode ser só a porta de entrada pra me empurrar a gestão de R$ 1.500 por mês, que é exatamente o que a agência antiga fazia: perfil bonito, post bonito e nenhum paciente particular a mais. E mensagem de quem eu não conheço no direct eu costumo ignorar.",
+  "would_change_my_mind": "Se o vídeo vier genérico, sem apontar algo concreto e verificável no meu perfil, ou se o tal ponto do CFM não for real, eu paro ali mesmo e não respondo mais.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

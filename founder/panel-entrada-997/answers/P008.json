@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Mensagem de desconhecida no direct quase nunca chega até mim, minha secretária filtra. E quando alguém que eu não conheço abre dizendo que meu perfil está irregular com o CFM, soa como tática de susto para vender; prefiro perguntar ao meu advogado ou a um colega antes de deixar uma estranha mexer no meu perfil e ainda me fazer postar mais.",
+  "objection": "Não sei quem ela é nem se entende de verdade a Resolução 2.336. Postar mais é justamente o que me dá medo: se der problema no CRM quem responde sou eu, não ela, e 'refazer sem custo' não me livra de uma sindicância.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço e que já usou o serviço, ou o vídeo chegando pela minha secretária mostrando com o texto da resolução exatamente qual item está faltando no meu perfil.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 2500,
+  "price_too_expensive": 5000
+}

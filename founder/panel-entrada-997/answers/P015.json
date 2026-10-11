@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda já está cheia por convênio e indicação, não preciso de mais paciente vindo do Instagram. E essa mensagem provavelmente nem chegaria a mim, minha secretária filtra esse tipo de abordagem.",
+  "objection": "Instagram traz paciente mesmo ou só seguidor? Não tenho tempo para aprovar post nem para pensar em perfil, e não vejo problema que precise resolver agora.",
+  "would_change_my_mind": "Uma notificação ou advertência real do CRM sobre meu perfil; aí eu pagaria na hora para resolver só a parte de conformidade.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 2500,
+  "price_too_expensive": 5000
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se meu perfil está irregular com a Resolução CFM 2.336, quero resolver antes que vire problema no CRM, e R$ 997 pago só depois de aprovar é um risco pequeno pra mim. Eu veria o vídeo à noite, conferiria o portfólio e, se os três pontos fizessem sentido, fecharia.",
+  "objection": "Não conheço essa pessoa e mensagem fria de desconhecido no Instagram me deixa desconfiada; tenho receio de entregar o acesso do meu perfil e de ela postar algo que me exponha no CRM, mesmo com a promessa de refazer.",
+  "would_change_my_mind": "Se o vídeo mostrasse pontos genéricos, sem relação real com o meu perfil, ou se eu não conseguisse confirmar com algum colega do portfólio que ela é séria, eu não seguiria.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

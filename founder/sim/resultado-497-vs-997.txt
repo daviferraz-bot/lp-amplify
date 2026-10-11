@@ -1,0 +1,20 @@
+## panel-entrada-b 497
+Compra da entrada por grupo (painel, suavizada):
+  33%  Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia)
+  78%  Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia)
+  33%  Médico(a) jovem montando o próprio consultório (até 5 anos de formado)
+  50%  Médico(a) dono(a) ou gestor(a) de clínica com vários médicos
+=== Mensagem A: gancho CFM + portfólio | lista focada ===
+pessimista chega 324 (315-334) | responde 24 (18-30) | entrada 6 (3-9) | mensal 1 (0-3) | receita_entrada 2869 (1491-4473) | mrr 1744 (0-4500)
+base       chega 324 (315-334) | responde 48 (40-57) | entrada 20 (14-25) | mensal 6 (3-10) | receita_entrada 9736 (6958-12425) | mrr 9747 (4500-15000)
+otimista   chega 324 (315-333) | responde 80 (70-91) | entrada 52 (43-60) | mensal 23 (17-30) | receita_entrada 25813 (21371-29820) | mrr 35108 (25500-45000)
+## panel-entrada-997 997
+Compra da entrada por grupo (painel, suavizada):
+  33%  Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia)
+  78%  Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia)
+  33%  Médico(a) jovem montando o próprio consultório (até 5 anos de formado)
+  50%  Médico(a) dono(a) ou gestor(a) de clínica com vários médicos
+=== Mensagem A: gancho CFM + portfólio | lista focada ===
+pessimista chega 324 (315-334) | responde 24 (18-30) | entrada 6 (3-9) | mensal 1 (0-3) | receita_entrada 5755 (2991-8973) | mrr 1744 (0-4500)
+base       chega 324 (315-334) | responde 48 (40-57) | entrada 20 (14-25) | mensal 6 (3-10) | receita_entrada 19532 (13958-24925) | mrr 9747 (4500-15000)
+otimista   chega 324 (315-333) | responde 80 (70-91) | entrada 52 (43-60) | mensal 23 (17-30) | receita_entrada 51781 (42871-59820) | mrr 35108 (25500-45000)

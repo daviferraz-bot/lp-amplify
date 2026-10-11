@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se a minha secretária me mostrar essa mensagem, o que me pega é a parte do CFM: não quero problema com o CRM por causa de um perfil que ela mesma monta. R$ 997 pagando só depois de aprovar é pouco para mim, e o relatório de 30 dias finalmente me responde se o Instagram traz paciente ou só seguidor.",
+  "objection": "Não sei se Instagram traz paciente de verdade ou só curtida, e quem lê as mensagens é a minha secretária; se ela achar que é mais uma propaganda, isso nem chega em mim. Também não conheço essa pessoa, e uma clínica com vários médicos não é igual ao perfil de um médico só.",
+  "would_change_my_mind": "Se o vídeo mostrar 'pontos do CFM' genéricos que valeriam para qualquer perfil, em vez de algo que realmente está errado no meu, eu ignoro e não respondo.",
+  "price_too_cheap": 300,
+  "price_cheap": 700,
+  "price_expensive": 3000,
+  "price_too_expensive": 6000
+}

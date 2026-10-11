@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Recebo mensagem assim toda semana e já paguei agência que não trouxe paciente nenhum. No máximo eu deixo mandar o vídeo à noite e, se tiver mesmo algo faltando do CFM, peço pra minha secretária corrigir a bio e colocar o RQE, que isso eu resolvo sozinha.",
+  "objection": "Gente desconhecida usando o CFM pra me assustar e me vender a mesma coisa de sempre; perfil bonito com 9 posts fixos não é paciente na agenda.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço e que trabalhou com ela e me diga que valeu a pena.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 1500,
+  "price_too_expensive": 2500
+}

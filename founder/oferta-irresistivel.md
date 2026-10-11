@@ -124,3 +124,29 @@ Leitura: **focar a lista quase dobra as vendas, e a mensagem do CFM rende cerca 
 
 ## Limites
 Os médicos dos painéis são simulados: servem para achar objeções e comparar versões, não para prever vendas. As taxas de resposta são estimativas. Os 20 perfis são poucos, então os resultados por grupo são fracos, e alguns perfis eram inconsistentes (recém-formado de 58 anos). Os números reais das primeiras 100 abordagens valem mais que esta simulação. Quando chegarem, eu recalibro o modelo com eles.
+
+## 6. E se a entrada custar R$ 997? (teste de 11/10)
+Mesma oferta ("paga só depois de aprovar" + relatório de 30 dias), mesmos 20 médicos simulados, só o preço mudou.
+
+| Preço da entrada | Compram | Quem comprou | Recusas por preço |
+| --- | ---: | --- | ---: |
+| R$ 497 (`panel-entrada-b/`) | 10 de 20 | P002, P004, P006, P010, P011, P012, P013, P014, P016, P017 | 0 |
+| **R$ 997** (`panel-entrada-997/`) | **10 de 20** | **os mesmos 10** | **0** |
+
+Medianas de preço de quem viu R$ 997: barato demais R$ 300, pechincha R$ 600, começa a ficar caro R$ 2.000, caro demais R$ 3.500. **R$ 997 fica entre a pechincha e o caro**, dentro da faixa aceitável.
+
+**Simulação de 400 (mensagem do CFM, lista focada, cenário base):**
+| | R$ 497 | R$ 997 |
+| --- | ---: | ---: |
+| Entradas vendidas | 20 | 20 (mesma taxa do painel) |
+| Receita das entradas | R$ 9,7 mil | **R$ 19,5 mil** |
+| Receita por hora da entrada (~5 h) | ~R$ 100/h | **~R$ 200/h** |
+| Pessimista / otimista | R$ 2,9 mil / R$ 25,8 mil | R$ 5,8 mil / R$ 51,8 mil |
+
+**Cuidado:** médicos simulados com renda de R$ 300 mil+ quase não reagem a preço. Médicos reais podem reagir mais, então a simulação supõe a mesma taxa nos dois preços, e isso é otimista para R$ 997. Por isso o preço precisa ser testado com médicos reais.
+
+**Recomendação:**
+1. **Entrada principal a R$ 997** (checklist CFM + 9 posts + link rastreado + relatório de 30 dias, paga só depois de aprovar).
+2. **Uma versão menor a R$ 497, "Só conformidade CFM"** (checklist aplicado e bio, destaques e link corrigidos, sem os 9 posts). Quatro médicos que recusaram disseram, nas três rodadas, que "pagaria só pela parte da conformidade, sem os posts" (P003, P015, P018, P019). É a porta para quem está com a agenda cheia.
+3. **No mensal, abater 50% da entrada** (R$ 498), não 100%. Abatendo tudo, o primeiro mês do Essencial renderia só R$ 503.
+4. **Teste real:** nas primeiras 100 respostas que virem a oferta, metade recebe R$ 997 e metade R$ 497. Se a compra a R$ 997 ficar abaixo da metade da compra a R$ 497, volte para R$ 497 (a R$ 997 você precisa vender pelo menos metade para empatar em receita).

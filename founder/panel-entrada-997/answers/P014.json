@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se ela me mostrar no vídeo que está mesmo faltando algo exigido pela Resolução 2.336 no meu perfil, isso me preocupa mais do que trazer paciente, e como só pago depois de ver pronto e aprovar, R$ 997 de uma vez não me tira o sono. Compro a entrada para ficar em dia com o CFM, não porque acredito que vai lotar minha agenda.",
+  "objection": "Já paguei agência e recebi post genérico sem nenhum paciente novo. Os 9 posts fixos podem ser mais do mesmo, e tenho quase certeza de que não vou continuar na gestão de R$ 1.500 por mês se o relatório de 30 dias vier com zero agendamentos.",
+  "would_change_my_mind": "Se o vídeo apontar coisas genéricas ou erradas sobre o CFM, que qualquer um diria sem olhar meu perfil, eu ignoro e não respondo mais.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 1500,
+  "price_too_expensive": 2500
+}
