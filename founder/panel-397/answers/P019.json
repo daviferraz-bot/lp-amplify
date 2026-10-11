@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido mandando mensagem dizendo que já fez um site pra mim, e ainda quer reunião de 15 minutos? Eu atendo sozinha o dia todo, não paro cliente pra isso, e já paguei por site e marketing antes que não trouxe nada.",
+  "objection": "Já joguei dinheiro fora com site e marketing que não serviu pra nada. Minhas clientes me acham pelo Instagram e pelo WhatsApp, e ninguém fala quem paga o domínio e a hospedagem depois nem quem mexe quando eu mudar preço.",
+  "would_change_my_mind": "Me mandar o link da página pronta direto no WhatsApp, sem reunião, com tudo escrito: domínio e hospedagem inclusos por pelo menos um ano, alterações incluídas, e só pagar depois que estiver no ar e eu gostar.",
+  "price_too_cheap": 80,
+  "price_cheap": 150,
+  "price_expensive": 300,
+  "price_too_expensive": 450
+}

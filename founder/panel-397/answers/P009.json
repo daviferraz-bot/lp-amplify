@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já paguei por site e marketing antes e não trouxe um cliente sequer, e meu Instagram já faz esse papel. Número desconhecido me oferecendo página no WhatsApp eu nem respondo, e reunião de 15 minutos no meio do expediente não rola.",
+  "objection": "Já caí nessa uma vez: paga, entregam, e depois some todo mundo. Ninguém fala de domínio, hospedagem nem de quem muda o cardápio e os preços depois, então vira gasto que não volta.",
+  "would_change_my_mind": "Ver a página pronta direto no WhatsApp, sem reunião, com prova de outro negócio de comida aqui perto que ganhou pedido com ela, e pagar só depois que estiver no ar, com domínio e alterações incluídos por escrito.",
+  "price_too_cheap": 80,
+  "price_cheap": 150,
+  "price_expensive": 300,
+  "price_too_expensive": 450
+}

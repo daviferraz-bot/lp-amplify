@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu consultório vive de indicação há anos, a agenda enche pelo boca a boca e nunca perdi paciente por falta de site. Pagar quase mil reais numa página que ninguém me pediu, vinda de um número desconhecido, não faz sentido pra mim.",
+  "objection": "Não vejo de onde viria paciente novo por causa dessa página, e ainda fico sem saber quem paga domínio e hospedagem depois e quem mexe nela quando eu precisar mudar horário ou serviço. É caro pra uma página só.",
+  "would_change_my_mind": "Uma indicação de um colega da área que tenha feito e me mostre que chegou paciente novo pela página, com domínio, hospedagem e alterações incluídos por um bom tempo.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 800
+}

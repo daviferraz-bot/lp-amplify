@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido me chamando no WhatsApp querendo reunião, eu nem respondo. E R$ 997 por uma página só, sem dizer quem paga domínio e hospedagem depois, eu já vi que tem coisa grátis ou bem mais barata na internet que faz isso.",
+  "objection": "Não sei quem é essa pessoa, não tenho tempo pra reunião e tenho medo de pagar R$ 997 e depois vir cobrança de hospedagem, domínio e cada alteração que eu pedir.",
+  "would_change_my_mind": "Me mandar o link da página pronta ali mesmo no WhatsApp, sem reunião, com preço fechado incluindo domínio e hospedagem do primeiro ano e algumas alterações, e indicação de alguém do meu ramo que já comprou.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 800
+}

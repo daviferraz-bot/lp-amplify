@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu consultório vive de indicação há anos e a agenda está cheia sem site; não vou parar o atendimento para uma reunião com um número desconhecido que me aborda no WhatsApp para vender uma página só.",
+  "objection": "É caro pra uma página só, e ainda não diz quem paga domínio e hospedagem depois nem quem altera quando eu mudar horário ou serviço; vira um custo escondido e mais uma coisa para eu cuidar.",
+  "would_change_my_mind": "Um colega de profissão que eu conheço me indicar e mostrar que a página dele trouxe pacientes novos, com domínio, hospedagem e ajustes incluídos por pelo menos um ano.",
+  "price_too_cheap": 80,
+  "price_cheap": 150,
+  "price_expensive": 300,
+  "price_too_expensive": 500
+}

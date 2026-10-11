@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido pedindo reunião, eu não tenho tempo pra isso e meus clientes já me acham pelo WhatsApp e pelo Google Maps. E antes de gastar R$ 397 eu ia pesquisar, e tem site pronto bem mais barato ou de graça por aí.",
+  "objection": "Não fala quem paga domínio e hospedagem depois nem quem mexe se eu precisar mudar alguma coisa. Pagar R$ 397 e depois descobrir mensalidade escondida ou ficar com página desatualizada, não.",
+  "would_change_my_mind": "Me mandar o link da página já pronta direto no WhatsApp, sem reunião, com domínio e hospedagem do primeiro ano incluídos por escrito e uns ajustes grátis depois da entrega.",
+  "price_too_cheap": 80,
+  "price_cheap": 150,
+  "price_expensive": 300,
+  "price_too_expensive": 500
+}

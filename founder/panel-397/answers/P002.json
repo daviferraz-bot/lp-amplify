@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu cliente novo chega por indicação e pelo Google Maps, e lá já tem foto, avaliação e botão do WhatsApp. Pagar R$ 397 numa página que eu nem pedi, de um número desconhecido, não faz sentido quando dá pra montar algo parecido de graça com um app ou com IA.",
+  "objection": "Não sei quem é essa pessoa, nem quanto vou pagar depois de domínio e hospedagem, nem quem muda a página quando eu precisar. Pode virar uma conta mensal escondida ou uma página abandonada.",
+  "would_change_my_mind": "Ver números concretos de outro prestador de serviço da minha região que ganhou mais clientes com a página, com domínio e hospedagem do primeiro ano inclusos e alterações garantidas por escrito.",
+  "price_too_cheap": 50,
+  "price_cheap": 120,
+  "price_expensive": 250,
+  "price_too_expensive": 400
+}

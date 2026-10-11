@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus clientes novos já chegam por indicação e pelo Google Maps, e o agendamento é tudo no WhatsApp e Instagram. Não vejo como uma página a mais vai trazer gente nova, e não vou parar o salão para uma reunião com um número desconhecido.",
+  "objection": "Um site traz cliente mesmo? Ninguém procura salão por site, procura no Maps ou no Instagram. E ainda não sei quanto vou pagar depois de hospedagem e domínio, nem quem muda os preços quando eu precisar.",
+  "would_change_my_mind": "Ver resultado de outro salão ou barbearia da minha região que passou a receber mais agendamentos depois da página, com tudo incluso (domínio, hospedagem e alterações) por escrito.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 600,
+  "price_too_expensive": 1000
+}

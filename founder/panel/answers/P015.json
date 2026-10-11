@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido no WhatsApp querendo reunião pra me vender site, já paguei por isso antes e não vi um cliente a mais. Meus clientes chegam por indicação e pelo Google Maps, não preciso de site.",
+  "objection": "Já me queimei com agência e sobrinho. Quem me garante que essa página traz pedido? E depois, quem paga domínio e hospedagem, quem muda o cardápio? Vira mais uma conta e mais uma dor de cabeça.",
+  "would_change_my_mind": "Só pagar se trouxer resultado: por exemplo, pagar depois de ver pedidos chegando pelo botão do WhatsApp, com domínio, hospedagem e alterações inclusos por escrito.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 600,
+  "price_too_expensive": 997
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Minha agenda enche com indicação e Google Maps, nunca perdi cliente por falta de site. E não vou parar o salão pra uma reunião com um número desconhecido que me mandou mensagem do nada.",
+  "objection": "Não preciso disso: quem me procura já me acha pelo boca a boca e pelo Maps. Pagar R$ 997 por uma página que ninguém vai abrir, e sem saber quem paga domínio e mexe depois, não faz sentido.",
+  "would_change_my_mind": "Ver, sem reunião, a página pronta direto no WhatsApp e alguma prova de que ela traz agendamento novo pra um salão como o meu, com domínio e alterações incluídos.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 800
+}

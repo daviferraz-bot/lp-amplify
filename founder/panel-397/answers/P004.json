@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número que eu não conheço, dizendo que já fez um site pra mim sem eu pedir, querendo reunião? Isso tem cara de golpe, apago igual apago as outras. E se eu quisesse página, meu sobrinho ou uma dessas IAs fazia de graça.",
+  "objection": "Não sei quem é essa pessoa, e não fala quem paga domínio e hospedagem depois nem quem muda as coisas. Pago R$ 397 hoje e mês que vem aparece cobrança nova ou o site some do ar.",
+  "would_change_my_mind": "Indicação de alguém que eu conheço, um colega de bairro que comprou e o site está funcionando, e me mostrar a página pronta ali na mensagem, sem reunião, dizendo por escrito que domínio e hospedagem do primeiro ano estão inclusos e que eu só pago depois de ver no ar.",
+  "price_too_cheap": 80,
+  "price_cheap": 150,
+  "price_expensive": 350,
+  "price_too_expensive": 600
+}

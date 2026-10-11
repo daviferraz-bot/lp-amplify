@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido no WhatsApp do consultório dizendo que já fez um site pra mim é exatamente o tipo de mensagem que eu ignoro toda semana. Meus pacientes chegam por indicação e pelo Google Maps, e já paguei por site e marketing antes sem ver um paciente novo sequer.",
+  "objection": "Não sei quem é essa pessoa, e já gastei com site que não trouxe ninguém. Ainda por cima não diz quem paga domínio e hospedagem depois nem quem altera quando eu mudar horário ou serviço; parece que vou ficar refém ou com um site abandonado.",
+  "would_change_my_mind": "Indicação de um colega de profissão que usou e me mostrar que trouxe pacientes, com domínio no meu nome e hospedagem e alterações incluídas por escrito.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
+}

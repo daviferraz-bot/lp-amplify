@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Número desconhecido me oferecendo site, toda semana chega um. Já paguei por site e marketing antes e não trouxe cliente nenhum, e eu não tenho 15 minutos pra reunião, tô com cliente na cadeira o dia todo.",
+  "objection": "Já joguei dinheiro fora com isso. Quem me garante que essa página vai trazer cliente, e quem paga domínio e hospedagem depois? Daqui a um ano some o site e some a pessoa.",
+  "would_change_my_mind": "Me mandar o link da página pronta direto no WhatsApp, sem reunião, e só cobrar depois que eu ver chegando cliente por ela, com domínio e hospedagem inclusos por escrito.",
+  "price_too_cheap": 100,
+  "price_cheap": 250,
+  "price_expensive": 500,
+  "price_too_expensive": 800
+}

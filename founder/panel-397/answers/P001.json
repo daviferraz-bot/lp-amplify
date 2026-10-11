@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meu Instagram já faz o papel de site, e cliente novo chega por indicação ou pelo Google Maps direto no WhatsApp. Não vou parar o serviço pra uma reunião com número desconhecido pra comprar uma página que eu não sinto falta.",
+  "objection": "Quanto vou pagar depois, todo mês? A mensagem não fala de domínio, hospedagem nem de quem muda as coisas depois, então esses R$ 397 parecem só a entrada.",
+  "would_change_my_mind": "Ver por escrito que domínio e hospedagem do primeiro ano estão inclusos, sem mensalidade escondida, e alguma prova de que a página traz mais cliente pelo Google do que meu perfil já traz.",
+  "price_too_cheap": 80,
+  "price_cheap": 150,
+  "price_expensive": 300,
+  "price_too_expensive": 500
+}

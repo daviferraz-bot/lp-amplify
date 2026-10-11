@@ -1,0 +1,137 @@
+{
+ "business": "LP Amplify: landing pages prontas para negócios locais sem site, vendidas por abordagem no WhatsApp",
+ "seed": 7,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "by_segment": [
+  [
+   "Dono(a) de serviço para casa ou carro (oficina, eletricista, encanador, reformas); renda pessoal anual em R$",
+   5,
+   0.0
+  ],
+  [
+   "Dono(a) de negócio de alimentação (lanchonete, doceria, marmitaria, pizzaria); renda pessoal anual em R$",
+   5,
+   0.0
+  ],
+  [
+   "Profissional de saúde com consultório próprio (dentista, fisioterapeuta, psicólogo, nutricionista); renda pessoal anual em R$",
+   4,
+   0.0
+  ],
+  [
+   "Dono(a) de negócio de beleza e estética (salão, barbearia, manicure, estética); renda pessoal anual em R$",
+   6,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Tudo pelo Instagram",
+   4,
+   0.0
+  ],
+  [
+   "Pesquisa preço de tudo",
+   2,
+   0.0
+  ],
+  [
+   "Já se queimou",
+   2,
+   0.0
+  ],
+  [
+   "Desconfiado de golpe",
+   3,
+   0.0
+  ],
+  [
+   "Sem tempo",
+   2,
+   0.0
+  ],
+  [
+   "Quer crescer",
+   3,
+   0.0
+  ],
+  [
+   "Vive de indicação",
+   4,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$64,000 to $86,000",
+   8,
+   0.0
+  ],
+  [
+   "under $64,000",
+   5,
+   0.0
+  ],
+  [
+   "$86,000 and up",
+   7,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   11,
+   [
+    "Número desconhecido me oferecendo site no WhatsApp? Já paguei sobrinho e agência por isso e não vendi um lanche a mais. Não vou parar o balcão pra reunião de 15 minutos com quem eu nem sei quem é.",
+    "Número que eu não conheço, dizendo que já fez um site pra mim sem eu pedir, querendo reunião? Isso tem cara de golpe, apago igual apago as outras. E se eu quisesse página, meu sobrinho ou uma dessas IAs fazia de graça."
+   ],
+   [
+    "P003",
+    "P004"
+   ]
+  ],
+  [
+   "need",
+   9,
+   [
+    "Meu Instagram já faz o papel de site, e cliente novo chega por indicação ou pelo Google Maps direto no WhatsApp. Não vou parar o serviço pra uma reunião com número desconhecido pra comprar uma página que eu não sinto falta.",
+    "Meu cliente novo chega por indicação e pelo Google Maps, e lá já tem foto, avaliação e botão do WhatsApp. Pagar R$ 397 numa página que eu nem pedi, de um número desconhecido, não faz sentido quando dá pra montar algo parecido de graça com um app ou com IA."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "flip": [
+  "Ver por escrito que domínio e hospedagem do primeiro ano estão inclusos, sem mensalidade escondida, e alguma prova de que a página traz mais cliente pelo Google do que meu perfil já traz.",
+  "Ver números concretos de outro prestador de serviço da minha região que ganhou mais clientes com a página, com domínio e hospedagem do primeiro ano inclusos e alterações garantidas por escrito.",
+  "Ver com números que um negócio de comida parecido com o meu passou a receber mais pedidos por causa da página, e só pagar depois de funcionar, com domínio e hospedagem do primeiro ano incluídos e por escrito.",
+  "Indicação de alguém que eu conheço, um colega de bairro que comprou e o site está funcionando, e me mostrar a página pronta ali na mensagem, sem reunião, dizendo por escrito que domínio e hospedagem do primeiro ano estão inclusos e que eu só pago depois de ver no ar.",
+  "Ver, sem reunião, a página já pronta com meu nome e um exemplo de colega da área que passou a receber pacientes novos pelo Google por causa dela, com domínio, hospedagem e alterações incluídos por escrito.",
+  "Indicação de uma colega da área que usou e recebeu pacientes por essa página, com domínio e hospedagem do primeiro ano inclusos e por escrito.",
+  "Me mandar o link da página já pronta direto no WhatsApp, sem reunião, com tudo incluso por um ano (domínio, hospedagem e alterações) e eu só pagar depois de ver que está no ar e que chegou cliente por ali.",
+  "Ver o link da página já pronta antes de qualquer reunião, com CNPJ, Instagram e clientes reais da pessoa aqui da região, e por escrito que domínio e hospedagem do primeiro ano e algumas alterações estão incluídos.",
+  "Ver a página pronta direto no WhatsApp, sem reunião, com prova de outro negócio de comida aqui perto que ganhou pedido com ela, e pagar só depois que estiver no ar, com domínio e alterações incluídos por escrito.",
+  "Ver resultado de outro salão ou barbearia da minha região que passou a receber mais agendamentos depois da página, com tudo incluso (domínio, hospedagem e alterações) por escrito.",
+  "Um colega de profissão que eu conheço me indicar e mostrar que a página dele trouxe pacientes novos, com domínio, hospedagem e ajustes incluídos por pelo menos um ano.",
+  "Ser indicado por alguém que eu conheço, de preferência outro dono de salão aqui do bairro que já usa, e me mostrar o site funcionando antes de eu pagar qualquer coisa, com tudo por escrito sobre domínio, hospedagem e alterações.",
+  "Me mandar o link da página já pronta direto no WhatsApp, sem reunião, com domínio e hospedagem do primeiro ano incluídos por escrito e uns ajustes grátis depois da entrega.",
+  "Indicação de um colega de profissão que usou e teve paciente novo vindo da página, com domínio e hospedagem do primeiro ano incluídos por escrito e eu podendo ver a página pronta antes de pagar qualquer coisa.",
+  "Ver o site pronto antes de pagar, com hospedagem e domínio incluídos por escrito e eu podendo trocar cardápio e preço sozinho, e ver um negócio de comida aqui da região que ganhou pedido de verdade com isso.",
+  "Ver o link pronto direto no WhatsApp, sem reunião, com domínio e hospedagem do primeiro ano incluídos e alterações simples garantidas, e algum colega do ramo dizendo que ganhou cliente com isso.",
+  "Ver que trouxe cliente de verdade pra outro salão aqui da cidade, com indicação de alguém que eu conheço, e tudo incluído sem mensalidade escondida.",
+  "Ver a página pronta direto no WhatsApp, sem reunião, com tudo incluso por escrito (domínio e hospedagem do primeiro ano e ajuste de cardápio e preço), e o contato de outro dono de lanchonete da região que use e diga que trouxe pedido.",
+  "Me mandar o link da página pronta direto no WhatsApp, sem reunião, com tudo escrito: domínio e hospedagem inclusos por pelo menos um ano, alterações incluídas, e só pagar depois que estiver no ar e eu gostar.",
+  "Se alguém que eu conheço, outro dono de lanchonete aqui perto, me mostrasse que o site trouxe pedido novo de verdade, e se ficasse claro que não tem custo depois e que mudar cardápio e preço é fácil."
+ ],
+ "purchases_first_month_per_buyer": null,
+ "price_answers": 20
+}

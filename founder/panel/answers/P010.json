@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meus clientes novos já chegam por indicação e pelo Google Maps, e não vejo como uma página sozinha vai trazer gente nova se ninguém procura por ela. Pagar R$ 997 para um número desconhecido sem saber o que vem depois, eu não pago.",
+  "objection": "Um site traz cliente mesmo? Se não tiver gente entrando nele, é só mais um link parado, e ainda não sei quem paga domínio, hospedagem e as mudanças de preço e serviço depois.",
+  "would_change_my_mind": "Ver resultado de outro salão ou estética da minha região que ganhou clientes com a página, com tudo incluso por escrito (domínio, hospedagem e alterações por um ano) e de preferência pagando parte só depois de ver funcionando.",
+  "price_too_cheap": 150,
+  "price_cheap": 400,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
+}
