@@ -6,10 +6,10 @@
 
 **Conselho:** 2 FUND IF, 1 PASS. Todos concordam que é preciso focar, ter pacote fechado com preço e conseguir prova. A lente Monopoly diz que é fácil de copiar.
 
-**Painel:** a abordagem atual teve 0 de 20 compras, e 16 dos 20 citaram confiança. A oferta nova teve 6 de 20, todos na entrada.
+**Painel:** a abordagem atual teve 0 de 20 compras, e 16 dos 20 citaram confiança. A oferta nova teve 6 de 20. A oferta corrigida (casos de médicos, sem citar a agência) teve **9 de 20**, todos na entrada, e nenhum fechou o mensal na primeira conversa.
 
 **Maior risco:** confiança. "Se ela errar, quem responde no conselho sou eu" e "já tive agência e não trouxe paciente". A resposta são os casos de médicos fundadores, o checklist CFM registrado e o relatório de agendamentos.
 
-**Para começar:** cerca de R$ 1.850 de caixa e o teste de 4 semanas em `launch.md`.
+**Para começar:** cerca de R$ 1.850 de caixa e o teste de 4 semanas em `launch.md`, com lançamento em 19/10 e a linha de sucesso de 6 entradas e 2 mensais até 15/11.
 
 **Esta semana:** montar o checklist CFM e o modelo de vídeo, e preparar as 2 mensagens para começar a enviar em 19/10.

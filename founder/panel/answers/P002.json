@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "trust",
-  "reason": "Eu até assistiria o vídeo à noite, mas colocar o RQE na bio eu mesmo faço em cinco minutos. Já paguei agência, recebi post genérico e nenhum paciente novo; não vou dar R$ 2.200 por mês para uma pessoa que me mandou mensagem do nada.",
-  "objection": "É caro para um serviço de post, e sem promessa de paciente eu não tenho como saber se vai ser diferente da última agência que me deixou na mão.",
-  "would_change_my_mind": "Ver perfis de outros médicos que ela atende de verdade, com nome, e um colega meu confirmando que o link de agendamento passou a trazer consulta marcada.",
+  "reason": "Já paguei social media, recebi post genérico e nenhum paciente novo; uma desconhecida no direct à noite, depois de um dia inteiro de consultório, não me faz abrir a carteira. Talvez eu até assista ao vídeo pela curiosidade do CFM, mas R$ 1.500 por mês por post é caro e o relatório de mensagens não me garante paciente.",
+  "objection": "Já ouvi essa conversa antes: no começo é tudo personalizado, depois vira post de banco de imagem e eu pago todo mês sem ver retorno na agenda.",
+  "would_change_my_mind": "Um colega médico que eu conheço me dizer que trabalha com ela e que a agenda dele encheu pelo Instagram; aí eu toparia pelo menos os R$ 497 da entrada.",
   "price_too_cheap": 400,
-  "price_cheap": 800,
-  "price_expensive": 1400,
-  "price_too_expensive": 2200
+  "price_cheap": 700,
+  "price_expensive": 1100,
+  "price_too_expensive": 1600
 }

@@ -50,3 +50,17 @@ Cortado: promessa de número de pacientes (o CFM proíbe prometer resultado) e g
 - **Um efeito colateral:** vários disseram "eu mesmo arrumo o RQE". Por isso a mensagem deve citar um problema concreto, e a entrada precisa resolver um checklist inteiro, não só a bio.
 
 Mudanças já feitas na oferta final por causa do teste: relatório de **agendamentos e mensagens** (não alcance); plano **Essencial sem gravação**; gravação **no consultório**; **casos de fundador** como prova; checklist CFM **registrado** em cada peça.
+
+## 6. Re-teste da oferta corrigida (11/10, mesmas 20 pessoas)
+Mudanças: sem citar a agência, portfólio com perfis de médicos atendidos, Essencial sem gravação, gravação no consultório, relatório de mensagens e agendamentos pelo link, checklist CFM registrado, garantia do calendário.
+
+| Painel | Compram (entrada) | Fecham o mensal direto | Confiança | Necessidade |
+| --- | ---: | ---: | ---: | ---: |
+| Abordagem atual (`panel-v1/`) | 0 | 0 | 16 | 4 |
+| Oferta nova (`panel-v2/`) | 6 | 0 | 9 | 10 |
+| **Oferta corrigida (`panel/`)** | **9** | **0** | **6** | 14 |
+
+- A **confiança caiu de 16 para 6**. Os casos de médicos e a ausência de "agência" ajudaram.
+- **Especialidades clínicas: 6 de 7 compram a entrada.** Estéticas: 2 de 7. Recém-formados: 0 de 4. "Posta sozinho" e "quer crescer no particular": todos compram.
+- **O mensal continua em 0 na primeira conversa.** Todos dizem a mesma coisa: "depois de ver a entrada e o primeiro relatório com agendamentos, ou com a indicação de um colega". O mensal se vende **depois** da entrega, não na abordagem.
+- O que restou de recusa: agenda cheia (não precisa de paciente) e "se ela errar, quem responde no conselho sou eu".

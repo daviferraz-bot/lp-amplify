@@ -5,7 +5,7 @@
 - ✓ Each cliente-mês earns $2023.00 before fixed costs (92% contribution).
 - ✓ Year 1 operating profit: $107,511.
 - ✓ Break-even is 1 cliente-mêss a day against a capacity of 8.
-- ✓ 6 of 20 simulated buyers buy (30%, the bar is 25%).
+- ✓ 9 of 20 simulated buyers buy (45%, the bar is 25%).
 
 | key number | |
 | --- | ---: |
@@ -16,7 +16,7 @@
 | Startup spend | $1,200 |
 | Cash needed before it pays for itself | $1,850 |
 | Startup money earned back | month 3 |
-| Buyer panel | 6 buy · 14 pass |
+| Buyer panel | 9 buy · 11 pass |
 
 ## The idea
 
@@ -35,11 +35,11 @@
 
 **Conselho:** 2 FUND IF, 1 PASS. Todos concordam que é preciso focar, ter pacote fechado com preço e conseguir prova. A lente Monopoly diz que é fácil de copiar.
 
-**Painel:** a abordagem atual teve 0 de 20 compras, e 16 dos 20 citaram confiança. A oferta nova teve 6 de 20, todos na entrada.
+**Painel:** a abordagem atual teve 0 de 20 compras, e 16 dos 20 citaram confiança. A oferta nova teve 6 de 20. A oferta corrigida (casos de médicos, sem citar a agência) teve **9 de 20**, todos na entrada, e nenhum fechou o mensal na primeira conversa.
 
 **Maior risco:** confiança. "Se ela errar, quem responde no conselho sou eu" e "já tive agência e não trouxe paciente". A resposta são os casos de médicos fundadores, o checklist CFM registrado e o relatório de agendamentos.
 
-**Para começar:** cerca de R$ 1.850 de caixa e o teste de 4 semanas em `launch.md`.
+**Para começar:** cerca de R$ 1.850 de caixa e o teste de 4 semanas em `launch.md`, com lançamento em 19/10 e a linha de sucesso de 6 entradas e 2 mensais até 15/11.
 
 **Esta semana:** montar o checklist CFM e o modelo de vídeo, e preparar as 2 mensagens para começar a enviar em 19/10.
 
@@ -112,7 +112,7 @@ Qualquer social media pode copiar o gancho do CFM em semanas. A defesa vem dos c
 
 ## The buyer panel
 
-**6 buy · 14 pass** (30% buy) out of 20 simulated buyers. Seed 11, so the same cards can be dealt again.
+**9 buy · 11 pass** (45% buy) out of 20 simulated buyers. Seed 11, so the same cards can be dealt again.
 
 These are simulated buyers, not customers. Use this to find objections and weak spots, then confirm the big ones with real people before you spend.
 
@@ -120,59 +120,57 @@ These are simulated buyers, not customers. Use this to find objections and weak 
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$ | 7 | 57%  (thin) |
+| Médico(a) de especialidade clínica com consultório próprio, particular e convênio (ginecologia, endocrinologia, ortopedia, cardiologia); renda pessoal anual em R$ | 7 | 86%  (thin) |
 | Médico(a) dono(a) ou gestor(a) de clínica com vários médicos; renda pessoal anual em R$ | 2 | 50%  (thin) |
-| Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$ | 7 | 14%  (thin) |
+| Médico(a) de especialidade estética ou eletiva com muito paciente particular (dermatologia, cirurgia plástica, nutrologia, oftalmologia); renda pessoal anual em R$ | 7 | 29%  (thin) |
 | Médico(a) jovem montando o próprio consultório (até 5 anos de formado); renda pessoal anual em R$ | 4 | 0%  (thin) |
 
 ### By buying behaviour
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| Posta sozinho quando dá | 4 | 75%  (thin) |
-| Quer crescer no particular | 3 | 67%  (thin) |
+| Quer crescer no particular | 3 | 100%  (thin) |
+| Posta sozinho quando dá | 4 | 100%  (thin) |
+| Medo do conselho | 2 | 50%  (thin) |
 | Secretária cuida do Instagram | 3 | 33%  (thin) |
 | Desconfiado de abordagem comercial | 2 | 0%  (thin) |
 | Já se decepcionou com agência | 3 | 0%  (thin) |
-| Medo do conselho | 2 | 0%  (thin) |
 | Agenda cheia | 3 | 0%  (thin) |
 
 ### By income
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
+| $329,000 to $466,000 | 7 | 57%  (thin) |
 | $466,000 and up | 7 | 57%  (thin) |
-| $329,000 to $466,000 | 7 | 29%  (thin) |
-| under $329,000 | 6 | 0%  (thin) |
+| under $329,000 | 6 | 17%  (thin) |
 
 ### Why they pass
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| trust | 9 | "Recebo esse tipo de mensagem toda semana, e quem é essa pessoa? Nunca ouvi falar. O ponto do RQE me incomodou e talvez eu mesma corrija a bio, mas não entrego meu Instagram e R$ 2.200 por mês a uma desconhecida que me abordou no direct." (P001) · "Eu até assistiria o vídeo à noite, mas colocar o RQE na bio eu mesmo faço em cinco minutos. Já paguei agência, recebi post genérico e nenhum paciente novo; não vou dar R$ 2.200 por mês para uma pessoa que me mandou mensagem do nada." (P002) |
-| need | 4 | "Minha agenda já está cheia com particular. Não preciso de mais paciente pelo Instagram. Essa mensagem provavelmente nem chegaria em mim, porque minha secretária filtra tudo. Se chegasse, eu só pediria para ela colocar o RQE na bio, que leva cinco minutos." (P003) · "Minha agenda já está cheia por convênio e indicação; não tenho onde encaixar paciente novo, então pagar R$ 2.200 por mês para gerar seguidor não resolve problema nenhum meu. E essa mensagem provavelmente nem chegaria em mim, minha secretária filtra." (P015) |
-| habit | 1 | "Eu aceitaria o vídeo, sim, porque esse ponto do RQE me preocupa, mas aí passo para a minha secretária colocar o RQE na bio e voltar a postar. Não vou fechar nada com uma pessoa que eu não conheço e que me chamou no direct." (P004) |
+| trust | 6 | "Recebo esse tipo de mensagem toda semana e não sei quem ela é; o gancho do CFM chama atenção, mas soa como tática de medo para vender. Provavelmente deixaria no visto ou pediria para minha secretária checar o perfil e esqueceria." (P001) · "Já paguei social media, recebi post genérico e nenhum paciente novo; uma desconhecida no direct à noite, depois de um dia inteiro de consultório, não me faz abrir a carteira. Talvez eu até assista ao vídeo pela curiosidade do CFM, mas R$ 1.500 por mês por post é caro e o relatório de mensagens não me garante paciente." (P002) |
+| need | 5 | "Minha agenda já está cheia e minha secretária já posta e responde o Instagram; não preciso de mais paciente, então pagar R$ 1.500 a R$ 2.200 por mês para uma desconhecida não resolve um problema que eu tenho. E essa mensagem provavelmente nem chega até mim, a secretária filtra." (P003) · "Minha agenda já está cheia e eu já paguei social media antes, recebi post genérico e nenhum paciente novo. Eu aceitaria o vídeo, mas se o problema do CFM for só a bio, eu mesmo corrijo em dez minutos e não pago nada." (P009) |
 
 ### Why they buy
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| need | 6 | "Ela apontou um problema real: meu RQE não está na bio e eu não quero problema com o CRM. Por R$ 497, sem fidelidade e sem reunião, pago o Passo 1 como teste, mas a gestão de R$ 2.200 por mês eu não fecho agora." (P006) · "Se a minha bio está mesmo fora da 2.336 por falta do RQE, isso me preocupa mais do que post atrasado; R$ 497 para deixar o perfil em dia com o CFM eu pago sem pensar muito. A gestão de R$ 2.200 por mês eu não fecho agora: aos 61, com agenda cheia, não sei se preciso disso." (P010) |
+| need | 9 | "Se tem uma exigência do CFM faltando no meu perfil, eu quero saber e corrigir antes que vire problema, e R$ 497 para resolver isso em 7 dias é nada perto do risco. Compro a entrada para testar; o plano mensal só depois de ver se o trabalho dela tem a cara do meu consultório." (P004) · "Minha secretária só me passou porque falava em exigência do CFM faltando no meu perfil, e isso me preocupa mais do que seguidor. Pago os R$ 497 para deixar o perfil em dia, que é barato para tirar esse risco, mas não entro no plano mensal agora." (P005) |
 
 ### What would flip a no
 
-- Indicação de um colega médico que eu conheço e que já trabalha com ela, mostrando o perfil dele antes e depois.
-- Ver perfis de outros médicos que ela atende de verdade, com nome, e um colega meu confirmando que o link de agendamento passou a trazer consulta marcada.
-- Se eu abrisse uma clínica nova ou um procedimento novo e precisasse encher a agenda, ou se eu recebesse uma notificação do CRM por causa do perfil. Aí talvez eu pagasse só o Passo 1 para regularizar.
-- Ver o perfil de um colega da minha especialidade que eu conheça, atendido por ela, crescendo de verdade, ou uma indicação dele.
-- Indicação de um colega médico que eu conheço, da mesma região, dizendo que a agenda dele de particular aumentou depois que começou com ela.
-- Indicação de um colega médico que eu respeito e que já usa o serviço, mostrando o perfil dele antes e depois.
-- Indicação de um colega médico que eu conheço e que já usa o serviço sem problema no CRM, ou ver que as peças são revisadas por um advogado de direito médico.
-- Ver o perfil de colegas da minha especialidade que ela atende há meses, e conversar com um deles dizendo que valeu o dinheiro; aí eu talvez fizesse só o Passo 1 de R$ 497 para ver a qualidade antes.
-- Indicação de um colega da minha especialidade que já trabalha com ela há meses sem problema no CRM, ou a revisão das peças assinada por alguém com formação jurídica em direito médico.
-- Ver o perfil de dois ou três médicos que ela atende hoje, com indicação de um colega que eu conheça dizendo que a agenda dele mudou depois que ela entrou.
-- Só se o RQE faltando na bio for um risco real de problema no CRM; aí eu pagaria o Passo 1 avulso para ficar em dia, mas não a gestão mensal.
-- Um problema real com o CRM ou o CFM por causa do meu perfil, ou eu decidir abrir uma unidade nova ou uma linha particular que precise encher agenda.
+- Indicação de um colega médico que eu conheço e confio, dizendo que ela cuida do perfil dele e que deu certo.
+- Um colega médico que eu conheço me dizer que trabalha com ela e que a agenda dele encheu pelo Instagram; aí eu toparia pelo menos os R$ 497 da entrada.
+- Se minha secretária me mostrasse o vídeo e o ponto do CFM fosse uma falha real no meu perfil, eu pagaria os R$ 497 só para deixar o perfil em conformidade, sem contratar o mensal.
+- Indicação de um colega médico daqui de Vitória que eu conheço e que usa o serviço, ou minha secretária me mostrar que o ponto do CFM que está faltando é real e pode me dar dor de cabeça.
+- A indicação de um colega médico que eu conheço e que usa o serviço há meses sem problema com o CRM, ou a revisão das peças assinada por um advogado de direito médico.
+- Se o vídeo mostrasse que a falha do CFM pode me dar processo no conselho e o conserto não é trivial, eu pagaria os R$ 497 da entrada, só isso; para o plano mensal, só quando eu quisesse abrir agenda para particular.
+- Uma colega da minha especialidade que eu conheço me dizer que contratou ela e que passou a receber agendamento particular pelo Instagram; aí eu pagaria os R$ 497 da entrada para testar.
+- Se a pendência do CFM no meu perfil for real e me expuser a um processo ético, eu pagaria os R$ 497 só para corrigir isso, mas não assinaria o plano mensal.
+- Uma notificação ou cobrança real do CRM sobre o meu perfil; aí eu pagaria os R$ 497 só para ficar em dia e encerrar o assunto.
+- Se eu sair dos convênios e precisar encher a agenda com particular, aí um serviço que não exige que eu grave nada passaria a valer a pena.
+- Um colega médico que eu conheço me dizer que trabalha com ela e que o relatório mostra agendamentos de verdade chegando pelo link.
 
 Buyers say they would buy **1.0 times** in the first month on average.
 
@@ -191,6 +189,8 @@ Curva de sensibilidade (Van Westendorp), oferta nova, 20 respostas, preço mensa
 | Acima disso, muitos não compram (PME) | ~R$ 2.800 |
 
 **Faixa aceitável: R$ 810 a 2.800/mês.** Na abordagem antiga (R$ 2.500), a faixa foi parecida: R$ 810 a 3.000. Medianas da oferta nova: barato demais R$ 600, pechincha R$ 1.200, começa a ficar caro R$ 2.500, caro demais R$ 3.800.
+
+**Oferta corrigida (`panel/`, 11/10):** a faixa caiu para **R$ 600 a 2.200**, com IPP de ~R$ 1.190. Atenção: dois médicos responderam pensando no preço da entrada, não no mensal, e isso puxa a faixa para baixo. Mesmo assim, o sinal é que **R$ 2.200 está no limite** e o **Essencial (R$ 1.500)** fica no meio da faixa. Na prática: deixe o Essencial como plano principal e o Completo como upgrade.
 
 ### 2. O que o mercado cobra
 Social media para clínica: R$ 1.500 a 3.500/mês. Especialista de nicho: R$ 4.000 a 10.000+ ([Jamile Fernandes, 2026](https://jamilefernandes.com.br/blog/precificacao-para-social-media-quanto-cobrar-em-2026)). Agências médicas: sob consulta.
@@ -275,6 +275,20 @@ Cortado: promessa de número de pacientes (o CFM proíbe prometer resultado) e g
 
 Mudanças já feitas na oferta final por causa do teste: relatório de **agendamentos e mensagens** (não alcance); plano **Essencial sem gravação**; gravação **no consultório**; **casos de fundador** como prova; checklist CFM **registrado** em cada peça.
 
+### 6. Re-teste da oferta corrigida (11/10, mesmas 20 pessoas)
+Mudanças: sem citar a agência, portfólio com perfis de médicos atendidos, Essencial sem gravação, gravação no consultório, relatório de mensagens e agendamentos pelo link, checklist CFM registrado, garantia do calendário.
+
+| Painel | Compram (entrada) | Fecham o mensal direto | Confiança | Necessidade |
+| --- | ---: | ---: | ---: | ---: |
+| Abordagem atual (`panel-v1/`) | 0 | 0 | 16 | 4 |
+| Oferta nova (`panel-v2/`) | 6 | 0 | 9 | 10 |
+| **Oferta corrigida (`panel/`)** | **9** | **0** | **6** | 14 |
+
+- A **confiança caiu de 16 para 6**. Os casos de médicos e a ausência de "agência" ajudaram.
+- **Especialidades clínicas: 6 de 7 compram a entrada.** Estéticas: 2 de 7. Recém-formados: 0 de 4. "Posta sozinho" e "quer crescer no particular": todos compram.
+- **O mensal continua em 0 na primeira conversa.** Todos dizem a mesma coisa: "depois de ver a entrada e o primeiro relatório com agendamentos, ou com a indicação de um colega". O mensal se vende **depois** da entrega, não na abordagem.
+- O que restou de recusa: agenda cheia (não precisa de paciente) e "se ela errar, quem responde no conselho sou eu".
+
 ## The numbers
 
 **Leia assim:** a ferramenta escreve `$`, mas os valores são em R$. "A day" significa clientes ativos no mês (a unidade é cliente-mês). Os custos são estimativas (veja `cfo-sources.md`). O **lucro aqui é antes de pagar a própria social media**: é a renda dela.
@@ -348,41 +362,108 @@ No red flags in these numbers. They are only as good as the inputs: check every 
 
 ## Launch plan
 
-### 1. Teste real antes de escalar (12/10 a 08/11/2026)
-**Tipo:** serviço, ou seja, 3 clientes pilotos pagantes ao preço planejado.
-**Linha de sucesso (escrita antes):** em 4 semanas, com cerca de 300 abordagens focadas, **5 entradas vendidas (R$ 497) e 2 mensais fechados**. O painel simulado deu 30% de compra da entrada entre quem viu a oferta inteira; na vida real, a maioria nem responde, então a meta é medida sobre as abordagens.
-**Regra de parada:** 150 abordagens focadas sem nenhuma entrada vendida → voltar para `/founder-offer` (o problema é a mensagem ou o público).
+**Hoje:** domingo, 11/10/2026. **Dia do lançamento:** segunda, 19/10/2026, quando começa a prospecção em escala e as vagas de fundador são abertas.
 
-**Foco:** Grande Vitória. Ginecologia, endocrinologia, ortopedia e cardiologia (melhor resposta no painel) contra dermatologia e nutrologia (o palpite inicial). Médicos que **postam sozinhos** ou que **querem crescer no particular**.
+`ops.md`, `brand.md` e `marketing.md` ainda não existem. As tarefas dessas áreas que o lançamento exige estão neste plano.
 
-#### Mensagens para testar (metade com cada uma)
+### 1. Teste real antes de escalar
+
+**Tipo:** serviço, ou seja, pilotos pagantes ao preço planejado.
+
+**Linha de sucesso, escrita antes de começar.** Entre 19/10 e 15/11, com 300 abordagens focadas:
+- **6 entradas vendidas** (R$ 497 cada);
+- **2 mensais fechados** (Essencial ou Completo) até 30 dias depois da entrega da entrada.
+
+**Comparação com o painel simulado:**
+- No painel, 9 de 20 médicos (45%) compraram a entrada **depois de ver o vídeo e a oferta**. No mundo real, compare com quem aceitou o vídeo, não com o total de abordagens.
+- Se menos de 15% de quem aceitou o vídeo comprar, **acredite no real**: volte para `/founder-offer`, que pode refazer o gancho, o vídeo ou o preço.
+- No painel, **ninguém fechou o mensal na primeira conversa**. Todos querem ver a entrada e o primeiro relatório antes. Então o mensal se mede só depois da entrega.
+
+**Regra de parada:** 150 abordagens focadas sem nenhuma entrada vendida → parar e refazer a oferta.
+
+**Foco do teste (vem do painel):**
+- **Grande Vitória.**
+- **Especialidades clínicas com consultório próprio:** ginecologia, endocrinologia, ortopedia, cardiologia. No painel, 6 de 7 compraram a entrada.
+- Médicos que **postam sozinhos** ou que **querem crescer no particular**.
+- Deixe estética, recém-formados e agenda cheia para depois.
+
+### 2. Contagem regressiva
+
+| Semana | Área | Tarefa | Responsável | Prazo | Caminho crítico |
+| --- | --- | --- | --- | --- | :---: |
+| 12 a 18/10 | Jurídico e dinheiro | Ver com um contador o regime (CNPJ, nota fiscal, alíquota) e se dá para emitir nota já na primeira venda | Social media | 14/10 | ● |
+| 12 a 18/10 | Jurídico e dinheiro | Contrato padrão: sem fidelidade, aviso de 30 dias, aprovação do médico antes de publicar, garantia do calendário | Sócio | 16/10 | ● |
+| 12 a 18/10 | Jurídico e dinheiro | Cobrança: Pix para a entrada e boleto ou Pix recorrente para o mensal | Sócio | 16/10 | |
+| 12 a 18/10 | Jurídico e dinheiro | Reler o contrato com a agência antiga: cláusulas de não concorrência, de não abordar ex-clientes e de uso de trabalhos no portfólio | Social media | 14/10 | ● |
+| 12 a 18/10 | Produto | Checklist CFM 2.336 de uma página (bio, CRM + MÉDICO, RQE, pós "NÃO ESPECIALISTA", antes e depois educativo, depoimentos, preços) | Social media | 15/10 | ● |
+| 12 a 18/10 | Produto | Modelo do vídeo de 2 min e do relatório mensal (mensagens e agendamentos pelo link rastreado) | Social media + sócio | 16/10 | ● |
+| 12 a 18/10 | Produto | Fluxo de IA que gera o rascunho do diagnóstico de 3 pontos a partir do perfil (leitura manual, sem raspagem automática) | Sócio | 17/10 | ● |
+| 12 a 18/10 | Marca | Instagram profissional dela, com 6 posts sobre a CFM 2.336 para médicos | Social media | 18/10 | |
+| 12 a 18/10 | Marca | Página de portfólio com os perfis de médicos atendidos (só com permissão de cada um) e os planos com preço. O sócio monta | Sócio | 18/10 | ● |
+| 12 a 18/10 | CRM | Lista de 300 médicos da Grande Vitória nas 4 especialidades, com campos para medir cada etapa | Sócio | 18/10 | ● |
+| 14 a 16/10 | Teste fechado | **Rede quente:** pedir a 3 a 5 médicos que ela já atendeu uma indicação ou um depoimento, se o contrato antigo permitir. Oferecer a entrada a 10 contatos indicados | Social media | 16/10 | |
+| 19/10 | **Lançamento** | Primeira onda: 30 abordagens; 3 vagas de fundador abertas | Social media | 19/10 | ● |
+
+**Caminho crítico:** checklist CFM, modelo de vídeo, fluxo de IA, lista no CRM, portfólio e contrato. Se qualquer um atrasar, o lançamento de 19/10 atrasa. Sem o fluxo de IA, ela não consegue fazer 30 vídeos personalizados por dia.
+
+### 3. O dia do lançamento (segunda, 19/10)
+
+| Horário | O quê | Canal |
+| --- | --- | --- |
+| 07:30 a 08:30 | Revisar os 30 diagnósticos que a IA gerou na véspera; gravar os vídeos de 2 min em lote | Interno |
+| 08:30 a 09:00 | Abrir as 3 vagas de fundador no Instagram dela e na página de portfólio | Instagram e site |
+| 09:00 a 11:30 | Enviar as 15 primeiras abordagens: 8 com a mensagem A, 7 com a mensagem B | WhatsApp do consultório e direct |
+| 11:30 a 12:00 | Registrar no CRM quem leu, se foi a secretária, e quem respondeu | CRM |
+| 13:30 a 16:00 | Enviar as outras 15 abordagens; mandar o vídeo a quem aceitou | WhatsApp e direct |
+| 16:00 a 17:00 | Responder dúvidas; mandar a proposta da entrada a quem pediu | WhatsApp |
+| 18:30 a 19:00 | Mandar o vídeo a quem respondeu à noite (médicos leem mensagens à noite) | WhatsApp e direct |
+| 19:00 | Fechar o dia no CRM: enviadas, respostas, vídeos aceitos, entradas | CRM |
+
+**Se der problema:**
+- **Número com restrição por excesso de mensagens:** parar e trocar para direct ou e-mail; não passar de 30 por dia.
+- **Médico diz que é spam:** pedir desculpas, marcar no CRM para não contatar de novo e seguir.
+- **Dúvida jurídica do médico sobre o CFM:** responder com o texto da resolução e sugerir que ele confirme com o CRM-ES; não dar parecer jurídico.
+
+#### Mensagens (A e B, metade cada)
+
 **A, gancho do CFM:**
-> Dr(a). [nome], aqui é a [nome], social media que trabalha só com médicos (antes atendi mais de 50 marcas numa agência). Revisei seu Instagram e encontrei 3 pontos; um deles é uma exigência da Resolução CFM 2.336 que está faltando no perfil. Gravei um vídeo de 2 minutos mostrando os três. Posso te mandar por aqui?
+> Dr(a). [nome], aqui é a [nome], social media que trabalha só com médicos ([link do portfólio]). Revisei seu Instagram e encontrei 3 pontos; um deles é uma exigência da Resolução CFM 2.336 que está faltando no perfil. Gravei um vídeo de 2 minutos mostrando os três. Posso te mandar?
 
-**B, relatório (a de hoje, mas já pronta):**
-> Dr(a). [nome], aqui é a [nome], social media que trabalha só com médicos. Fiz uma análise do seu Instagram com 3 melhorias rápidas, em vídeo de 2 minutos. Posso te mandar?
+**B, análise:**
+> Dr(a). [nome], aqui é a [nome], social media que trabalha só com médicos ([link do portfólio]). Fiz uma análise do seu Instagram com 3 melhorias, em vídeo de 2 minutos. Posso te mandar?
 
-Regras: o vídeo tem que **existir antes** da mensagem; cite o problema, mas mostre a solução completa só na entrada paga; nunca prometa pacientes; use só informações públicas do perfil.
-
-**Para a secretária** (quando quem responde é a equipe):
+**Para a secretária:**
 > Oi! Encontrei um ponto no Instagram do Dr(a). que a Resolução CFM 2.336 exige e está faltando. Gravei um vídeo curto explicando. Você consegue repassar para ele(a) ou me dizer o melhor contato?
 
-### 2. Cronograma
-| Semana | Tarefas | Responsável | Prazo |
-| --- | --- | --- | --- |
-| 12 a 18/10 | Checklist CFM em uma página; modelo de vídeo de 2 min; fluxo de IA que gera o rascunho do diagnóstico a partir do perfil (leitura manual, sem raspagem automática); contrato padrão sem fidelidade; proposta com os 4 degraus | Sócio (fluxo e CRM), social media (checklist e vídeo) | 18/10 |
-| 12 a 18/10 | Confirmar o que o contrato da agência permite mostrar no portfólio | Social media | 18/10 |
-| 19 a 25/10 | 150 abordagens (75 A, 75 B), 30 por dia útil, todas registradas no CRM | Social media | 25/10 |
-| 26/10 a 01/11 | Revisar os números: mensagem vencedora, especialidade, canal. Mais 150 abordagens com a vencedora | Os dois | 01/11 |
-| 02 a 08/11 | Entregar as entradas vendidas em 7 dias; oferecer o mensal com a vaga de fundador | Social media | 08/11 |
+**Regras:**
+- O vídeo existe antes de a mensagem sair.
+- Mostre o problema; a solução completa (o checklist inteiro) fica na entrada paga.
+- Nunca prometa pacientes.
+- Use só informações públicas do perfil.
+- No portfólio, mostre só perfis de médicos que autorizaram.
 
-### 3. O que medir no CRM, por abordagem
-Canal (WhatsApp, Instagram, e-mail) · quem leu (médico ou secretária) · respondeu? · aceitou o vídeo? · comprou a entrada? · fechou o mensal? · especialidade · mensagem A/B · horas gastas.
+### 4. Os primeiros 30 dias
 
-### 4. Primeiros 30 dias de cada cliente
-- **Semana 1:** entrada entregue, checklist assinado, link de agendamento rastreado instalado.
-- **Semana 2:** calendário do mês aprovado pelo WhatsApp; gravação (Completo).
-- **Semana 4:** primeiro relatório com mensagens e agendamentos vindos do link. Se o calendário do 1º mês não for aprovado, ele não paga o mês.
+#### Números da semana (no CRM)
+
+| Número | Meta por semana | Se ficar abaixo... |
+| --- | ---: | --- |
+| Abordagens enviadas | 75 | Revisar o tempo gasto por vídeo e o fluxo de IA |
+| Taxa de resposta | 10% ou mais | Trocar o canal (WhatsApp, direct ou e-mail) ou a versão da mensagem |
+| Vídeos aceitos | 5 ou mais | Reescrever a primeira frase |
+| Entradas vendidas, sobre vídeos aceitos | 15% ou mais | Voltar para `/founder-offer` (gancho, vídeo ou preço) |
+| Entrada vira mensal (30 dias depois da entrega) | 1 em cada 3 | Revisar o relatório e o Essencial; essa é a premissa central do CFO |
+| Horas por cliente mensal | 15 h ou menos (Completo) | Automatizar mais, ou cobrar R$ 2.500 |
+
+#### Revisões
+- **Dia 7 (26/10), mensagem:** qual mensagem, A ou B, teve mais vídeos aceitos? Médico ou secretária responde mais? Ficar só com a vencedora.
+- **Dia 14 (02/11), público:** quais especialidades compraram a entrada? O painel apontou as clínicas; confirma? Ajustar a lista do CRM.
+- **Dia 30 (18/11), mensal:** quantas entradas entregues viraram mensal? O primeiro relatório mostrou mensagens e agendamentos? Comparar com a linha de sucesso e decidir: escalar (seguir com 300 abordagens por mês), ajustar (`/founder-offer` ou `/founder-pricing`) ou parar.
+
+#### Para cada cliente da entrada
+- **Dias 1 a 7:** checklist aplicado e assinado; link de agendamento rastreado no ar; 9 posts publicados.
+- **Dia 8:** primeiro relatório parcial e proposta do mensal (vaga de fundador, se ainda houver).
+- **Dia 30:** relatório com mensagens e agendamentos que vieram do link. É ele que convence o médico a ficar.
 
 ## Not done yet
 

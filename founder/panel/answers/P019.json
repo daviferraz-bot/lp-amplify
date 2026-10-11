@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "need",
-  "reason": "Minha agenda já está cheia com convênio e indicação, não preciso de mais paciente vindo do Instagram. Pagar R$ 2.200 por mês e ainda gravar uma hora de vídeo pra resolver um problema que eu não tenho não faz sentido agora.",
-  "objection": "Não tenho tempo pra gravar vídeo e nem preciso de marketing, e recebo proposta de agência toda semana; é mais uma.",
-  "would_change_my_mind": "Se a agenda esvaziar ou eu quiser sair dos convênios e atender só particular; aí talvez eu fizesse só o ajuste do perfil por causa do RQE.",
-  "price_too_cheap": 300,
-  "price_cheap": 800,
-  "price_expensive": 1500,
-  "price_too_expensive": 2500
+  "reason": "Minha agenda já está cheia com convênio e indicação, não preciso de mais paciente pelo Instagram. Talvez eu até assista o vídeo por causa da história do CFM, mas aí eu mesmo corrijo a bio e pronto.",
+  "objection": "Pagar R$ 1.500 ou R$ 2.200 por mês para atrair paciente que eu não tenho horário para atender não faz sentido, e é mais uma agência igual às dez que me escrevem toda semana.",
+  "would_change_my_mind": "Se eu sair dos convênios e precisar encher a agenda com particular, aí um serviço que não exige que eu grave nada passaria a valer a pena.",
+  "price_too_cheap": 400,
+  "price_cheap": 700,
+  "price_expensive": 1200,
+  "price_too_expensive": 2000
 }

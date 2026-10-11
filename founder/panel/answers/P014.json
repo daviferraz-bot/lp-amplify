@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "trust",
-  "reason": "Eu assistiria o vídeo, colocaria o RQE na bio eu mesma em dois minutos e pararia por aí. Já paguei agência, recebi post bonito e genérico e nenhum paciente novo, e uma desconhecida no direct que nem promete paciente não me convence a pagar R$ 2.200 por mês.",
-  "objection": "Relatório de alcance e de cliques eu já recebi da agência antiga e não pagou a conta. Se ela não pode me dizer que vai trazer paciente, eu não sei como vou saber se está valendo, e ainda tenho que gravar uma hora por mês.",
-  "would_change_my_mind": "Ver o perfil de dois ou três médicos que ela atende hoje, com indicação de um colega que eu conheça dizendo que a agenda dele mudou depois que ela entrou.",
-  "price_too_cheap": 700,
-  "price_cheap": 1200,
-  "price_expensive": 1800,
-  "price_too_expensive": 2800
+  "reason": "Já tive agência e não trouxe paciente, e essa mensagem é igual às três que recebo por semana, só que com o CFM de isca. Eu até aceitaria o vídeo por medo de estar irregular, mas se ela me mostra os três pontos, eu mesma corrijo a bio e o RQE numa tarde e não pago nada.",
+  "objection": "Relatório de quantas mensagens chegaram pelo link não é paciente na cadeira; já paguei R$ 1.500 por mês para ver curtida e post genérico, e 'sem promessa de resultado' para mim soa como 'sem compromisso com resultado'.",
+  "would_change_my_mind": "Uma colega da minha especialidade que eu conheço me dizer que contratou ela e que passou a receber agendamento particular pelo Instagram; aí eu pagaria os R$ 497 da entrada para testar.",
+  "price_too_cheap": 500,
+  "price_cheap": 900,
+  "price_expensive": 1500,
+  "price_too_expensive": 2200
 }

@@ -12,6 +12,8 @@ Curva de sensibilidade (Van Westendorp), oferta nova, 20 respostas, preço mensa
 
 **Faixa aceitável: R$ 810 a 2.800/mês.** Na abordagem antiga (R$ 2.500), a faixa foi parecida: R$ 810 a 3.000. Medianas da oferta nova: barato demais R$ 600, pechincha R$ 1.200, começa a ficar caro R$ 2.500, caro demais R$ 3.800.
 
+**Oferta corrigida (`panel/`, 11/10):** a faixa caiu para **R$ 600 a 2.200**, com IPP de ~R$ 1.190. Atenção: dois médicos responderam pensando no preço da entrada, não no mensal, e isso puxa a faixa para baixo. Mesmo assim, o sinal é que **R$ 2.200 está no limite** e o **Essencial (R$ 1.500)** fica no meio da faixa. Na prática: deixe o Essencial como plano principal e o Completo como upgrade.
+
 ## 2. O que o mercado cobra
 Social media para clínica: R$ 1.500 a 3.500/mês. Especialista de nicho: R$ 4.000 a 10.000+ ([Jamile Fernandes, 2026](https://jamilefernandes.com.br/blog/precificacao-para-social-media-quanto-cobrar-em-2026)). Agências médicas: sob consulta.
 

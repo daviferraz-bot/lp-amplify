@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Se a minha bio está mesmo fora da 2.336 por falta do RQE, isso me preocupa mais do que post atrasado; R$ 497 para deixar o perfil em dia com o CFM eu pago sem pensar muito. A gestão de R$ 2.200 por mês eu não fecho agora: aos 61, com agenda cheia, não sei se preciso disso.",
-  "objection": "Não conheço essa moça. Quem me garante que ela entende de publicidade médica de verdade e que, se o CRM implicar com algum post, quem responde não sou eu sozinho? Também não vou entregar senha do meu Instagram para estranho.",
-  "would_change_my_mind": "Para a gestão mensal: indicação de um colega médico que já usa e nunca teve problema com o CRM, ou ver o meu perfil trazendo agendamentos depois do Passo 1.",
-  "price_too_cheap": 600,
-  "price_cheap": 1200,
-  "price_expensive": 2500,
-  "price_too_expensive": 4000
+  "reason": "Se meu perfil está mesmo descumprindo uma exigência do CFM, isso me preocupa mais do que qualquer post; R$ 497 para deixar tudo em dia é pouco perto do risco de um processo ético. Eu vejo o vídeo à noite, confiro o que ela apontou na resolução e, se fizer sentido, pago só a entrada; plano mensal eu não fecho agora.",
+  "objection": "Não conheço essa pessoa, e mensagem de desconhecido dizendo que tem algo errado no meu perfil cheira a tática de susto. Também não sei se ela entende de fato a resolução ou só repete o nome dela, e não quero entregar meu Instagram a alguém que pode me criar o problema que eu quero evitar.",
+  "would_change_my_mind": "Para assinar o plano mensal: ver um colega médico que eu conheça, da minha especialidade, atendido por ela há meses sem nenhum problema com o CRM.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 1000,
+  "price_too_expensive": 1800
 }

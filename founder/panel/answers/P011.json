@@ -1,13 +1,13 @@
 {
   "id": "P011",
-  "buys": false,
-  "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "Agradeço o toque do RQE, mas isso minha secretária coloca na bio hoje mesmo, de graça. Não vou entregar a imagem do meu consultório, e o meu risco no CRM, para uma pessoa que me mandou mensagem do nada e que eu não conheço.",
-  "objection": "Quem responde no conselho se um post der problema sou eu, não ela. Não sei quem é essa pessoa, se entende mesmo de publicidade médica, e ainda teria que gravar Reels, que é justamente o que eu evito por medo de me expor.",
-  "would_change_my_mind": "Indicação de um colega da minha especialidade que já trabalha com ela há meses sem problema no CRM, ou a revisão das peças assinada por alguém com formação jurídica em direito médico.",
-  "price_too_cheap": 600,
-  "price_cheap": 1000,
-  "price_expensive": 1800,
-  "price_too_expensive": 2600
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se ela me mostrar no vídeo que falta mesmo uma exigência do CFM no meu perfil, eu pago os R$ 497 só para ficar em dia e parar de me preocupar com isso. O plano mensal eu não fecho agora; minha secretária já posta o básico e eu não vou expor meu nome a uma desconhecida antes de ver o trabalho.",
+  "objection": "Ela é uma desconhecida que me mandou mensagem do nada. Se ela errar alguma coisa e eu tomar uma sindicância no CRM, quem responde sou eu, não ela. E não sei se esse 'checklist do CFM' é coisa séria ou só discurso de venda.",
+  "would_change_my_mind": "Um colega da minha especialidade que eu conheço me dizer que trabalha com ela há meses e nunca teve problema com o conselho; aí eu consideraria o plano mensal.",
+  "price_too_cheap": 150,
+  "price_cheap": 300,
+  "price_expensive": 900,
+  "price_too_expensive": 1500
 }

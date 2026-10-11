@@ -1,0 +1,6 @@
+Você recebe uma mensagem de uma social media que você não conhece. Ela se identifica pelo nome, diz que atendeu mais de 50 marcas numa agência de marketing e que hoje trabalha só com médicos:
+"Dr(a)., olhei seu Instagram: a bio não mostra o seu RQE, que a Resolução CFM 2.336 exige, e o último post é de mais de um mês atrás. Gravei um vídeo de 2 minutos mostrando 3 ajustes rápidos no seu perfil. Posso te mandar?"
+Se você aceitar, recebe o vídeo e esta oferta, sem precisar de reunião (a reunião é opcional):
+- Passo 1, "Perfil em dia com o CFM": bio, destaques, link de agendamento e 9 posts fixos, tudo revisado pelas regras de publicidade médica, entregue em 7 dias. R$ 497, pagamento único, abatidos do primeiro mês se você continuar.
+- Passo 2, gestão mensal: 12 posts por mês (4 deles Reels com roteiro pronto; você grava tudo numa sessão de 1 hora por mês), stories 3 vezes por semana, calendário aprovado por você pelo WhatsApp, revisão de cada peça pelas regras do CFM e um relatório mensal de alcance e de cliques no seu link de agendamento. R$ 2.200 por mês, sem fidelidade: cancela quando quiser, com 30 dias de aviso.
+- Ela atende no máximo 8 médicos ao mesmo tempo para manter a qualidade. Não promete número de pacientes, porque o CFM proíbe promessa de resultado.

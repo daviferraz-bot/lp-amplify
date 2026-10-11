@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Quem lê o direct é minha secretária, e mensagem de desconhecido oferecendo serviço ela nem me repassa, ou me mostra à noite junto com outras dez iguais. Não vou entregar meu perfil e meu CRM para uma pessoa que nunca ouvi falar só porque ela achou um RQE faltando na bio; isso a secretária corrige amanhã de graça.",
+  "objection": "Não sei quem é essa pessoa, nenhum colega me indicou, e 'atendi 50 marcas numa agência' não prova nada sobre médico. Se ela errar alguma coisa de publicidade médica, quem responde no CRM sou eu, não ela.",
+  "would_change_my_mind": "Indicação de um colega médico que eu respeito e que já usa o serviço, mostrando o perfil dele antes e depois.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3500,
+  "price_too_expensive": 6000
+}

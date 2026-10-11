@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Minha secretária provavelmente nem me mostraria essa mensagem, e se mostrasse eu pensaria: já paguei agência, tive post bonito e nenhum paciente a mais. O ponto do RQE me incomoda e eu mesmo corrijo a bio, mas R$ 2.200 por mês para uma pessoa que eu não conheço e que nem promete resultado, não.",
+  "objection": "Já tive agência e não trouxe paciente. Post bonito não enche agenda, e uma desconhecida que me aborda por mensagem não me dá segurança de que vai ser diferente.",
+  "would_change_my_mind": "Indicação de um colega médico que eu conheço, da mesma região, dizendo que a agenda dele de particular aumentou depois que começou com ela.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}
