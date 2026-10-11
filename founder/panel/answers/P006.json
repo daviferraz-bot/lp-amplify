@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Ela apontou um problema real: meu RQE não está na bio e eu não quero problema com o CRM. Por R$ 497, sem fidelidade e sem reunião, pago o Passo 1 como teste, mas a gestão de R$ 2.200 por mês eu não fecho agora.",
+  "objection": "Já paguei agência que fazia post bonito e não trouxe nenhum paciente particular. Arrumar o perfil não é o mesmo que encher a agenda, e ela mesma diz que não promete paciente.",
+  "would_change_my_mind": "Para assinar o mensal: ver, depois do Passo 1, cliques reais no meu link de agendamento virando consultas particulares, ou falar com um médico da minha especialidade que ela atende e que ganhou pacientes.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3000,
+  "price_too_expensive": 5000
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Se meu perfil está mesmo fora da regra do CFM, eu quero resolver isso logo, e R$ 497 para deixar tudo em dia é pouco perto do risco de uma denúncia no CRM. Pago o Passo 1, mas a gestão mensal de R$ 2.200 só depois de ver o trabalho entregue e de conferir com um colega se ela entende mesmo de publicidade médica.",
+  "objection": "É uma pessoa que eu não conheço, que me abordou do nada. Quem garante que ela conhece as regras do CFM melhor do que eu, e se um post dela me der problema no CRM, quem responde sou eu, não ela.",
+  "would_change_my_mind": "Ver o perfil de dois ou três médicos que ela já atende, de preferência alguém aqui da região que eu possa perguntar diretamente, antes de fechar a gestão mensal.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 2800,
+  "price_too_expensive": 4500
+}
