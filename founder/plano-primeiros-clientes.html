@@ -1,0 +1,429 @@
+<title>Instagram em dia com o CFM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: uma coluna de leitura (~68ch) com faixa de navegação fixa; tabelas e roteiros em blocos próprios. Motivo do assunto: o carimbo de identificação médica (CRM + RQE). */
+:root{
+  --bg:#f5f7f6; --surface:#ffffff; --ink:#152420; --muted:#5b6b66; --line:#d9e1de;
+  --stamp:#2d43b0; --stamp-soft:#e7eafb; --good:#1f7a4d; --good-soft:#e2f2e9; --warn:#a1620a; --warn-soft:#fbf0dc; --bad:#b23b2e;
+  --f-display:"Literata", Georgia, "Times New Roman", serif;
+  --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --s1:.25rem; --s2:.5rem; --s3:.75rem; --s4:1rem; --s5:1.5rem; --s6:2.25rem; --s7:3.5rem;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9db0aa; --line:#2a3834;
+  --stamp:#93a3ff; --stamp-soft:#1e2550; --good:#5cc993; --good-soft:#15301f; --warn:#f0b35a; --warn-soft:#33260f; --bad:#f08a7e;
+  color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0f1715; --surface:#16211e; --ink:#e4ece9; --muted:#9db0aa; --line:#2a3834;
+  --stamp:#93a3ff; --stamp-soft:#1e2550; --good:#5cc993; --good-soft:#15301f; --warn:#f0b35a; --warn-soft:#33260f; --bad:#f08a7e;
+  color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:860px;margin:0 auto;padding-inline:clamp(16px,4vw,32px);padding-block:var(--s6) var(--s7)}
+h1,h2,h3{font-family:var(--f-display);font-weight:650;line-height:1.2;text-wrap:balance;margin:0}
+h1{font-size:clamp(2rem,5vw,2.9rem);letter-spacing:-.01em}
+h2{font-size:1.6rem}
+h3{font-size:1.1rem;font-family:var(--f-body);font-weight:700}
+p{margin:0;max-width:68ch}
+.muted{color:var(--muted)}
+.label{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+a{color:var(--stamp)}
+:focus-visible{outline:2px solid var(--stamp);outline-offset:2px;border-radius:4px}
+
+/* Navegação */
+nav.toc{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav.toc .in{max-width:860px;margin:0 auto;padding-inline:clamp(16px,4vw,32px);padding-block:var(--s2);display:flex;gap:var(--s4);overflow-x:auto;scrollbar-width:none}
+nav.toc a{white-space:nowrap;text-decoration:none;color:var(--muted);font-size:.86rem;font-weight:600;padding-block:var(--s1)}
+nav.toc a:hover{color:var(--ink)}
+
+/* Cabeçalho */
+header.hero{display:grid;grid-template-columns:1fr auto;gap:var(--s5);align-items:start;margin-bottom:var(--s6)}
+header.hero .lede{font-size:1.1rem;margin-top:var(--s3);color:var(--muted)}
+.stamp{border:2px dashed var(--stamp);color:var(--stamp);border-radius:8px;padding:var(--s3) var(--s4);font-family:var(--f-mono);font-size:.8rem;line-height:1.5;transform:rotate(-3deg);text-align:center;margin-top:var(--s2);max-width:100%}
+.stamp b{display:block;font-size:.95rem;letter-spacing:.04em}
+@media (max-width:620px){header.hero{grid-template-columns:1fr}.stamp{justify-self:start}}
+
+/* Fatos */
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s3);margin-bottom:var(--s7)}
+.fact{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4);display:flex;flex-direction:column;gap:var(--s1);min-width:0}
+.fact .n{font-family:var(--f-display);font-size:1.7rem;font-weight:650;font-variant-numeric:tabular-nums;line-height:1.1}
+.fact p{font-size:.88rem;color:var(--muted)}
+@media (max-width:720px){.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+section{margin-bottom:var(--s7);display:flex;flex-direction:column;gap:var(--s4)}
+section > header{display:flex;flex-direction:column;gap:var(--s1)}
+
+/* Tabelas */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:var(--s3) var(--s4);border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--bg)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.win td{background:var(--good-soft)}
+tr.win td:first-child{font-weight:700}
+
+/* Barras de objeção */
+.bars{display:flex;flex-direction:column;gap:var(--s2);background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4)}
+.bar{display:grid;grid-template-columns:minmax(0,15rem) 1fr 2.5rem;gap:var(--s3);align-items:center;font-size:.9rem}
+.bar .track{height:12px;background:var(--bg);border-radius:6px;overflow:hidden}
+.bar .fill{height:100%;background:var(--stamp);border-radius:6px}
+.bar.low .fill{background:var(--muted)}
+.bar .v{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right}
+@media (max-width:560px){.bar{grid-template-columns:1fr 2.5rem}.bar .track{grid-column:1 / -1;order:3}}
+
+/* Oferta */
+.ladder{display:flex;flex-direction:column;gap:var(--s2)}
+.step{display:grid;grid-template-columns:7.5rem 1fr auto;gap:var(--s4);align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4)}
+.step.main{border:2px solid var(--stamp)}
+.step .tag{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:.15rem}
+.step .price{font-family:var(--f-display);font-weight:650;font-size:1.25rem;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.step .price small{display:block;font-family:var(--f-body);font-size:.75rem;font-weight:600;color:var(--good)}
+.step h3{margin-bottom:var(--s1)}
+.step p{font-size:.92rem;color:var(--muted)}
+@media (max-width:600px){.step{grid-template-columns:1fr auto}.step .tag{grid-column:1 / -1}}
+.terms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s3)}
+.term{border-left:3px solid var(--good);padding:var(--s2) var(--s3);background:var(--surface);border-radius:0 var(--r) var(--r) 0}
+.term p{font-size:.92rem}
+@media (max-width:600px){.terms{grid-template-columns:1fr}}
+
+/* Checklist */
+.check{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.check label{display:grid;grid-template-columns:1.25rem 1fr;gap:var(--s3);padding:var(--s3) var(--s4);border-bottom:1px solid var(--line);cursor:pointer}
+.check label:last-child{border-bottom:0}
+.check input{width:1.1rem;height:1.1rem;margin-top:.2rem;accent-color:var(--good)}
+.check input:checked + span{color:var(--muted);text-decoration:line-through}
+.progress{font-family:var(--f-mono);font-size:.82rem;color:var(--muted)}
+
+/* Roteiros */
+.scripts{display:flex;flex-direction:column;gap:var(--s3)}
+.script{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4);display:flex;flex-direction:column;gap:var(--s2)}
+.script .top{display:flex;justify-content:space-between;align-items:center;gap:var(--s3);flex-wrap:wrap}
+.when{font-family:var(--f-mono);font-size:.78rem;font-weight:500;color:var(--stamp);background:var(--stamp-soft);padding:.1rem .5rem;border-radius:999px}
+.script blockquote{margin:0;padding-left:var(--s3);border-left:3px solid var(--line);white-space:pre-line;max-width:68ch}
+button.copy{font:600 .8rem var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;cursor:pointer}
+button.copy:hover{border-color:var(--stamp)}
+button.copy.ok{color:var(--good);border-color:var(--good)}
+
+ol.video{margin:0;padding-left:1.25rem;display:flex;flex-direction:column;gap:var(--s2);max-width:68ch}
+ol.video .t{font-family:var(--f-mono);font-size:.82rem;color:var(--muted);margin-right:var(--s2)}
+
+/* Filtro */
+.who{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s3)}
+.who > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4);min-width:0}
+.who ul{margin:var(--s2) 0 0;padding-left:1.1rem;display:flex;flex-direction:column;gap:var(--s1);font-size:.92rem}
+.who .yes h3{color:var(--good)} .who .no h3{color:var(--bad)}
+@media (max-width:600px){.who{grid-template-columns:1fr}}
+
+/* Linha do tempo */
+.timeline{display:flex;flex-direction:column;gap:0;border-left:2px solid var(--line);margin-left:.4rem}
+.wk{position:relative;padding:0 0 var(--s5) var(--s5)}
+.wk:last-child{padding-bottom:0}
+.wk::before{content:"";position:absolute;left:-.45rem;top:.35rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--surface);border:2px solid var(--stamp)}
+.wk .d{font-family:var(--f-mono);font-size:.82rem;color:var(--stamp);font-weight:500}
+.wk p{font-size:.94rem}
+.wk .goal{display:inline-block;margin-top:var(--s1);font-size:.82rem;font-weight:600;color:var(--good);background:var(--good-soft);padding:.1rem .5rem;border-radius:6px}
+
+.note{background:var(--warn-soft);border-radius:var(--r);padding:var(--s4);font-size:.92rem;display:flex;flex-direction:column;gap:var(--s2)}
+.note strong{color:var(--warn)}
+footer{border-top:1px solid var(--line);padding-top:var(--s4);font-size:.85rem;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+
+<nav class="toc" aria-label="Seções">
+  <div class="in">
+    <a href="#resumo">Resumo</a>
+    <a href="#testes">O que testamos</a>
+    <a href="#oferta">A oferta</a>
+    <a href="#antes">Antes de começar</a>
+    <a href="#quem">Quem abordar</a>
+    <a href="#roteiros">Roteiros</a>
+    <a href="#mensal">Vender o mensal</a>
+    <a href="#numeros">Números</a>
+    <a href="#plano">Plano de 30 dias</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<header class="hero" id="resumo">
+  <div>
+    <p class="label">Plano para fechar os primeiros clientes · Grande Vitória</p>
+    <h1>Instagram em dia com o CFM</h1>
+    <p class="lede">Gestão de Instagram para médicos, vendida por prospecção ativa. A porta de entrada é um ajuste do perfil às regras de publicidade médica, entregue em 7 dias e pago só depois que o médico aprova. O mensal vem depois, quando o relatório de 30 dias mostra os números.</p>
+  </div>
+  <div class="stamp" aria-hidden="true"><b>DRA. SEU CLIENTE</b>CRM-ES 00000 · MÉDICA<br>RQE 0000 · ESPECIALIDADE</div>
+</header>
+
+<div class="facts">
+  <div class="fact"><span class="label">Abordagem original</span><span class="n">0 de 20</span><p>médicos simulados compraram</p></div>
+  <div class="fact"><span class="label">Oferta final</span><span class="n">10 de 20</span><p>médicos novos compraram a entrada (7 a de R$ 997)</p></div>
+  <div class="fact"><span class="label">400 abordagens</span><span class="n">≈ 15</span><p>entradas e 5 mensais no cenário base</p></div>
+  <div class="fact"><span class="label">Com 11 mensais</span><span class="n">≈ R$ 18,7 mil</span><p>de faturamento por mês, antes da remuneração dela</p></div>
+</div>
+
+<section id="testes">
+  <header>
+    <p class="label">O que construímos</p>
+    <h2>Seis versões testadas, uma oferta que vende</h2>
+  </header>
+  <p>Cada versão foi mostrada a 20 médicos simulados com perfis variados (especialidade, renda, hábitos, objeções). A versão final foi testada em 20 médicos novos, que nunca tinham visto nenhuma versão anterior.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Versão</th><th class="num">Compram</th><th>Principal motivo de recusa</th></tr></thead>
+      <tbody>
+        <tr><td>Relatório genérico + reunião obrigatória, R$ 2.500/mês</td><td class="num">0 / 20</td><td>Confiança (16 de 20)</td></tr>
+        <tr><td>Gancho do CFM + vídeo + entrada de R$ 497</td><td class="num">6 / 20</td><td>Necessidade e confiança</td></tr>
+        <tr><td>+ portfólio com médicos, sem citar a agência</td><td class="num">9 / 20</td><td>Necessidade</td></tr>
+        <tr><td>+ paga só depois de aprovar + relatório de 30 dias</td><td class="num">10 / 20</td><td>Necessidade</td></tr>
+        <tr><td>Mesma oferta a R$ 997</td><td class="num">10 / 20</td><td>Os mesmos 10 compraram</td></tr>
+        <tr class="win"><td>Oferta final (R$ 997 ou R$ 497, médico de referência), em médicos novos</td><td class="num">10 / 20</td><td>Agenda cheia; "eu mesmo arrumo"</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>O que trava a venda (65 recusas somadas)</h3>
+  <div class="bars" role="list">
+    <div class="bar" role="listitem"><span>Quer indicação de um colega</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="v">53</span></div>
+    <div class="bar" role="listitem"><span>Quer prova de resultado</span><div class="track"><div class="fill" style="width:88.7%"></div></div><span class="v">47</span></div>
+    <div class="bar" role="listitem"><span>Medo do CRM/CFM</span><div class="track"><div class="fill" style="width:86.8%"></div></div><span class="v">46</span></div>
+    <div class="bar" role="listitem"><span>"Não sei quem ela é"</span><div class="track"><div class="fill" style="width:73.6%"></div></div><span class="v">39</span></div>
+    <div class="bar" role="listitem"><span>A secretária filtra</span><div class="track"><div class="fill" style="width:67.9%"></div></div><span class="v">36</span></div>
+    <div class="bar" role="listitem"><span>Sem tempo para gravar</span><div class="track"><div class="fill" style="width:54.7%"></div></div><span class="v">29</span></div>
+    <div class="bar" role="listitem"><span>Agenda cheia</span><div class="track"><div class="fill" style="width:45.3%"></div></div><span class="v">24</span></div>
+    <div class="bar" role="listitem"><span>"Eu mesmo arrumo"</span><div class="track"><div class="fill" style="width:34%"></div></div><span class="v">18</span></div>
+    <div class="bar low" role="listitem"><span>Preço</span><div class="track"><div class="fill" style="width:13.2%"></div></div><span class="v">7</span></div>
+  </div>
+  <p class="muted">Uma recusa pode citar mais de um motivo. A barreira é confiança, não preço.</p>
+</section>
+
+<section id="oferta">
+  <header>
+    <p class="label">O que oferecer</p>
+    <h2>A oferta, do grátis ao mensal</h2>
+  </header>
+  <div class="ladder">
+    <div class="step"><span class="tag">Porta</span><div><h3>Vídeo de 2 minutos</h3><p>3 pontos do perfil dele e 1 post de exemplo com a cara dele. Mostra o problema, não a correção.</p></div><div class="price">grátis</div></div>
+    <div class="step main"><span class="tag">Entrada principal</span><div><h3>Perfil em dia com o CFM</h3><p>12 itens da Resolução CFM 2.336 aplicados, link de agendamento rastreado, 9 posts aprovados um a um, entrega em 7 dias e relatório de 30 dias com mensagens e agendamentos.</p></div><div class="price">R$ 997<small>só se aprovar</small></div></div>
+    <div class="step"><span class="tag">Entrada leve</span><div><h3>Só conformidade</h3><p>Os 12 itens aplicados, sem posts. Para quem está com a agenda cheia ou não quer postar.</p></div><div class="price">R$ 497<small>só se aprovar</small></div></div>
+    <div class="step"><span class="tag">Mensal</span><div><h3>Essencial</h3><p>8 posts por mês, stories 3 vezes por semana, sem o médico precisar gravar, revisão CFM e relatório mensal.</p></div><div class="price">R$ 1.500/mês</div></div>
+    <div class="step"><span class="tag">Mensal</span><div><h3>Completo</h3><p>12 posts (4 Reels), gravação no consultório uma vez por mês, stories, revisão CFM e relatório.</p></div><div class="price">R$ 2.200/mês</div></div>
+  </div>
+  <div class="terms">
+    <div class="term"><p><strong>Risco zero na entrada:</strong> o médico só paga depois de ver pronto e aprovar.</p></div>
+    <div class="term"><p><strong>Se o CRM questionar</strong> algum ajuste, ela refaz sem custo.</p></div>
+    <div class="term"><p><strong>Sem fidelidade:</strong> 30 dias de aviso. Se não aprovar o calendário do 1º mês, não paga o mês.</p></div>
+    <div class="term"><p><strong>Continuidade:</strong> 50% da entrada abatidos no 1º mês do mensal.</p></div>
+    <div class="term"><p><strong>Escassez real:</strong> no máximo 10 entradas por mês e 3 vagas de fundador no Completo a R$ 1.500 por 3 meses, em troca de virar caso.</p></div>
+    <div class="term"><p><strong>Indicação:</strong> colega indicado que comprar a entrada dá R$ 300 de desconto no próximo mês de quem indicou.</p></div>
+  </div>
+</section>
+
+<section id="antes">
+  <header>
+    <p class="label">Precisa ser verdade</p>
+    <h2>Antes da primeira mensagem</h2>
+  </header>
+  <p>A oferta só funciona se cada promessa for real. Marque à medida que for resolvendo; fica salvo neste navegador.</p>
+  <div class="check" id="checklist">
+    <label><input type="checkbox" id="c1"><span>Um médico atendido por ela aceita dar referência a quem perguntar.</span></label>
+    <label><input type="checkbox" id="c2"><span>Portfólio só com perfis de médicos que autorizaram. Sem citar a agência e sem apresentar como dela resultados que foram da agência.</span></label>
+    <label><input type="checkbox" id="c3"><span>Checklist de 12 itens revisado por advogada de direito médico (nome e OAB à mão). Se ainda não houver, tirar essa frase da oferta.</span></label>
+    <label><input type="checkbox" id="c4"><span>Contrato com a agência antiga revisado: nenhuma cláusula de não concorrência ou de não abordar ex-clientes que impeça isso.</span></label>
+    <label><input type="checkbox" id="c5"><span>Contrato padrão pronto: sem fidelidade, aprovação antes de publicar, garantia do calendário.</span></label>
+    <label><input type="checkbox" id="c6"><span>Regime tributário e emissão de nota confirmados com contador.</span></label>
+    <label><input type="checkbox" id="c7"><span>Fluxo de IA que gera os 3 pontos e o post de exemplo a partir do perfil (leitura manual, sem raspagem automática).</span></label>
+    <label><input type="checkbox" id="c8"><span>Lista de 400 médicos no CRM, já filtrada pelo comportamento.</span></label>
+  </div>
+  <p class="progress" id="progress" aria-live="polite">0 de 8 prontos</p>
+</section>
+
+<section id="quem">
+  <header>
+    <p class="label">Lista</p>
+    <h2>Quem abordar primeiro</h2>
+  </header>
+  <p>Com médicos novos, estéticas e clínicas compraram igual. O que separa quem compra é o comportamento, e dá para ver sinais dele no perfil.</p>
+  <div class="who">
+    <div class="yes"><h3>Abordar</h3><ul>
+      <li>Quer crescer no particular: menção a "particular", link de agendamento.</li>
+      <li>Já se decepcionou com agência: a referência e o "paga depois" respondem a isso.</li>
+      <li>Posta sozinho: posts irregulares nos últimos 90 dias.</li>
+      <li>Perfil sem agência marcada.</li>
+    </ul></div>
+    <div class="no"><h3>Deixar para depois</h3><ul>
+      <li>Agenda cheia, só convênio ou "agenda fechada" no perfil.</li>
+      <li>Perfil com agência ativa.</li>
+      <li>Quem já disse não ou pediu para sair da lista.</li>
+      <li>Perfil já em dia com o CFM: usar outro ponto real, nunca o gancho do CFM.</li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="roteiros">
+  <header>
+    <p class="label">Mensagens prontas</p>
+    <h2>Roteiros de abordagem</h2>
+  </header>
+  <p>WhatsApp do consultório ou direct do Instagram, até 30 mensagens por dia por número. Troque o que está entre colchetes.</p>
+  <div class="scripts">
+    <div class="script"><div class="top"><span class="when">D0 · abertura</span><button class="copy" type="button" data-copy="s1">Copiar</button></div>
+      <blockquote id="s1">Dr(a). [nome], aqui é a [seu nome], social media que trabalha só com médicos. Meu portfólio: [link] (se quiser uma referência, a Dra. [nome] topou conversar com quem perguntar).
+Revisei seu Instagram e encontrei 3 pontos que podem ser melhorados; um deles é um item exigido pela Resolução CFM 2.336 que não aparece no seu perfil. Gravei um vídeo de 2 minutos mostrando os três. Posso te mandar por aqui ou prefere que eu envie para sua secretária?</blockquote></div>
+    <div class="script"><div class="top"><span class="when">D2 · lembrete</span><button class="copy" type="button" data-copy="s2">Copiar</button></div>
+      <blockquote id="s2">Dr(a)., o vídeo está pronto, são 2 minutos. Mando por aqui?</blockquote></div>
+    <div class="script"><div class="top"><span class="when">D5 · secretária</span><button class="copy" type="button" data-copy="s3">Copiar</button></div>
+      <blockquote id="s3">Oi! Encontrei um item no Instagram do Dr(a). que a Resolução CFM 2.336 exige e não aparece no perfil. Gravei um vídeo curto explicando. Você consegue repassar para ele(a)?</blockquote></div>
+    <div class="script"><div class="top"><span class="when">D9 · despedida</span><button class="copy" type="button" data-copy="s4">Copiar</button></div>
+      <blockquote id="s4">Dr(a)., vou encerrar por aqui para não incomodar. Se quiser ver o vídeo depois, é só responder "pode mandar".</blockquote></div>
+  </div>
+
+  <h3>O vídeo de 2 minutos</h3>
+  <ol class="video">
+    <li><span class="t">0:00–0:15</span>Nome dela, "trabalho só com médicos", o perfil dele na tela.</li>
+    <li><span class="t">0:15–1:15</span>Os 3 pontos: onde estão e por que importam. Mostrar o problema, não a correção.</li>
+    <li><span class="t">1:15–1:40</span>Um post de exemplo com a cara do perfil dele.</li>
+    <li><span class="t">1:40–2:00</span>"Eu corrijo tudo em 7 dias, e você só paga se aprovar. Te mando os detalhes por escrito?"</li>
+  </ol>
+
+  <div class="script"><div class="top"><span class="when">Depois do vídeo · pitch escrito</span><button class="copy" type="button" data-copy="s5">Copiar</button></div>
+    <blockquote id="s5">Dr(a)., segue como funciona:
+Perfil em dia com o CFM (R$ 997): aplico os 12 itens da Resolução CFM 2.336 (checklist revisado por advogada de direito médico), instalo um link de agendamento rastreado e entrego 9 posts com a sua cara, aprovados por você um a um. Entrega em 7 dias. Você só paga depois de ver pronto e aprovar. De bônus, durante 30 dias te mando quantas mensagens e agendamentos chegaram pelo Instagram.
+Se preferir só a conformidade, sem posts: R$ 497, nas mesmas condições.
+Faço no máximo 10 por mês. Posso começar o seu esta semana?</blockquote></div>
+
+  <h3>Respostas para as objeções</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Quando ele diz</th><th>Responda</th></tr></thead>
+      <tbody>
+        <tr><td>"Quem é você?"</td><td>"Trabalho só com médicos; aqui estão perfis que eu cuido: [links]. A Dra. [nome] topou dar referência: [contato]."</td></tr>
+        <tr><td>"Minha secretária arruma."</td><td>"Pode ser! O que eu faço é aplicar os 12 itens, não só esse, e entregar 9 posts em 7 dias. Se preferir só a conformidade, são R$ 497, e você só paga se aprovar."</td></tr>
+        <tr><td>"Tenho medo do CRM."</td><td>"Por isso cada peça passa pelo checklist e só vai ao ar com a sua aprovação. Se algum ajuste for questionado, eu refaço sem custo."</td></tr>
+        <tr><td>"Instagram traz paciente?"</td><td>"Não prometo pacientes, porque o CFM não permite. O que eu faço é medir: por 30 dias você vê quantas mensagens e agendamentos chegaram pelo link, e decide com números."</td></tr>
+        <tr><td>"Vou ter que gravar?"</td><td>"Na entrada, não. No mensal, tem um plano sem gravação, o Essencial."</td></tr>
+        <tr><td>"Minha agenda está cheia."</td><td>"Então só a conformidade faz sentido, por R$ 497. O resto fica para quando quiser." Não insistir.</td></tr>
+        <tr><td>Pedido de senha</td><td>Nunca pedir. Usar o acesso pelo Meta Business Suite.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="mensal">
+  <header>
+    <p class="label">Depois da entrada</p>
+    <h2>Como vender o mensal</h2>
+  </header>
+  <p>Em todos os testes, nenhum médico fechou o mensal na primeira conversa. O momento de vender é depois da entrega, com números na mão.</p>
+  <div class="scripts">
+    <div class="script"><div class="top"><span class="when">Dia 8 · entrega aprovada</span><button class="copy" type="button" data-copy="m1">Copiar</button></div>
+      <blockquote id="m1">Seu perfil está em dia. Tenho 3 vagas de fundador no plano Completo a R$ 1.500 por 3 meses. Quer garantir a sua? Se preferir esperar o relatório de 30 dias, sem problema.</blockquote></div>
+    <div class="script"><div class="top"><span class="when">Dia 30 · relatório</span><button class="copy" type="button" data-copy="m2">Copiar</button></div>
+      <blockquote id="m2">Em 30 dias chegaram [X] mensagens e [Y] agendamentos pelo link do seu perfil. Para continuar: Essencial a R$ 1.500 (sem gravar) ou Completo a R$ 2.200, com metade da entrada abatida no 1º mês e sem fidelidade.</blockquote></div>
+    <div class="script"><div class="top"><span class="when">Toda entrega aprovada · indicação</span><button class="copy" type="button" data-copy="m3">Copiar</button></div>
+      <blockquote id="m3">Conhece 2 colegas que gostariam de um perfil assim? Se algum fechar, seu próximo mês sai com R$ 300 de desconto.</blockquote></div>
+  </div>
+</section>
+
+<section id="numeros">
+  <header>
+    <p class="label">O que esperar</p>
+    <h2>400 médicos abordados na Grande Vitória</h2>
+  </header>
+  <p>Simulação de funil com 400 perfis e 4.000 rodadas por cenário. A taxa de compra vem do painel da oferta final, com desconto porque médicos simulados tendem a concordar demais. As taxas de resposta são estimativas.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Cenário</th><th class="num">Respondem</th><th class="num">Compram a entrada</th><th class="num">Receita das entradas</th><th class="num">Viram mensal</th></tr></thead>
+      <tbody>
+        <tr><td>Pessimista</td><td class="num">24</td><td class="num">4</td><td class="num">R$ 3,8 mil</td><td class="num">1</td></tr>
+        <tr class="win"><td>Base</td><td class="num">48</td><td class="num">15</td><td class="num">R$ 12,6 mil</td><td class="num">5</td></tr>
+        <tr><td>Otimista</td><td class="num">80</td><td class="num">39</td><td class="num">R$ 33,4 mil</td><td class="num">18</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">
+    <p><strong>Capacidade:</strong> com cerca de 10 h por cliente mensal, cabem 11 clientes (cerca de R$ 18.700/mês). No mês 1 do cenário base, o trabalho soma cerca de 146 h de 170 h disponíveis. Do mês 2 em diante, cerca de 200 abordagens por mês bastam.</p>
+    <p><strong>Os números de vocês até agora</strong> (50 mensagens, 1 reunião, na abordagem antiga) estão perto do cenário pessimista. As primeiras 100 abordagens reais com a oferta nova dizem qual cenário é o de verdade.</p>
+  </div>
+</section>
+
+<section id="plano">
+  <header>
+    <p class="label">Calendário</p>
+    <h2>Os primeiros 30 dias</h2>
+  </header>
+  <div class="timeline">
+    <div class="wk"><span class="d">12 a 18/10</span><p>Resolver a lista "antes da primeira mensagem", montar o checklist de 12 itens, o fluxo de IA e a lista de 400 no CRM. Pode testar um lote de 10 a 15 mensagens na terça, 13/10.</p><span class="goal">Tudo pronto</span></div>
+    <div class="wk"><span class="d">19 a 25/10</span><p>150 abordagens, cerca de 30 por dia útil. Registrar no CRM quem leu, quem respondeu e quem aceitou o vídeo.</p><span class="goal">≥ 12 vídeos aceitos · ≥ 3 entradas</span></div>
+    <div class="wk"><span class="d">26/10 a 01/11</span><p>Mais 150 abordagens. Primeiras entregas em 7 dias.</p><span class="goal">≥ 3 entradas a mais</span></div>
+    <div class="wk"><span class="d">02 a 08/11</span><p>100 abordagens. Oferta de fundador no dia 8 de cada entrega e pedido de indicação.</p><span class="goal">10 entradas no total</span></div>
+    <div class="wk"><span class="d">até 15/11</span><p>Primeiros relatórios de 30 dias e venda do mensal.</p><span class="goal">3 mensais</span></div>
+  </div>
+
+  <h3>Quando mudar o rumo</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Se acontecer</th><th>Faça</th></tr></thead>
+      <tbody>
+        <tr><td>Menos de 5% respondem</td><td>Trocar o canal (WhatsApp, direct, secretária) ou a primeira frase.</td></tr>
+        <tr><td>Menos de 15% de quem viu o vídeo compram</td><td>Rever o vídeo: está mostrando a correção? O post de exemplo parece genérico?</td></tr>
+        <tr><td>A entrada de R$ 497 vende mais que a de R$ 997</td><td>Reforçar o post de exemplo e o relatório de 30 dias no pitch.</td></tr>
+        <tr><td>Nenhum mensal depois de 5 relatórios</td><td>Rever o relatório e o plano Essencial.</td></tr>
+        <tr><td>150 abordagens sem nenhuma entrada</td><td>Parar e refazer a oferta antes de continuar.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p>Baseado nos testes do pacote Founder: conselho, mapa de concorrentes, 8 painéis com 160 respostas de médicos simulados, curva de preço, números e simulação de funil. Médicos simulados servem para achar objeções e comparar versões, não para prever vendas, e quase não reagem a preço. Confirme o preço de R$ 997 com médicos reais. Não é aconselhamento jurídico, contábil nem financeiro.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var KEY = "cfm-plano-checklist";
+  var boxes = Array.prototype.slice.call(document.querySelectorAll("#checklist input"));
+  var out = document.getElementById("progress");
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { saved = {}; }
+  function render(){
+    var done = boxes.filter(function(b){ return b.checked; }).length;
+    out.textContent = done + " de " + boxes.length + " prontos";
+  }
+  boxes.forEach(function(b){
+    if (saved[b.id]) b.checked = true;
+    b.addEventListener("change", function(){
+      saved[b.id] = b.checked;
+      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+      render();
+    });
+  });
+  render();
+
+  document.querySelectorAll("button.copy").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var el = document.getElementById(btn.getAttribute("data-copy"));
+      var text = el.innerText.trim();
+      function ok(){ btn.textContent = "Copiado"; btn.classList.add("ok"); setTimeout(function(){ btn.textContent = "Copiar"; btn.classList.remove("ok"); }, 1800); }
+      function fallback(){
+        var r = document.createRange(); r.selectNodeContents(el);
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        btn.textContent = "Selecionado: use Ctrl+C";
+        setTimeout(function(){ btn.textContent = "Copiar"; }, 2500);
+      }
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(ok, fallback);
+        } else { fallback(); }
+      } catch (e) { fallback(); }
+    });
+  });
+})();
+</script>
